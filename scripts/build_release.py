@@ -82,6 +82,25 @@ d['pairs_from_same_sentence'] = d.annotation_id.map(dens)
 sup = d.groupby(['entity_1_norm','relation','entity_2_norm']).annotation_id.nunique()
 d['n_supporting_sentences'] = [sup.get((a,r,b), 1) for a,r,b in zip(d.entity_1_norm, d.relation, d.entity_2_norm)]
 
+# ---------- 4a2. NER type-error flags (entities were recognised automatically) ----------
+SUSPECT_FILE = 'data/reference/suspect_entity_spans.csv'
+if os.path.exists(SUSPECT_FILE):
+    sus = pd.read_csv(SUSPECT_FILE)
+    clear = set(zip(sus[sus.confidence == 'clear'].entity_norm,
+                    sus[sus.confidence == 'clear'].asserted_type))
+    ambig = set(zip(sus[sus.confidence == 'ambiguous'].entity_norm,
+                    sus[sus.confidence == 'ambiguous'].asserted_type))
+else:
+    print(f'WARNING: {SUSPECT_FILE} missing, NER flags left False')
+    clear, ambig = set(), set()
+
+for i in ('1', '2'):
+    d[f'entity_{i}_type_suspect'] = [
+        (n, t) in clear for n, t in zip(d[f'entity_{i}_norm'], d[f'entity_{i}_type'])]
+    d[f'entity_{i}_type_ambiguous'] = [
+        (n, t) in ambig for n, t in zip(d[f'entity_{i}_norm'], d[f'entity_{i}_type'])]
+d['any_entity_type_suspect'] = d.entity_1_type_suspect | d.entity_2_type_suspect
+
 # ---------- 4b. training support per entity-type pair (from the MicrobioRel gold corpus) ----------
 # Source: github.com/Stan8/MicrobioRel, data/unmasked_data/{train,dev,test}_df.csv
 SUPPORT_FILE = 'data/reference/gold_support_by_type_pair.csv'
@@ -102,6 +121,8 @@ COLS = ['relation_id','PMC','annotation_id',
         'tuple','tuple_type','candidate_labels','n_candidate_labels','label_ambiguous',
         'relation_is_directional','relation_is_structural',
         'entity_1_generic','entity_2_generic','abbrev_or_hypernym_pair',
+        'entity_1_type_suspect','entity_2_type_suspect','any_entity_type_suspect',
+        'entity_1_type_ambiguous','entity_2_type_ambiguous',
         'mutation_looks_valid','pairs_from_same_sentence','n_supporting_sentences',
         'entity_type_pair','gold_annotated_for_type_pair','support_tier',
         'original_text']
@@ -128,7 +149,8 @@ print('03_entity_inventory.csv', inv.shape)
 
 # ---------- 7. filtered: specific + directional ----------
 f = main[(~main.entity_1_generic) & (~main.entity_2_generic)
-         & (~main.abbrev_or_hypernym_pair) & (main.relation_is_directional)]
+         & (~main.abbrev_or_hypernym_pair) & (main.relation_is_directional)
+         & (~main.any_entity_type_suspect)]
 f.to_csv(f'{OUT}/04_filtered_specific_directional.csv', index=False)
 print('04_filtered_specific_directional.csv', f.shape)
 

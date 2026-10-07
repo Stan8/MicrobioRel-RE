@@ -3,8 +3,9 @@
 Model-predicted relations between six entity types (Species, Disease, Chemical, Gene, CellLine,
 Mutation), extracted from the full text of 52 open-access gut-microbiome articles.
 
-**Status: unvalidated predictions.** These are outputs of the MicrobioRel relation extraction
-model, not manual annotations. The model itself is evaluated in the preprint (PubMedBERT, about 71%
+**Status: unvalidated predictions, over automatically recognised entities.** These are outputs of
+the MicrobioRel relation extraction model applied to entities found by an automatic NER step, not
+manual annotations at either stage. The model itself is evaluated in the preprint (PubMedBERT, about 71%
 F1 on the held-out MicrobioRel test split), but no row in *this* prediction set has been manually
 checked, and these 52 articles are documents the model had not seen. Treat every row as a hypothesis
 to be checked against the source passage, which is included for that purpose. Please read the
@@ -37,6 +38,7 @@ Contact: Oumaima (LS2N, Nantes Université).
 | `09_validation_sample_TO_ANNOTATE.csv` | 176 | Stratified random sample with blank annotation columns, see Section 6. |
 | `10_training_support_by_type_pair.csv` | 31 | Predicted volume against gold training support per entity-type pair. See Section 4. |
 | `data/reference/gold_support_by_type_pair.csv` | 28 | Gold annotation counts, derived from the MicrobioRel corpus. Input to the build. |
+| `data/reference/suspect_entity_spans.csv` | 44 | Hand-checked spans mistyped by the automatic NER step, with a reason each. Input to the build. |
 | `resolve_article_ids.py` | | Fills in the empty columns of `08_articles.csv` from Europe PMC. |
 
 All files except `02` and `08` keep `PMC` and `original_text`, so each row can be read in context
@@ -60,6 +62,9 @@ without a join.
 | `relation_is_directional` | True for labels that imply an asymmetric effect. 5,379 rows. |
 | `relation_is_structural` | True for containment or carriage labels rather than interactions. 2,301 rows. |
 | `entity_1_generic`, `entity_2_generic` | True when the entity is a non-specific term such as `mice`, `patients`, `gut microbiome`, `inflammation`. True on at least one side for 4,060 rows. |
+| `entity_1_type_suspect`, `entity_2_type_suspect` | True when the span is on the hand-checked list of clear NER type errors (`gut` as Gene, `muL` as Gene, figure labels, version strings). |
+| `any_entity_type_suspect` | True when either side is suspect. 986 rows, 12% of the file, and 36% of Gene-involving rows. |
+| `entity_1_type_ambiguous`, `entity_2_type_ambiguous` | True for real gene symbols used mostly in another sense here (`kit`, `clock`, `insulin`, `HPRT`). 198 rows. Your call, not flagged as errors. |
 | `abbrev_or_hypernym_pair` | True when the two entities are the same concept at different granularity, for example `B. longum` and `Bifidobacterium`, or `AD` and `Alzheimer's disease`. 585 rows. |
 | `mutation_looks_valid` | For rows involving a Mutation entity only. True for rsIDs and protein variant notation, False otherwise. 48 of 106 Mutation rows are True. |
 | `pairs_from_same_sentence` | How many relations were extracted from this sentence. High values indicate dense co-mention. |
@@ -138,34 +143,40 @@ number than not, and we are glad to do the annotation jointly.
 1. **Predictions, not annotations.** The model scores about 71% F1 in-domain on the MicrobioRel test
    split, but nothing in this file has been manually checked and these are unseen documents. There
    is no per-row confidence score.
-2. **Co-mention versus assertion.** The model labels entity pairs that co-occur in a sentence. A
-   label does not guarantee the sentence asserts that relation. This is the dominant failure mode and
-   it is severe in the Species-Species subset.
-3. **Direction is defined but not reproduced faithfully.** The gold schema is directional
+2. **Entities were recognised automatically.** Spans and types for these 52 articles come from an
+   automatic NER step, whereas the gold corpus the model was trained on was annotated by hand. The
+   relation model therefore sees cleaner entities in training than at inference, and entity errors
+   propagate into every relation built on them. This, rather than the relation model itself, is the
+   origin of the typing problems documented in item 4.
+3. **Co-mention versus assertion.** The relation model labels entity pairs that co-occur in a
+   passage. A label does not guarantee the passage asserts that relation. This is the dominant
+   relation-level failure mode and it is severe in the Species-Species subset.
+4. **Direction is defined but not reproduced faithfully.** The gold schema is directional
    (`from_entity` to `to_entity`, with character offsets) and annotates both orders substantially:
    `Species-Disease` 339 versus `Disease-Species` 260. The predictions collapse toward one order,
    1,492 versus 65 for that same pair and 1,476 versus 5 for `Species-Chemical` versus
    `Chemical-Species`. Direction carries the schema's intended meaning but should not be relied on
    without checking the passage. This output also has no character offsets, unlike the gold data.
-4. **Entity typing errors, concentrated where training support is thin.** The Mutation type has
-   **zero** gold annotations for every Mutation pair predicted here, and is correspondingly
-   spurious: of 106 rows, most contain isotope labels and incubation conditions such as `U-13C`,
-   `A to C`, `C for 30`. The `mutation_looks_valid` column marks the 48 plausible ones. The Gene
-   tier has about 2,600 predictions against fewer than 50 gold examples, and shows the same
-   symptom, with `gut`, `age`, `16s`, `nafld` and `mtx` typed as Gene. `inflammation`, `dysbiosis`,
-   `hypothalamus` and `fitness` are typed as Disease. Use `support_tier` to scope around this.
-5. **No ontology grounding.** There are no NCBI Taxonomy, MeSH, ChEBI or Entrez identifiers.
+5. **Entity typing errors from the automatic NER step.** `gut` is typed as a Gene in 607 mentions,
+   the most frequent Gene span in the data. `age`, `16S`, `ASV`, `SIC`, `Hyp`, `NAFLD`, `MTX`,
+   `muL`, `muM`, figure labels and version strings are also typed as Gene. On a conservative list
+   of 40 such spans, 986 rows (36% of Gene-involving relations) carry at least one. Most Mutation
+   spans are isotope labels or incubation conditions rather than variants, and
+   `mutation_looks_valid` marks the 49 of 114 mentions in plausible variant notation.
+   `inflammation`, `dysbiosis`, `hypothalamus` and `fitness` are typed as Disease. Filter with
+   `any_entity_type_suspect`, and with `support_tier` for the separate relation-level problem.
+6. **No ontology grounding.** There are no NCBI Taxonomy, MeSH, ChEBI or Entrez identifiers.
    `03_entity_inventory.csv` is provided so that mapping can be done once, on 3,060 surface forms,
    rather than on 8,436 rows.
-6. **Abbreviations unresolved.** `AD` and `Alzheimer's disease`, `TMAO` and `trimethylamine N-oxide`
+7. **Abbreviations unresolved.** `AD` and `Alzheimer's disease`, `TMAO` and `trimethylamine N-oxide`
    are distinct entities and their counts do not aggregate.
-7. **Domain-restricted corpus, and under-prediction in places.** All 52 articles concern the gut
+8. **Domain-restricted corpus, and under-prediction in places.** All 52 articles concern the gut
    microbiome, with a bias toward IBD, colorectal cancer, cardiometabolic disease and the
    microbiota-gut-brain axis. Separately, some well-supported type pairs are barely predicted at
    all: `CellLine-Species` has 79 gold annotations and 0 predictions, `Chemical-Species` has 181 and
    5. Absence of a relation here is not evidence of absence in the articles, let alone the
    literature.
-8. **Mixed text zones.** A small number of rows (41) come from table or figure dumps in the full text
+9. **Mixed text zones.** A small number of rows (41) come from table or figure dumps in the full text
    rather than running prose.
 
 ## 8. Reuse

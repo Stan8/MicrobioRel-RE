@@ -26,6 +26,11 @@ Is the span a real entity of the type given in `entity_1_type`? Mark `0` if the 
 entity at all (`C for 30`, `for 5`, `to 7`), if it is a different type than stated (`gut` typed as
 Gene, `inflammation` typed as Disease), or if the span is truncated or runs into neighbouring words.
 
+These two columns measure the automatic NER step, not the relation model, and they are worth
+keeping separate for that reason. Rows already flagged by `any_entity_type_suspect` are known
+errors; judge them anyway, so the sample yields an unbiased NER precision estimate alongside the
+relation one.
+
 **`annot_relation_asserted`**
 Does the sentence assert some relationship between these two entities? Mark `0` when both are merely
 mentioned, which is the most common error. Typical cases to mark `0`:
@@ -71,8 +76,11 @@ Expect roughly two to four hours per annotator.
 
 What the collaboration needs out of this:
 
+- entity precision per type, from the two entity columns, which scores the NER step
 - precision per entity-type pair for `annot_relation_asserted`, which is the headline number
 - precision grouped by `support_tier`, which is the actionable number
+- relation precision restricted to rows where both entities were judged correct, which separates
+  relation-model errors from inherited entity errors
 - precision per relation label
 - inter-annotator agreement per column
 - a short list of recurring error patterns

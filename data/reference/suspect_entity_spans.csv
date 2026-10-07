@@ -1,0 +1,45 @@
+entity_norm,asserted_type,likely_actual_type,confidence,reason
+gut,Gene,Anatomy,clear,"anatomical site; 607 mentions, the single largest Gene span"
+age,Gene,Other,clear,common noun
+16s,Gene,Method,clear,16S rRNA sequencing method term
+sic,Gene,Method,clear,method or small-intestine abbreviation in the source articles
+asv,Gene,Method,clear,amplicon sequence variant
+hyp,Gene,Other,clear,abbreviation for hypoxia in the source article
+nafld,Gene,Disease,clear,disease abbreviation
+mul,Gene,Unit,clear,microlitre
+mum,Gene,Unit,clear,micromolar
+fat,Gene,Other,clear,common noun
+bile acid,Gene,Chemical,clear,chemical class
+bp,Gene,Unit,clear,base pairs or blood pressure
+ctrl,Gene,Other,clear,experimental label
+for 5,Gene,Other,clear,sentence fragment
+als,Gene,Disease,clear,amyotrophic lateral sclerosis
+mtx,Gene,Chemical,clear,methotrexate
+h&e,Gene,Method,clear,haematoxylin and eosin staining
+rad,Gene,Other,clear,instrument name or fragment
+neb,Gene,Other,clear,reagent supplier
+degs,Gene,Method,clear,"differentially expressed genes; a set, not a gene"
+gsea,Gene,Method,clear,gene set enrichment analysis
+set a,Gene,Other,clear,figure or table label
+s10,Gene,Other,clear,figure label
+s3a,Gene,Other,clear,figure label
+s5a,Gene,Other,clear,figure label
+"s5a,b",Gene,Other,clear,figure label
+s12,Gene,Other,clear,figure label
+v3.3,Gene,Other,clear,version string
+v3.4,Gene,Other,clear,version string
+v3.5,Gene,Other,clear,version string
+v2.1,Gene,Other,clear,version string
+cat#m,Gene,Other,clear,catalogue number
+add 1,Gene,Other,clear,sentence fragment
+tara,Gene,Other,clear,project or author name
+qin,Gene,Other,clear,author name
+bash,Gene,Other,clear,software name
+escv,Gene,Other,clear,fragment
+dh2,Gene,Other,clear,reagent fragment
+of 10,Gene,Other,clear,sentence fragment
+aicar,Gene,Chemical,clear,chemical compound
+hprt,Gene,Gene,ambiguous,"genuine housekeeping gene, used here as a normalisation control"
+kit,Gene,Gene,ambiguous,"KIT is a real gene, but most mentions here mean an assay kit"
+clock,Gene,Gene,ambiguous,"CLOCK is a real gene, but many mentions here mean the circadian clock"
+insulin,Gene,Gene,ambiguous,"genuine gene and protein, often used here as the hormone"

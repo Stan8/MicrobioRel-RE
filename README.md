@@ -35,6 +35,37 @@ What that leaves open for **this** repository:
 A stratified sample for validating this prediction set is provided, see
 [Validation](#suggested-first-step-validation).
 
+## Two independent error sources
+
+Errors here come from two stages, and separating them matters because they call for different
+filters.
+
+**Stage 1, entity recognition, which was automatic.** Entity spans and types in these 52 articles
+were produced by an automatic NER step, not by hand. The gold corpus behind the model was manually
+annotated, so the relation model was trained on clean entities and is applied here to noisy ones.
+That is ordinary error propagation in a pipeline, and it is the origin of the typing problems:
+`gut` is tagged as a Gene 607 times, making it the single most frequent Gene span in the data, and
+`age`, `16S`, `ASV`, `muL`, `muM`, `NAFLD`, `MTX` and a number of figure labels and version strings
+are tagged as Genes too. On a conservative hand-checked list of 40 such spans, **986 rows, 36% of
+all Gene-involving relations, contain at least one clearly mistyped entity.** Most Mutation spans
+are isotope labels and incubation conditions (`U-13C`, `A to C`, `C for 30`) rather than variants.
+
+This is flagged as data: `data/reference/suspect_entity_spans.csv` holds the list with a reason per
+span, and `entity_1_type_suspect`, `entity_2_type_suspect` and `any_entity_type_suspect` mark the
+affected rows in file 01. Four further spans (`kit`, `clock`, `insulin`, `HPRT`) are real gene
+symbols that are mostly used in another sense here; those are marked `entity_*_type_ambiguous`
+rather than suspect, 198 rows, and left for you to judge. The list is conservative and certainly
+incomplete, so extend it rather than treat it as exhaustive.
+
+**Stage 2, relation classification,** which labels pairs of whatever entities stage 1 supplied, with
+very uneven training support across entity-type pairs. That is the next section.
+
+A consequence worth keeping in mind: the predicted-to-gold ratios below are driven substantially by
+how many candidate pairs stage 1 generated, not only by the relation model's behaviour. Gene spans
+being over-tagged produces a large number of Gene-containing pairs that the relation model then has
+to label, so a ratio of 121 for `Gene-Chemical` reflects entity supply at least as much as it
+reflects extrapolation.
+
 ## Training support: which tiers to trust
 
 The gold corpus contains 2,494 annotated relations, distributed very unevenly across entity-type
@@ -62,12 +93,12 @@ guide to reliability, and it is shipped as data rather than advice:
 Summary: 5,602 rows sit in adequately supported type pairs, 2,724 rows in pairs with fewer than 20
 gold annotations, and 89 rows in pairs with none at all.
 
-**The Gene tier is the main caution.** Roughly 2,600 Gene-involving relations were predicted from
-fewer than 50 gold examples. This is consistent with the observed entity typing errors there, where
-`gut`, `age`, `16s`, `nafld` and `mtx` are labelled as Gene. **The Mutation tier has no training
-support whatsoever**, which explains why most Mutation spans are isotope labels and incubation
-conditions (`U-13C`, `A to C`, `C for 30`) rather than variants; the `mutation_looks_valid` column
-flags the 48 of 106 that are plausible.
+**The Gene tier is the main caution, and it is hit from both sides.** Roughly 2,600 Gene-involving
+relations were predicted from fewer than 50 gold examples, and 36% of those rows also contain a
+clearly mistyped entity from the automatic NER step. **The Mutation tier has no relation-level
+training support at all**, and its spans are mostly not mutations either; the
+`mutation_looks_valid` column flags the 49 of 114 mentions in plausible variant notation
+(rsIDs and protein substitutions).
 
 The reverse also happens. CellLine pairs are substantially under-predicted relative to their gold
 support: `CellLine-Species` has 79 gold annotations and zero predictions here,
@@ -104,6 +135,7 @@ rel = pd.read_csv("data/derived/01_all_relations_enriched.csv")
 # specific entities, directional relations, adequately supported type pairs only
 clean = rel[~rel.entity_1_generic & ~rel.entity_2_generic
             & ~rel.abbrev_or_hypernym_pair
+            & ~rel.any_entity_type_suspect          # automatic NER type errors
             & rel.relation_is_directional
             & (rel.support_tier == "supported")]
 
@@ -116,7 +148,7 @@ sc = clean[(clean.entity_1_type == "Species") & (clean.entity_2_type == "Chemica
 ```
 data/raw/predictions_output.xlsx   raw model output, unmodified
 data/derived/                      10 CSVs, all rebuildable from the raw file
-data/reference/                    gold training counts per entity-type pair
+data/reference/                    gold training counts, and suspect entity spans
 docs/DATA_DICTIONARY.md            column reference, relation label set, limitations
 docs/VALIDATION_PROTOCOL.md        how to annotate the validation sample
 scripts/build_release.py           regenerates data/derived/
@@ -130,7 +162,7 @@ scripts/resolve_article_ids.py     adds PMID and DOI to 08_articles.csv
 | `01_all_relations_enriched.csv` | 8,436 | Everything. Entities and types in their own columns, plus quality and support flags. |
 | `02_sentences.csv` | 2,786 | Unique source passages, joins on `annotation_id`. |
 | `03_entity_inventory.csv` | 3,060 | Distinct entity surface forms per type, with counts. Start here for ontology mapping. |
-| `04_filtered_specific_directional.csv` | 2,731 | Generic entities and abbreviation pairs removed, directional relations only. |
+| `04_filtered_specific_directional.csv` | 2,599 | Generic entities, abbreviation pairs and NER-suspect spans removed, directional relations only. |
 | `05_species_chemical_directional.csv` | 406 | Species to Chemical subset of 04. The soundest layer. |
 | `06_microbe_microbe_candidates_UNVERIFIED.csv` | 58 | Species to Species subset of 04. **Not an interaction network**, see below. |
 | `07_type_relation_counts.csv` | 268 | Counts per entity-type pair and relation. |
@@ -189,7 +221,7 @@ python scripts/build_release.py
 ```
 
 Deterministic. All ten files, including the `relation_id` hashes and the stratified sample, rebuild
-byte-identically from the raw Excel file plus `data/reference/gold_support_by_type_pair.csv`.
+byte-identically from the raw Excel file plus the two reference tables in `data/reference/`.
 
 ## Citation and reuse
 
