@@ -1,0 +1,3061 @@
+entity_type,entity_surface_form,entity_norm,n_occurrences,is_generic
+CellLine,HeLa,hela,15,False
+CellLine,HeJ,hej,8,False
+CellLine,Caco-2,caco-2,7,False
+CellLine,J774.1,j774.1,5,False
+CellLine,HM-20,hm-20,4,False
+CellLine,escV,escv,4,False
+CellLine,BL21,bl21,3,False
+CellLine,HeLa57A,hela57a,3,False
+CellLine,B T1,b t1,2,False
+CellLine,HT-29,ht-29,2,False
+CellLine,J01,j01,2,False
+CellLine,MMC01,mmc01,2,False
+CellLine,SH-SY5Y,sh-sy5y,2,False
+CellLine,esc,esc,2,False
+CellLine,escC,escc,2,False
+CellLine,293T,293t,1,False
+CellLine,CT26,ct26,1,False
+CellLine,H1Z,h1z,1,False
+CellLine,H2S,h2s,1,False
+CellLine,HL3,hl3,1,False
+CellLine,IEC-6,iec-6,1,False
+CellLine,NIH Swiss,nih swiss,1,False
+CellLine,PD-1,pd-1,1,False
+CellLine,SAMN14653269,samn14653269,1,False
+Chemical,MTX,mtx,105,False
+Chemical,ciprofloxacin,ciprofloxacin,102,False
+Chemical,butyrate,butyrate,96,False
+Chemical,glucose,glucose,89,True
+Chemical,TMAO,tmao,83,False
+Chemical,metformin,metformin,78,False
+Chemical,water,water,72,True
+Chemical,bile acids,bile acids,68,False
+Chemical,PBS,pbs,66,True
+Chemical,2-AG,2-ag,63,False
+Chemical,DSS,dss,60,False
+Chemical,oxygen,oxygen,55,True
+Chemical,carbohydrates,carbohydrates,52,False
+Chemical,streptomycin,streptomycin,48,False
+Chemical,cholesterol,cholesterol,46,False
+Chemical,bile acid,bile acid,44,False
+Chemical,carbohydrate,carbohydrate,44,False
+Chemical,ABX,abx,43,False
+Chemical,fructoselysine,fructoselysine,42,False
+Chemical,short-chain fatty acids,short-chain fatty acids,41,False
+Chemical,corticosterone,corticosterone,35,False
+Chemical,ethanol,ethanol,32,False
+Chemical,lipopolysaccharide,lipopolysaccharide,31,False
+Chemical,choline,choline,29,False
+Chemical,taurocholic acid,taurocholic acid,29,False
+Chemical,CBBP,cbbp,28,False
+Chemical,SCFAs,scfas,28,False
+Chemical,lipid,lipid,28,False
+Chemical,DMSO,dmso,26,False
+Chemical,fluconazole,fluconazole,24,False
+Chemical,tryptophan,tryptophan,24,False
+Chemical,dopamine,dopamine,23,False
+Chemical,trimethylamine,trimethylamine,23,False
+Chemical,tungstate,tungstate,23,False
+Chemical,acetate,acetate,21,False
+Chemical,formic acid,formic acid,20,False
+Chemical,lipids,lipids,20,False
+Chemical,propionate,propionate,20,False
+Chemical,succinate,succinate,20,False
+Chemical,nitrate,nitrate,19,False
+Chemical,trimethylamine N-oxide,trimethylamine n-oxide,19,False
+Chemical,Butyrate,butyrate,18,False
+Chemical,glycans,glycans,18,False
+Chemical,polyphenols,polyphenols,18,False
+Chemical,calcium,calcium,16,False
+Chemical,glycerol,glycerol,16,False
+Chemical,polysaccharides,polysaccharides,16,False
+Chemical,starch,starch,16,False
+Chemical,Short-chain fatty acids,short-chain fatty acids,15,False
+Chemical,gentamicin,gentamicin,15,False
+Chemical,salt,salt,15,False
+Chemical,taurine,taurine,15,False
+Chemical,AMP,amp,14,False
+Chemical,GABA,gaba,14,False
+Chemical,Metformin,metformin,14,False
+Chemical,fatty acid,fatty acid,14,False
+Chemical,methotrexate,methotrexate,14,False
+Chemical,BCAAs,bcaas,13,False
+Chemical,agar,agar,12,False
+Chemical,ammonia,ammonia,12,False
+Chemical,cortisol,cortisol,12,False
+Chemical,dextran sodium sulfate,dextran sodium sulfate,12,False
+Chemical,fiber,fiber,12,False
+Chemical,isocaproyltaurine,isocaproyltaurine,12,False
+Chemical,lactate,lactate,12,False
+Chemical,ATP,atp,11,False
+Chemical,BAs,bas,11,False
+Chemical,DCA,dca,11,False
+Chemical,digoxin,digoxin,11,False
+Chemical,lysine,lysine,11,False
+Chemical,methanol,methanol,11,False
+Chemical,polysaccharide,polysaccharide,11,False
+Chemical,serotonin,serotonin,11,False
+Chemical,sodium tungstate,sodium tungstate,11,False
+Chemical,DMEM,dmem,10,False
+Chemical,H2,h2,10,False
+Chemical,Serine,serine,10,False
+Chemical,ampicillin,ampicillin,10,False
+Chemical,carnitine,carnitine,10,False
+Chemical,nitrogen,nitrogen,10,False
+Chemical,sucrose,sucrose,10,False
+Chemical,sugar,sugar,10,False
+Chemical,vancomycin,vancomycin,10,False
+Chemical,Bile acids,bile acids,9,False
+Chemical,Cyclophosphamide,cyclophosphamide,9,False
+Chemical,FCP,fcp,9,False
+Chemical,L-carnitine,l-carnitine,9,False
+Chemical,Tris,tris,9,False
+Chemical,alcohol,alcohol,9,False
+Chemical,carbon,carbon,9,False
+Chemical,eosin,eosin,9,False
+Chemical,fatty acids,fatty acids,9,False
+Chemical,sugars,sugars,9,False
+Chemical,trimethylamine-N-oxide,trimethylamine-n-oxide,9,False
+Chemical,Corticosterone,corticosterone,8,False
+Chemical,Fructoselysine,fructoselysine,8,False
+Chemical,HCl,hcl,8,False
+Chemical,Methotrexate,methotrexate,8,False
+Chemical,RPMI,rpmi,8,False
+Chemical,acylcarnitines,acylcarnitines,8,False
+Chemical,hydrogen sulfide,hydrogen sulfide,8,False
+Chemical,oligofructose,oligofructose,8,False
+Chemical,polyphenol,polyphenol,8,False
+Chemical,polyunsaturated fatty acids,polyunsaturated fatty acids,8,False
+Chemical,sulfur,sulfur,8,False
+Chemical,CDCA,cdca,7,False
+Chemical,CO2,co2,7,False
+Chemical,EGCs,egcs,7,False
+Chemical,Formate,formate,7,False
+Chemical,H2O,h2o,7,False
+Chemical,HEPES,hepes,7,False
+Chemical,Krebs,krebs,7,False
+Chemical,LCA,lca,7,False
+Chemical,acetonitrile,acetonitrile,7,False
+Chemical,branched-chain amino acids,branched-chain amino acids,7,False
+Chemical,chloroform,chloroform,7,False
+Chemical,formate,formate,7,False
+Chemical,lactic acid,lactic acid,7,False
+Chemical,metronidazole,metronidazole,7,False
+Chemical,monosaccharides,monosaccharides,7,False
+Chemical,oligosaccharides,oligosaccharides,7,False
+Chemical,urate,urate,7,False
+Chemical,AMPs,amps,6,False
+Chemical,CTB-488,ctb-488,6,False
+Chemical,N2,n2,6,False
+Chemical,NaCl,nacl,6,False
+Chemical,PFA,pfa,6,False
+Chemical,PMA,pma,6,False
+Chemical,TG,tg,6,False
+Chemical,Trimethylamine N-oxide,trimethylamine n-oxide,6,False
+Chemical,Trimethylamine-N-oxide,trimethylamine-n-oxide,6,False
+Chemical,bile-acid,bile-acid,6,False
+Chemical,chloramphenicol,chloramphenicol,6,False
+Chemical,deoxycholic acid,deoxycholic acid,6,False
+Chemical,diethyl ether,diethyl ether,6,False
+Chemical,ellagic acid,ellagic acid,6,False
+Chemical,gamma-Aminobutyric acid,gamma-aminobutyric acid,6,False
+Chemical,isoflurane,isoflurane,6,False
+Chemical,loperamide,loperamide,6,False
+Chemical,mannitol,mannitol,6,False
+Chemical,phosphate-buffered saline,phosphate-buffered saline,6,False
+Chemical,rifaximin,rifaximin,6,False
+Chemical,short-chain fatty acid,short-chain fatty acid,6,False
+Chemical,sialic acid,sialic acid,6,False
+Chemical,steroids,steroids,6,False
+Chemical,urolithins,urolithins,6,False
+Chemical,"3-oxo-4,5-6,7-didehydro-DCA",3-oxo-4 5-6 7-didehydro-dca,5,False
+Chemical,5-aminosalicylic acid,5-aminosalicylic acid,5,False
+Chemical,BA,ba,5,False
+Chemical,Calcein violet,calcein violet,5,False
+Chemical,Choline,choline,5,False
+Chemical,Cytochalasin D,cytochalasin d,5,False
+Chemical,Dopamine,dopamine,5,False
+Chemical,EDTA,edta,5,False
+Chemical,H&E,h e,5,False
+Chemical,H(2),h 2,5,False
+Chemical,KCl,kcl,5,False
+Chemical,ROS,ros,5,False
+Chemical,Trimethylamine N-Oxide,trimethylamine n-oxide,5,False
+Chemical,U-15N]lysine,u-15n lysine,5,False
+Chemical,ammonium acetate,ammonium acetate,5,False
+Chemical,cyclohexylamine,cyclohexylamine,5,False
+Chemical,cytochalasin D,cytochalasin d,5,False
+Chemical,dexamethasone,dexamethasone,5,False
+Chemical,doxorubicin,doxorubicin,5,False
+Chemical,essential amino acids,essential amino acids,5,False
+Chemical,fucose,fucose,5,False
+Chemical,hydrogen,hydrogen,5,False
+Chemical,indoxyl sulfate,indoxyl sulfate,5,False
+Chemical,isocaproate,isocaproate,5,False
+Chemical,ketone,ketone,5,False
+Chemical,lactose,lactose,5,False
+Chemical,leucine,leucine,5,False
+Chemical,neomycin,neomycin,5,False
+Chemical,norepinephrine,norepinephrine,5,False
+Chemical,phosphatidylcholine,phosphatidylcholine,5,False
+Chemical,polyamines,polyamines,5,False
+Chemical,reactive oxygen species,reactive oxygen species,5,False
+Chemical,sodium nitrate,sodium nitrate,5,False
+Chemical,tetracycline,tetracycline,5,False
+Chemical,triglycerides,triglycerides,5,False
+Chemical,tungsten,tungsten,5,False
+Chemical,tyramine,tyramine,5,False
+Chemical,1h,1h,4,False
+Chemical,2-methyl pentanoic acid,2-methyl pentanoic acid,4,False
+Chemical,5-ASA,5-asa,4,False
+Chemical,Abx,abx,4,False
+Chemical,Ca2+,ca2,4,False
+Chemical,EEN,een,4,False
+Chemical,EGC,egc,4,False
+Chemical,Ethanol,ethanol,4,False
+Chemical,FL,fl,4,False
+Chemical,Glucose,glucose,4,True
+Chemical,H2S,h2s,4,False
+Chemical,Isocaproyltaurine,isocaproyltaurine,4,False
+Chemical,Lipopolysaccharide,lipopolysaccharide,4,False
+Chemical,Mirpur-18,mirpur-18,4,False
+Chemical,N,n,4,False
+Chemical,O2,o2,4,False
+Chemical,T6S,t6s,4,False
+Chemical,Trizol,trizol,4,False
+Chemical,agarose,agarose,4,False
+Chemical,amphotericin-B,amphotericin-b,4,False
+Chemical,arginine,arginine,4,False
+Chemical,azo,azo,4,False
+Chemical,carbon dioxide,carbon dioxide,4,False
+Chemical,cholate,cholate,4,False
+Chemical,clindamycin,clindamycin,4,False
+Chemical,dextran sulfate sodium,dextran sulfate sodium,4,False
+Chemical,dihydrodigoxin,dihydrodigoxin,4,False
+Chemical,ethanolamine,ethanolamine,4,False
+Chemical,folate,folate,4,False
+Chemical,folic acid,folic acid,4,False
+Chemical,gentamycin,gentamycin,4,False
+Chemical,glutathione,glutathione,4,False
+Chemical,glycan,glycan,4,False
+Chemical,glycine,glycine,4,False
+Chemical,ionomycin,ionomycin,4,False
+Chemical,isoleucine,isoleucine,4,False
+Chemical,leucovorin,leucovorin,4,False
+Chemical,lipopolysaccharides,lipopolysaccharides,4,False
+Chemical,luminal,luminal,4,False
+Chemical,melamine,melamine,4,False
+Chemical,molybdenum,molybdenum,4,False
+Chemical,nicotinate,nicotinate,4,False
+Chemical,nitrates,nitrates,4,False
+Chemical,p-cresyl sulfate,p-cresyl sulfate,4,False
+Chemical,paraffin,paraffin,4,False
+Chemical,penicillin,penicillin,4,False
+Chemical,phenols,phenols,4,False
+Chemical,purine,purine,4,False
+Chemical,pyridine,pyridine,4,False
+Chemical,pyridoxal 5-phosphate,pyridoxal 5-phosphate,4,False
+Chemical,rotenone,rotenone,4,False
+Chemical,saponin,saponin,4,False
+Chemical,selenium,selenium,4,False
+Chemical,short chain fatty acids,short chain fatty acids,4,False
+Chemical,silica,silica,4,False
+Chemical,taurodeoxycholic acid,taurodeoxycholic acid,4,False
+Chemical,tetrathionate,tetrathionate,4,False
+Chemical,trimethylamine oxide,trimethylamine oxide,4,False
+Chemical,"1,2-propanediol",1 2-propanediol,3,False
+Chemical,2-arachidonoyl glycerol,2-arachidonoyl glycerol,3,False
+Chemical,5-hydroxytryptamine,5-hydroxytryptamine,3,False
+Chemical,AM630,am630,3,False
+Chemical,ASV296,asv296,3,False
+Chemical,Adenosine,adenosine,3,False
+Chemical,Alcohol,alcohol,3,False
+Chemical,BH,bh,3,False
+Chemical,Berberine,berberine,3,False
+Chemical,C18-AQ,c18-aq,3,False
+Chemical,CCK-8,cck-8,3,False
+Chemical,CR,cr,3,False
+Chemical,Caprylic acid,caprylic acid,3,False
+Chemical,DNBS,dnbs,3,False
+Chemical,Deoxycholic acid,deoxycholic acid,3,False
+Chemical,Difco,difco,3,False
+Chemical,FITC-dextran,fitc-dextran,3,False
+Chemical,Fish oil,fish oil,3,False
+Chemical,GSH,gsh,3,False
+Chemical,Glutamate,glutamate,3,False
+Chemical,H2O2,h2o2,3,False
+Chemical,HMOs,hmos,3,False
+Chemical,IMDM medium,imdm medium,3,False
+Chemical,JZL184,jzl184,3,False
+Chemical,L-DOPA,l-dopa,3,False
+Chemical,Lactate,lactate,3,False
+Chemical,Lphenylalanine,lphenylalanine,3,False
+Chemical,N-nitroso compounds,n-nitroso compounds,3,False
+Chemical,N-oxide,n-oxide,3,False
+Chemical,N-tert-butyldimethylsilyl-N-methyltrifluoroacetamide,n-tert-butyldimethylsilyl-n-methyltrifluoroacetamide,3,False
+Chemical,Nitric oxide,nitric oxide,3,False
+Chemical,PCoA,pcoa,3,False
+Chemical,RU-486,ru-486,3,False
+Chemical,Resveratrol,resveratrol,3,False
+Chemical,SCFA,scfa,3,False
+Chemical,SCFA propionate,scfa propionate,3,False
+Chemical,SCFAs acetate,scfas acetate,3,False
+Chemical,SDS,sds,3,False
+Chemical,Short chain fatty acids,short chain fatty acids,3,False
+Chemical,TRIzol,trizol,3,False
+Chemical,Trimethylamine,trimethylamine,3,False
+Chemical,Tris-HCl,tris-hcl,3,False
+Chemical,Vancomycin,vancomycin,3,False
+Chemical,YCFA,ycfa,3,False
+Chemical,acetic,acetic,3,False
+Chemical,adenosine,adenosine,3,False
+Chemical,agaro-oligosaccharides,agaro-oligosaccharides,3,False
+Chemical,amines,amines,3,False
+Chemical,aminoglycoside,aminoglycoside,3,False
+Chemical,ammonium formate,ammonium formate,3,False
+Chemical,amphotericin,amphotericin,3,False
+Chemical,anhydrotetractyline,anhydrotetractyline,3,False
+Chemical,azathioprine,azathioprine,3,False
+Chemical,azoxymethane,azoxymethane,3,False
+Chemical,benzidine,benzidine,3,False
+Chemical,benzoic acid,benzoic acid,3,False
+Chemical,beta-mercaptoethanol,beta-mercaptoethanol,3,False
+Chemical,bile salt,bile salt,3,False
+Chemical,bile salts,bile salts,3,False
+Chemical,butyric acid,butyric acid,3,False
+Chemical,coprostanol,coprostanol,3,False
+Chemical,cyclamate,cyclamate,3,False
+Chemical,cycloheximide,cycloheximide,3,False
+Chemical,cyclophosphamide,cyclophosphamide,3,False
+Chemical,dinitrobenzene sulfonic acid,dinitrobenzene sulfonic acid,3,False
+Chemical,ellagitannin,ellagitannin,3,False
+Chemical,epigallocatechin-3-gallate,epigallocatechin-3-gallate,3,False
+Chemical,erythromycin,erythromycin,3,False
+Chemical,ethylphenyl sulfate,ethylphenyl sulfate,3,False
+Chemical,fibre,fibre,3,False
+Chemical,flavin,flavin,3,False
+Chemical,flavin mononucleotide,flavin mononucleotide,3,False
+Chemical,flavonoids,flavonoids,3,False
+Chemical,fluorescein isothiocyanate,fluorescein isothiocyanate,3,False
+Chemical,fructoselysine 6-phosphate,fructoselysine 6-phosphate,3,False
+Chemical,fumarate,fumarate,3,False
+Chemical,glucoselysine,glucoselysine,3,False
+Chemical,glycyl radical,glycyl radical,3,False
+Chemical,heparan,heparan,3,False
+Chemical,isoamyl alcohol,isoamyl alcohol,3,False
+Chemical,kynurenine,kynurenine,3,False
+Chemical,l-Carnitine,l-carnitine,3,False
+Chemical,metal,metal,3,False
+Chemical,methylamines,methylamines,3,False
+Chemical,mtyramine,mtyramine,3,False
+Chemical,mucin broth,mucin broth,3,False
+Chemical,nicotinamide,nicotinamide,3,False
+Chemical,nitric oxide,nitric oxide,3,False
+Chemical,nitro,nitro,3,False
+Chemical,noradrenaline,noradrenaline,3,False
+Chemical,omeprazole,omeprazole,3,False
+Chemical,paraformaldehyde,paraformaldehyde,3,False
+Chemical,phospholipid,phospholipid,3,False
+Chemical,polycyclic aromatic hydrocarbon,polycyclic aromatic hydrocarbon,3,False
+Chemical,posaconazole,posaconazole,3,False
+Chemical,propidium iodide,propidium iodide,3,False
+Chemical,pyrimidine,pyrimidine,3,False
+Chemical,red wine,red wine,3,False
+Chemical,saponins,saponins,3,False
+Chemical,saturated fat,saturated fat,3,False
+Chemical,short chain fatty acid butyrate,short chain fatty acid butyrate,3,False
+Chemical,sodium butyrate,sodium butyrate,3,False
+Chemical,sulfasalazine,sulfasalazine,3,False
+Chemical,sulfate,sulfate,3,False
+Chemical,sulfides,sulfides,3,False
+Chemical,triglyceride,triglyceride,3,False
+Chemical,trimethylamine n-oxide,trimethylamine n-oxide,3,False
+Chemical,tryptamine,tryptamine,3,False
+Chemical,vitamin K,vitamin k,3,False
+Chemical,xenobioticmetabolites,xenobioticmetabolites,3,False
+Chemical,xylitol,xylitol,3,False
+Chemical,13C,13c,2,False
+Chemical,"2',2'-difluorodeoxyuridine",2 2 -difluorodeoxyuridine,2,False
+Chemical,2-arachidonoylglycerol,2-arachidonoylglycerol,2,False
+Chemical,6-ECDCA,6-ecdca,2,False
+Chemical,6alpha-ethyl-chenodeoxycholic acid,6alpha-ethyl-chenodeoxycholic acid,2,False
+Chemical,7-hydroxyl,7-hydroxyl,2,False
+Chemical,ASCAs,ascas,2,False
+Chemical,ASV,asv,2,False
+Chemical,ASV908,asv908,2,False
+Chemical,Acetate,acetate,2,False
+Chemical,Agar,agar,2,False
+Chemical,Ann Hepatol,ann hepatol,2,False
+Chemical,BAK,bak,2,False
+Chemical,BCAA,bcaa,2,False
+Chemical,BHI+ medium,bhi medium,2,False
+Chemical,Baicalin,baicalin,2,False
+Chemical,Bile acid,bile acid,2,False
+Chemical,Branched chain amino acids,branched chain amino acids,2,False
+Chemical,C22841,c22841,2,False
+Chemical,CS,cs,2,False
+Chemical,CaCl,cacl,2,False
+Chemical,Calcium,calcium,2,False
+Chemical,Canakinumab,canakinumab,2,False
+Chemical,Carbohydrates,carbohydrates,2,False
+Chemical,Carnitine,carnitine,2,False
+Chemical,Ciprofloxacin,ciprofloxacin,2,False
+Chemical,CitroDeltaescN,citrodeltaescn,2,False
+Chemical,Co),co,2,False
+Chemical,Cyclamate,cyclamate,2,False
+Chemical,D-glucose,d-glucose,2,False
+Chemical,D-mannose,d-mannose,2,False
+Chemical,DAPI,dapi,2,False
+Chemical,Doxo,doxo,2,False
+Chemical,Drinking water,drinking water,2,False
+Chemical,E2,e2,2,False
+Chemical,Ellagic acid,ellagic acid,2,False
+Chemical,F-652,f-652,2,False
+Chemical,FITC,fitc,2,False
+Chemical,Fatty acid,fatty acid,2,False
+Chemical,Fe,fe,2,False
+Chemical,Flavin,flavin,2,False
+Chemical,Fluorogold,fluorogold,2,False
+Chemical,Formalin,formalin,2,False
+Chemical,Fucoidan,fucoidan,2,False
+Chemical,Geniposide,geniposide,2,False
+Chemical,Gentamicin,gentamicin,2,False
+Chemical,Glycerol,glycerol,2,False
+Chemical,GuHCl,guhcl,2,False
+Chemical,HBSS,hbss,2,False
+Chemical,Haematoxylin,haematoxylin,2,False
+Chemical,Hydrogen,hydrogen,2,False
+Chemical,IPTG,iptg,2,False
+Chemical,Krill oil,krill oil,2,False
+Chemical,L-Arabinofuranose,l-arabinofuranose,2,False
+Chemical,L-citrulline,l-citrulline,2,False
+Chemical,L-glutamine,l-glutamine,2,False
+Chemical,L-tryptophan,l-tryptophan,2,False
+Chemical,Lactic Acid,lactic acid,2,False
+Chemical,Leucine,leucine,2,False
+Chemical,Lipids,lipids,2,False
+Chemical,MAC,mac,2,False
+Chemical,MACs,macs,2,False
+Chemical,MDCF,mdcf,2,False
+Chemical,MPX,mpx,2,False
+Chemical,MeOH,meoh,2,False
+Chemical,Melamine,melamine,2,False
+Chemical,Mg2+,mg2,2,False
+Chemical,MgCl,mgcl,2,False
+Chemical,N-acetyl 5-ASA,n-acetyl 5-asa,2,False
+Chemical,N-acyl homoserine lactone,n-acyl homoserine lactone,2,False
+Chemical,N-methyl-N'-nitro-N-nitrosoguanidine,n-methyl-n -nitro-n-nitrosoguanidine,2,False
+Chemical,N-nitrosamines,n-nitrosamines,2,False
+Chemical,NH4OH,nh4oh,2,False
+Chemical,Niacin,niacin,2,False
+Chemical,Obis(trimethylsilyl)trifluoroacetamide,obis trimethylsilyl trifluoroacetamide,2,False
+Chemical,Omega-3 fatty acid,omega-3 fatty acid,2,False
+Chemical,P. distansonis,p. distansonis,2,False
+Chemical,PAS,pas,2,False
+Chemical,PCSB,pcsb,2,False
+Chemical,Paraffin,paraffin,2,False
+Chemical,Phytoceramide,phytoceramide,2,False
+Chemical,Polyamines,polyamines,2,False
+Chemical,Polysaccharides,polysaccharides,2,False
+Chemical,RPMI-1640,rpmi-1640,2,False
+Chemical,Reactive Oxygen Species,reactive oxygen species,2,False
+Chemical,S-adenosylmethionine,s-adenosylmethionine,2,False
+Chemical,SN-38,sn-38,2,False
+Chemical,SYBR  Green,sybr green,2,False
+Chemical,Serotonin,serotonin,2,False
+Chemical,Sodium butyrate,sodium butyrate,2,False
+Chemical,Sulphoxide,sulphoxide,2,False
+Chemical,TBS,tbs,2,False
+Chemical,TER119,ter119,2,False
+Chemical,TMA,tma,2,False
+Chemical,TNBS,tnbs,2,False
+Chemical,TVP,tvp,2,False
+Chemical,TbetaMCA,tbetamca,2,False
+Chemical,Thymine,thymine,2,False
+Chemical,Todd-Hewitt Broth,todd-hewitt broth,2,False
+Chemical,Treg,treg,2,False
+Chemical,Tregs,tregs,2,False
+Chemical,Trimethylamine-n-oxide,trimethylamine-n-oxide,2,False
+Chemical,Tryptophan,tryptophan,2,False
+Chemical,Tungstate,tungstate,2,False
+Chemical,UDCA,udca,2,False
+Chemical,UDP,udp,2,False
+Chemical,UltraDOMA-PF media,ultradoma-pf media,2,False
+Chemical,Urolithins,urolithins,2,False
+Chemical,Ursodeoxycholic acid,ursodeoxycholic acid,2,False
+Chemical,W,w,2,False
+Chemical,YFAS,yfas,2,False
+Chemical,adalimumab,adalimumab,2,False
+Chemical,alanine,alanine,2,False
+Chemical,alpha-CD28,alpha-cd28,2,False
+Chemical,amino acid lysine,amino acid lysine,2,False
+Chemical,amino acid tryptophan,amino acid tryptophan,2,False
+Chemical,amoxicillin,amoxicillin,2,False
+Chemical,anthocyanin,anthocyanin,2,False
+Chemical,aspartate,aspartate,2,False
+Chemical,auranofin,auranofin,2,False
+Chemical,azo dyes,azo dyes,2,False
+Chemical,bacitracin,bacitracin,2,False
+Chemical,baicalin,baicalin,2,False
+Chemical,biotin,biotin,2,False
+Chemical,bisulfite,bisulfite,2,False
+Chemical,bnAbs,bnabs,2,False
+Chemical,branched-chain amino acids leucine,branched-chain amino acids leucine,2,False
+Chemical,cadaverine,cadaverine,2,False
+Chemical,carbohydrate polymers,carbohydrate polymers,2,False
+Chemical,carbon E,carbon e,2,False
+Chemical,carbonate,carbonate,2,False
+Chemical,carboxylate,carboxylate,2,False
+Chemical,catechins,catechins,2,False
+Chemical,cefoperazone,cefoperazone,2,False
+Chemical,chain fatty acid,chain fatty acid,2,False
+Chemical,chenodeoxycholic acid,chenodeoxycholic acid,2,False
+Chemical,cob(I)alamin,cob i alamin,2,False
+Chemical,creatine,creatine,2,False
+Chemical,crystal violet,crystal violet,2,False
+Chemical,cyanidin-3-O-rutinoside,cyanidin-3-o-rutinoside,2,False
+Chemical,cysteine,cysteine,2,False
+Chemical,cytidine,cytidine,2,False
+Chemical,dextrose,dextrose,2,False
+Chemical,diacerein,diacerein,2,False
+Chemical,diltiazem,diltiazem,2,False
+Chemical,dimethyl sulfoxide,dimethyl sulfoxide,2,False
+Chemical,dimethylglycine,dimethylglycine,2,False
+Chemical,docosahexaenoic acid,docosahexaenoic acid,2,False
+Chemical,drinking water,drinking water,2,False
+Chemical,epsilon-fructoselysine,epsilon-fructoselysine,2,False
+Chemical,escitalopram,escitalopram,2,False
+Chemical,exopolysaccharides,exopolysaccharides,2,False
+Chemical,flaxseed oil,flaxseed oil,2,False
+Chemical,fructose,fructose,2,False
+Chemical,fructoselysine-6-phosphate,fructoselysine-6-phosphate,2,False
+Chemical,gallate esters,gallate esters,2,False
+Chemical,ginsenosides,ginsenosides,2,False
+Chemical,glucuronide,glucuronide,2,False
+Chemical,glutamate,glutamate,2,False
+Chemical,glutamine a,glutamine a,2,False
+Chemical,glycerol phospholipid,glycerol phospholipid,2,False
+Chemical,glycoside,glycoside,2,False
+Chemical,guanidine thiocyanate,guanidine thiocyanate,2,False
+Chemical,hM3Dq,hm3dq,2,False
+Chemical,heme,heme,2,False
+Chemical,hydride,hydride,2,False
+Chemical,hydroxycinnamic acid,hydroxycinnamic acid,2,False
+Chemical,indole- 3-propionic acid,indole- 3-propionic acid,2,False
+Chemical,indole-3-lactic acid,indole-3-lactic acid,2,False
+Chemical,infliximab,infliximab,2,False
+Chemical,iron,iron,2,False
+Chemical,isopropanol,isopropanol,2,False
+Chemical,itraconazole,itraconazole,2,False
+Chemical,ketoisocaproate,ketoisocaproate,2,False
+Chemical,ketoprofen,ketoprofen,2,False
+Chemical,lithocholic acid,lithocholic acid,2,False
+Chemical,long chain fatty acid,long chain fatty acid,2,False
+Chemical,long-chain fatty acids,long-chain fatty acids,2,False
+Chemical,melatonin,melatonin,2,False
+Chemical,methionine,methionine,2,False
+Chemical,mi,mi,2,False
+Chemical,moricizine,moricizine,2,False
+Chemical,neutral red,neutral red,2,False
+Chemical,nitrazepam,nitrazepam,2,False
+Chemical,nitroaromatic,nitroaromatic,2,False
+Chemical,nonesterified fatty acids,nonesterified fatty acids,2,False
+Chemical,olanzapine,olanzapine,2,False
+Chemical,organic acids,organic acids,2,False
+Chemical,orlistat,orlistat,2,False
+Chemical,pTh17,pth17,2,False
+Chemical,para-cresol,para-cresol,2,False
+Chemical,paracetamol,paracetamol,2,False
+Chemical,pectin,pectin,2,False
+Chemical,peptides,peptides,2,False
+Chemical,polychlorinated biphenyls,polychlorinated biphenyls,2,False
+Chemical,polycyclic aromatic hydrocarbons,polycyclic aromatic hydrocarbons,2,False
+Chemical,polydextrose,polydextrose,2,False
+Chemical,polystyrene,polystyrene,2,False
+Chemical,procyanidins,procyanidins,2,False
+Chemical,progesterone,progesterone,2,False
+Chemical,propionic acid,propionic acid,2,False
+Chemical,pyruvate,pyruvate,2,False
+Chemical,rabeprazole,rabeprazole,2,False
+Chemical,resveratrol,resveratrol,2,False
+Chemical,riboflavin,riboflavin,2,False
+Chemical,ribose,ribose,2,False
+Chemical,salicylic acid,salicylic acid,2,False
+Chemical,saquinavir,saquinavir,2,False
+Chemical,saturated fatty acids,saturated fatty acids,2,False
+Chemical,short,short,2,False
+Chemical,short chain fatty acid,short chain fatty acid,2,False
+Chemical,short chain fatty acid propionate,short chain fatty acid propionate,2,False
+Chemical,sodium azide,sodium azide,2,False
+Chemical,sodium chloride,sodium chloride,2,False
+Chemical,sodium cholate,sodium cholate,2,False
+Chemical,sodium tungstate dihydrate,sodium tungstate dihydrate,2,False
+Chemical,sphingoid bases,sphingoid bases,2,False
+Chemical,sphingolipids,sphingolipids,2,False
+Chemical,steroid,steroid,2,False
+Chemical,sterols,sterols,2,False
+Chemical,thiols,thiols,2,False
+Chemical,topiramate,topiramate,2,False
+Chemical,trifluridine,trifluridine,2,False
+Chemical,trimethylammonium,trimethylammonium,2,False
+Chemical,trinitrobenzene sulfonic acid,trinitrobenzene sulfonic acid,2,False
+Chemical,tyrosine,tyrosine,2,False
+Chemical,valine,valine,2,False
+Chemical,vitamin B5,vitamin b5,2,False
+Chemical,-aminobutyric acid,-aminobutyric acid,1,False
+Chemical,-chain amino acid,-chain amino acid,1,False
+Chemical,.01N,.01n,1,False
+Chemical,"1,2-dimethylhydrazine",1 2-dimethylhydrazine,1,False
+Chemical,1-derived O-glycans,1-derived o-glycans,1,False
+Chemical,1-dodecanoyl-2-tridecanoyl-sn-glycero-3-phosphocholine,1-dodecanoyl-2-tridecanoyl-sn-glycero-3-phosphocholine,1,False
+Chemical,"12,13-diHOME",12 13-dihome,1,False
+Chemical,12h,12h,1,False
+Chemical,"2-amino-1-methyl-6-phenylimidazo[4,5-b]pyridine",2-amino-1-methyl-6-phenylimidazo 4 5-b pyridine,1,False
+Chemical,"2-amino-3-methylimidazo[4,5-f] quinoline",2-amino-3-methylimidazo 4 5-f quinoline,1,False
+Chemical,2-arachidonoyl-glycerol,2-arachidonoyl-glycerol,1,False
+Chemical,2-mercaptoethanol,2-mercaptoethanol,1,False
+Chemical,2-monoglyceride,2-monoglyceride,1,False
+Chemical,"3, 3-dimethyl-1-butanol",3 3-dimethyl-1-butanol,1,False
+Chemical,"3,3-dimethyl-1-butanol",3 3-dimethyl-1-butanol,1,False
+Chemical,3-hydroxy isobutyrate,3-hydroxy isobutyrate,1,False
+Chemical,3-hydroxy-2-methylbutyryl carnitine,3-hydroxy-2-methylbutyryl carnitine,1,False
+Chemical,3-hydroxyanthranilic acid,3-hydroxyanthranilic acid,1,False
+Chemical,3-methylindole,3-methylindole,1,False
+Chemical,"3-oxo-4,5-dehydro-DCA",3-oxo-4 5-dehydro-dca,1,False
+Chemical,3-oxo-C12,3-oxo-c12,1,False
+Chemical,3-oxo-DCA,3-oxo-dca,1,False
+Chemical,4-hydroxyphenylacetate,4-hydroxyphenylacetate,1,False
+Chemical,5-(E)-(2-bromovinyl)uracil,5- e - 2-bromovinyl uracil,1,False
+Chemical,5-Aminosalicylic Acid,5-aminosalicylic acid,1,False
+Chemical,5-FC,5-fc,1,False
+Chemical,5-FU,5-fu,1,False
+Chemical,5-HT,5-ht,1,False
+Chemical,5-aminoimidazole-4-carboxamide ribonucleotide,5-aminoimidazole-4-carboxamide ribonucleotide,1,False
+Chemical,5-fluorouracil,5-fluorouracil,1,False
+Chemical,AM251,am251,1,False
+Chemical,AOM,aom,1,False
+Chemical,AVNM,avnm,1,False
+Chemical,Acylcarnitines,acylcarnitines,1,False
+Chemical,Alabaster,alabaster,1,False
+Chemical,Alcian Blue,alcian blue,1,False
+Chemical,Alcian-Blue,alcian-blue,1,False
+Chemical,Alexa 488,alexa 488,1,False
+Chemical,Alexa Fluor,alexa fluor,1,False
+Chemical,Amines,amines,1,False
+Chemical,Arabinan D-Arabinose,arabinan d-arabinose,1,False
+Chemical,Arg38,arg38,1,False
+Chemical,Aspartate,aspartate,1,False
+Chemical,BCM,bcm,1,False
+Chemical,BHI,bhi,1,False
+Chemical,BHI broth,bhi broth,1,False
+Chemical,BHIS,bhis,1,False
+Chemical,BMC,bmc,1,False
+Chemical,BTBR,btbr,1,False
+Chemical,BaiH,baih,1,False
+Chemical,Blood glucose,blood glucose,1,False
+Chemical,Branched-chain amino acids,branched-chain amino acids,1,False
+Chemical,C,c,1,False
+Chemical,C18,c18,1,False
+Chemical,C3-acylcarnitine,c3-acylcarnitine,1,False
+Chemical,C5-OH,c5-oh,1,False
+Chemical,C9481,c9481,1,False
+Chemical,CA434,ca434,1,False
+Chemical,CAGs,cags,1,False
+Chemical,CH3Hg,ch3hg,1,False
+Chemical,CMC,cmc,1,False
+Chemical,CO 2,co 2,1,False
+Chemical,CaCl2,cacl2,1,False
+Chemical,Calcein violet AM,calcein violet am,1,False
+Chemical,Carbon,carbon,1,False
+Chemical,Carnoy,carnoy,1,False
+Chemical,Cecal butyrate,cecal butyrate,1,False
+Chemical,Cellulose,cellulose,1,False
+Chemical,Cholecalciferol,cholecalciferol,1,False
+Chemical,Cholic Acid,cholic acid,1,False
+Chemical,Cif,cif,1,False
+Chemical,Colibactin,colibactin,1,False
+Chemical,Cysteine,cysteine,1,False
+Chemical,Cytosine,cytosine,1,False
+Chemical,D-galactose,d-galactose,1,False
+Chemical,D-xylose,d-xylose,1,False
+Chemical,D5-propionate,d5-propionate,1,False
+Chemical,DHA,dha,1,False
+Chemical,DMB,dmb,1,False
+Chemical,DMEM medium,dmem medium,1,False
+Chemical,DN-114,dn-114,1,False
+Chemical,DSS+W,dss w,1,False
+Chemical,DeltaHcp,deltahcp,1,False
+Chemical,DeltaIcmF,deltaicmf,1,False
+Chemical,Dig Dis,dig dis,1,False
+Chemical,Dorea,dorea,1,False
+Chemical,Dulbecco's Modified Eagle Medium,dulbecco s modified eagle medium,1,False
+Chemical,Dulbecco's modified Eagle's medium,dulbecco s modified eagle s medium,1,False
+Chemical,Exenatide,exenatide,1,False
+Chemical,FAD,fad,1,False
+Chemical,Fatty acids,fatty acids,1,False
+Chemical,Formaldehyde,formaldehyde,1,False
+Chemical,GAM,gam,1,False
+Chemical,GG-PB12,gg-pb12,1,False
+Chemical,GSEA,gsea,1,False
+Chemical,Galactose-Rich Exopolysaccharide,galactose-rich exopolysaccharide,1,False
+Chemical,Ginsenoside,ginsenoside,1,False
+Chemical,GlcNAc-6-phosphate,glcnac-6-phosphate,1,False
+Chemical,Glucoselysine,glucoselysine,1,False
+Chemical,Gly,gly,1,False
+Chemical,Glycan,glycan,1,False
+Chemical,Guanine,guanine,1,False
+Chemical,H+E,h e,1,False
+Chemical,H2SO4,h2so4,1,False
+Chemical,Hematoxilin,hematoxilin,1,False
+Chemical,Hepes,hepes,1,False
+Chemical,Histamine,histamine,1,False
+Chemical,Hoechst,hoechst,1,False
+Chemical,Hoechst-34580,hoechst-34580,1,False
+Chemical,Irinotecan,irinotecan,1,False
+Chemical,Iron,iron,1,False
+Chemical,K08681,k08681,1,False
+Chemical,KO119,ko119,1,False
+Chemical,KO120,ko120,1,False
+Chemical,KO158,ko158,1,False
+Chemical,KO159,ko159,1,False
+Chemical,L-Carnitine,l-carnitine,1,False
+Chemical,L-arabinose,l-arabinose,1,False
+Chemical,L-arginine,l-arginine,1,False
+Chemical,L-cysteine hydrochloride,l-cysteine hydrochloride,1,False
+Chemical,L-cysteine-HCl,l-cysteine-hcl,1,False
+Chemical,LB Lennox medium,lb lennox medium,1,False
+Chemical,LB broth,lb broth,1,False
+Chemical,LB medium,lb medium,1,False
+Chemical,LED209,led209,1,False
+Chemical,LGG,lgg,1,False
+Chemical,Lachnoclostridium,lachnoclostridium,1,False
+Chemical,Lactose,lactose,1,False
+Chemical,Long Chain Fatty Acid,long chain fatty acid,1,False
+Chemical,Lysine,lysine,1,False
+Chemical,MPTP,mptp,1,False
+Chemical,Malate,malate,1,False
+Chemical,Mannose,mannose,1,False
+Chemical,Meclofenamic acid,meclofenamic acid,1,False
+Chemical,Methacarn,methacarn,1,False
+Chemical,Methanol-Carnoy,methanol-carnoy,1,False
+Chemical,"Methyl-4-phenyl-1,2,3,6-tetrahydropyridine",methyl-4-phenyl-1 2 3 6-tetrahydropyridine,1,False
+Chemical,Metyrapone,metyrapone,1,False
+Chemical,Mk II,mk ii,1,False
+Chemical,N-acetylneuraminate,n-acetylneuraminate,1,False
+Chemical,N-acylethanolamines,n-acylethanolamines,1,False
+Chemical,N-alpha-tert-butyloxycarbonyl-l-lysine,n-alpha-tert-butyloxycarbonyl-l-lysine,1,False
+Chemical,N-lauroyl sarcosine,n-lauroyl sarcosine,1,False
+Chemical,N-octyl-beta-D-glucopyranoside,n-octyl-beta-d-glucopyranoside,1,False
+Chemical,NAD,nad,1,False
+Chemical,NAD(P)H,nad p h,1,False
+Chemical,NADH,nadh,1,False
+Chemical,NAM,nam,1,False
+Chemical,NDV-3A,ndv-3a,1,False
+Chemical,NEFA,nefa,1,False
+Chemical,NGM282,ngm282,1,False
+Chemical,NO3-,no3-,1,False
+Chemical,Ni-NTA,ni-nta,1,False
+Chemical,Nitrate,nitrate,1,False
+Chemical,Nitrogen,nitrogen,1,False
+Chemical,OCA,oca,1,False
+Chemical,Oligofructose,oligofructose,1,False
+Chemical,Oxazolone,oxazolone,1,False
+Chemical,PBS-T,pbs-t,1,False
+Chemical,PEP,pep,1,False
+Chemical,PGE2,pge2,1,False
+Chemical,PHR1160,phr1160,1,False
+Chemical,PTS,pts,1,False
+Chemical,PVDF,pvdf,1,False
+Chemical,PhIP,phip,1,False
+Chemical,Phenol,phenol,1,False
+Chemical,Phenomenex,phenomenex,1,False
+Chemical,Piroxicam,piroxicam,1,False
+Chemical,Propionate,propionate,1,False
+Chemical,Quinolinic Acid,quinolinic acid,1,False
+Chemical,RRBS,rrbs,1,False
+Chemical,Rapamycin,rapamycin,1,False
+Chemical,Rifaximin,rifaximin,1,False
+Chemical,S4O62,s4o62,1,False
+Chemical,SAM,sam,1,False
+Chemical,SCFA butyrate,scfa butyrate,1,False
+Chemical,SFCAs,sfcas,1,False
+Chemical,SLAB51 Probiotic,slab51 probiotic,1,False
+Chemical,SN-38G,sn-38g,1,False
+Chemical,SYBR Green,sybr green,1,False
+Chemical,Sabouraud dextrose agar,sabouraud dextrose agar,1,False
+Chemical,Sephadex,sephadex,1,False
+Chemical,Ser307,ser307,1,False
+Chemical,Short-chain organic acids,short-chain organic acids,1,False
+Chemical,Sphingomyelin,sphingomyelin,1,False
+Chemical,Starch,starch,1,False
+Chemical,Streptomycin,streptomycin,1,False
+Chemical,Succinic acid,succinic acid,1,False
+Chemical,Sucrose,sucrose,1,False
+Chemical,Sulfur,sulfur,1,False
+Chemical,TBST,tbst,1,False
+Chemical,TE,te,1,False
+Chemical,TFF,tff,1,False
+Chemical,TH2,th2,1,False
+Chemical,THL,thl,1,False
+Chemical,TMAVA,tmava,1,False
+Chemical,TMAs,tmas,1,False
+Chemical,TYG broth,tyg broth,1,False
+Chemical,TYG medium,tyg medium,1,False
+Chemical,TYGs* medium,tygs medium,1,False
+Chemical,Tauro-beta-muricholic acid,tauro-beta-muricholic acid,1,False
+Chemical,Th1,th1,1,False
+Chemical,Topiramate,topiramate,1,False
+Chemical,Tributyrin,tributyrin,1,False
+Chemical,Trimethylamine-N-Oxide,trimethylamine-n-oxide,1,False
+Chemical,Tris HCl,tris hcl,1,False
+Chemical,Triton X-100,triton x-100,1,False
+Chemical,Tween 20,tween 20,1,False
+Chemical,Typhimurium 14028s,typhimurium 14028s,1,False
+Chemical,U-15N]fructoselysine,u-15n fructoselysine,1,False
+Chemical,UM-B,um-b,1,False
+Chemical,Urobilin,urobilin,1,False
+Chemical,Urolithin B-Glucuronide,urolithin b-glucuronide,1,False
+Chemical,Vanco,vanco,1,False
+Chemical,Vitamin B12,vitamin b12,1,False
+Chemical,Vitamin d,vitamin d,1,False
+Chemical,WZ12,wz12,1,False
+Chemical,YPD medium,ypd medium,1,False
+Chemical,ZYP-5052,zyp-5052,1,False
+Chemical,acetic acid,acetic acid,1,False
+Chemical,acrylamide,acrylamide,1,False
+Chemical,adBNST,adbnst,1,False
+Chemical,adenosine triphosphate,adenosine triphosphate,1,False
+Chemical,al,al,1,False
+Chemical,aldehyde,aldehyde,1,False
+Chemical,aldosterone,aldosterone,1,False
+Chemical,alkenes,alkenes,1,False
+Chemical,"alpha,beta-unsaturated sugar",alpha beta-unsaturated sugar,1,False
+Chemical,alpha-CD3,alpha-cd3,1,False
+Chemical,alpha-galactosylceramide,alpha-galactosylceramide,1,False
+Chemical,alpha-keto acids,alpha-keto acids,1,False
+Chemical,alpha-linolenic acid,alpha-linolenic acid,1,False
+Chemical,amandelonitrile glycoside,amandelonitrile glycoside,1,False
+Chemical,amino acid formylglycine,amino acid formylglycine,1,False
+Chemical,aminoacrylate,aminoacrylate,1,False
+Chemical,ammonium hydroxide,ammonium hydroxide,1,False
+Chemical,anandamide,anandamide,1,False
+Chemical,anthocyanins,anthocyanins,1,False
+Chemical,arachidonic acid,arachidonic acid,1,False
+Chemical,arachidonoyl ethanolamide,arachidonoyl ethanolamide,1,False
+Chemical,arachidonoyl-ethanolamide,arachidonoyl-ethanolamide,1,False
+Chemical,aromatic amino acid,aromatic amino acid,1,False
+Chemical,aromatic amino acids,aromatic amino acids,1,False
+Chemical,arsenic,arsenic,1,False
+Chemical,aspirin,aspirin,1,False
+Chemical,atrazine,atrazine,1,False
+Chemical,azo compounds,azo compounds,1,False
+Chemical,berberine,berberine,1,False
+Chemical,beta-glucan,beta-glucan,1,False
+Chemical,beta-glucuronide,beta-glucuronide,1,False
+Chemical,biguanides,biguanides,1,False
+Chemical,boron trifluoride,boron trifluoride,1,False
+Chemical,brilliant blue FCF,brilliant blue fcf,1,False
+Chemical,bromovinyl uracil,bromovinyl uracil,1,False
+Chemical,cannabinoid,cannabinoid,1,False
+Chemical,cannabinoids,cannabinoids,1,False
+Chemical,cardiolipin,cardiolipin,1,False
+Chemical,carnitines,carnitines,1,False
+Chemical,cecal acetate,cecal acetate,1,False
+Chemical,chenodeoxycholate,chenodeoxycholate,1,False
+Chemical,chlorotrimethylsilane,chlorotrimethylsilane,1,False
+Chemical,cholest-3-ene,cholest-3-ene,1,False
+Chemical,cholic acid,cholic acid,1,False
+Chemical,cholic and chenodeoxycholic acid,cholic and chenodeoxycholic acid,1,False
+Chemical,cholyl-CoA,cholyl-coa,1,False
+Chemical,citrulline,citrulline,1,False
+Chemical,clomiphene,clomiphene,1,False
+Chemical,colibactin,colibactin,1,False
+Chemical,cyanidin 3-O-2G-xylosylrutinoside,cyanidin 3-o-2g-xylosylrutinoside,1,False
+Chemical,cyanuric acid,cyanuric acid,1,False
+Chemical,cyclohexamate,cyclohexamate,1,False
+Chemical,cysteine-S,cysteine-s,1,False
+Chemical,dNTPs,dntps,1,False
+Chemical,dahi,dahi,1,False
+Chemical,ddH2O,ddh2o,1,False
+Chemical,deoxycholate,deoxycholate,1,False
+Chemical,dextran sodium sulfate salt,dextran sodium sulfate salt,1,False
+Chemical,di-tert-butyl dicarbonate,di-tert-butyl dicarbonate,1,False
+Chemical,dicarboxylate,dicarboxylate,1,False
+Chemical,dichloromethane,dichloromethane,1,False
+Chemical,ellagitannins,ellagitannins,1,False
+Chemical,endocannabinoid,endocannabinoid,1,False
+Chemical,endocannabinoids,endocannabinoids,1,False
+Chemical,epi,epi,1,False
+Chemical,epoxides,epoxides,1,False
+Chemical,epsilon-fructose,epsilon-fructose,1,False
+Chemical,essential amino acid tryptophan,essential amino acid tryptophan,1,False
+Chemical,estradiol valerate,estradiol valerate,1,False
+Chemical,ether,ether,1,False
+Chemical,everolimus,everolimus,1,False
+Chemical,exenatide,exenatide,1,False
+Chemical,exopolysaccharide,exopolysaccharide,1,False
+Chemical,fatty-acid,fatty-acid,1,False
+Chemical,ferric iron,ferric iron,1,False
+Chemical,fluorescein isothiocyanate-phalloidin,fluorescein isothiocyanate-phalloidin,1,False
+Chemical,fluoroquinolone,fluoroquinolone,1,False
+Chemical,formaldehyde,formaldehyde,1,False
+Chemical,free fatty acids,free fatty acids,1,False
+Chemical,fructo-oligosaccharides,fructo-oligosaccharides,1,False
+Chemical,galacto-oligosaccharides,galacto-oligosaccharides,1,False
+Chemical,galactooligosaccharides,galactooligosaccharides,1,False
+Chemical,galactose,galactose,1,False
+Chemical,gamma-Butyrobetaine,gamma-butyrobetaine,1,False
+Chemical,gamma-L- glutamyl-L-cysteinyl-glycine,gamma-l- glutamyl-l-cysteinyl-glycine,1,False
+Chemical,gamma-aminobutyric acid,gamma-aminobutyric acid,1,False
+Chemical,gamma-butyrobetaine,gamma-butyrobetaine,1,False
+Chemical,gemcitabine,gemcitabine,1,False
+Chemical,glutamine,glutamine,1,False
+Chemical,glycerolipid,glycerolipid,1,False
+Chemical,glycoconjugates,glycoconjugates,1,False
+Chemical,glycogen,glycogen,1,False
+Chemical,glycosides,glycosides,1,False
+Chemical,guanosine,guanosine,1,False
+Chemical,halides,halides,1,False
+Chemical,hematoxylin,hematoxylin,1,False
+Chemical,hemes,hemes,1,False
+Chemical,hemicellulose,hemicellulose,1,False
+Chemical,heptanoic acids,heptanoic acids,1,False
+Chemical,heterocyclic amines,heterocyclic amines,1,False
+Chemical,hydrochloric acid,hydrochloric acid,1,False
+Chemical,hydrogen-sulfide,hydrogen-sulfide,1,False
+Chemical,hypoxanthine,hypoxanthine,1,False
+Chemical,imidazole,imidazole,1,False
+Chemical,imidazole propionate,imidazole propionate,1,False
+Chemical,inactivemetabolite,inactivemetabolite,1,False
+Chemical,indole,indole,1,False
+Chemical,indole propionic acid,indole propionic acid,1,False
+Chemical,indole-3-propionic acid,indole-3-propionic acid,1,False
+Chemical,indoleacetic acid,indoleacetic acid,1,False
+Chemical,irinotecan,irinotecan,1,False
+Chemical,iso-urolithin A,iso-urolithin a,1,False
+Chemical,isoallolithocholic acid,isoallolithocholic acid,1,False
+Chemical,isoamyl,isoamyl,1,False
+Chemical,isoflavones,isoflavones,1,False
+Chemical,isoprostanes,isoprostanes,1,False
+Chemical,kanamycin,kanamycin,1,False
+Chemical,ketoacids,ketoacids,1,False
+Chemical,ketones,ketones,1,False
+Chemical,l-carnitine,l-carnitine,1,False
+Chemical,l-cysteine,l-cysteine,1,False
+Chemical,l-isoleucine,l-isoleucine,1,False
+Chemical,l-lysine,l-lysine,1,False
+Chemical,lactic-acid,lactic-acid,1,False
+Chemical,lactulose,lactulose,1,False
+Chemical,laetrile,laetrile,1,False
+Chemical,lauryldimethylamine N-oxide,lauryldimethylamine n-oxide,1,False
+Chemical,lignans,lignans,1,False
+Chemical,linoleic acid,linoleic acid,1,False
+Chemical,lippia citriodora extract,lippia citriodora extract,1,False
+Chemical,lithocholic,lithocholic,1,False
+Chemical,low-glucose,low-glucose,1,False
+Chemical,macrolide,macrolide,1,False
+Chemical,macrolides,macrolides,1,False
+Chemical,meclofenamic acid,meclofenamic acid,1,False
+Chemical,meldonium,meldonium,1,False
+Chemical,mercury,mercury,1,False
+Chemical,methacarn,methacarn,1,False
+Chemical,methacholine,methacholine,1,False
+Chemical,methane,methane,1,False
+Chemical,methanolic,methanolic,1,False
+Chemical,methyl tert-butyl ether,methyl tert-butyl ether,1,False
+Chemical,methylimidazole acetic acid,methylimidazole acetic acid,1,False
+Chemical,metyrapone,metyrapone,1,False
+Chemical,minocycline,minocycline,1,False
+Chemical,n-6,n-6,1,False
+Chemical,n-butyl cyanoacrylate,n-butyl cyanoacrylate,1,False
+Chemical,nalidixic acid,nalidixic acid,1,False
+Chemical,naproxen,naproxen,1,False
+Chemical,neutral,neutral,1,False
+Chemical,nicotinamide adenine dinucleotide phosphate,nicotinamide adenine dinucleotide phosphate,1,False
+Chemical,nitrites,nitrites,1,False
+Chemical,nitrofurantoin,nitrofurantoin,1,False
+Chemical,nitrosamines,nitrosamines,1,False
+Chemical,nucleoside,nucleoside,1,False
+Chemical,nuclides,nuclides,1,False
+Chemical,obeticholic acid,obeticholic acid,1,False
+Chemical,oil,oil,1,False
+Chemical,organic acid,organic acid,1,False
+Chemical,organochlorine,organochlorine,1,False
+Chemical,ornithine,ornithine,1,False
+Chemical,oxaliplatin,oxaliplatin,1,False
+Chemical,oxaloacetate,oxaloacetate,1,False
+Chemical,p-Cresyl sulfate,p-cresyl sulfate,1,False
+Chemical,palmitate,palmitate,1,False
+Chemical,palmitoleic acid,palmitoleic acid,1,False
+Chemical,paraxanthine,paraxanthine,1,False
+Chemical,peptide,peptide,1,False
+Chemical,periodic acid-Schiff,periodic acid-schiff,1,False
+Chemical,phenol,phenol,1,False
+Chemical,phenothiazine,phenothiazine,1,False
+Chemical,phentermine,phentermine,1,False
+Chemical,phenylacetylglutamine,phenylacetylglutamine,1,False
+Chemical,phenylpropanoid,phenylpropanoid,1,False
+Chemical,phosphate,phosphate,1,False
+Chemical,phosphate-buffered formalin,phosphate-buffered formalin,1,False
+Chemical,phosphoenolpyruvate,phosphoenolpyruvate,1,False
+Chemical,phospholipid saturated fatty acid,phospholipid saturated fatty acid,1,False
+Chemical,phosphoric acid,phosphoric acid,1,False
+Chemical,piroxicam,piroxicam,1,False
+Chemical,polyphenolic compounds,polyphenolic compounds,1,False
+Chemical,polysaccharide A,polysaccharide a,1,False
+Chemical,proanthocyanidin,proanthocyanidin,1,False
+Chemical,prostaglandin D2,prostaglandin d2,1,False
+Chemical,prostaglandin E1,prostaglandin e1,1,False
+Chemical,pyridinaldehyde,pyridinaldehyde,1,False
+Chemical,pyrimidines,pyrimidines,1,False
+Chemical,quinolinate,quinolinate,1,False
+Chemical,quinolones,quinolones,1,False
+Chemical,reactive oxygen and nitrogen species,reactive oxygen and nitrogen species,1,False
+Chemical,rich bile acids,rich bile acids,1,False
+Chemical,rosuvastatin,rosuvastatin,1,False
+Chemical,salsolinol,salsolinol,1,False
+Chemical,short-chain fatty acid butyrate,short-chain fatty acid butyrate,1,False
+Chemical,short-chain fatty acid propionate,short-chain fatty acid propionate,1,False
+Chemical,simple,simple,1,False
+Chemical,simvastatin,simvastatin,1,False
+Chemical,skatole,skatole,1,False
+Chemical,sodium bicarbonate,sodium bicarbonate,1,False
+Chemical,sodium citrate,sodium citrate,1,False
+Chemical,sodium dodecyl sulfate,sodium dodecyl sulfate,1,False
+Chemical,sorivudine,sorivudine,1,False
+Chemical,sphingomyelin,sphingomyelin,1,False
+Chemical,sphingomyelins,sphingomyelins,1,False
+Chemical,stevioside,stevioside,1,False
+Chemical,streptozotocin,streptozotocin,1,False
+Chemical,suberoylanilide hydroxamic acid,suberoylanilide hydroxamic acid,1,False
+Chemical,sulfate esters,sulfate esters,1,False
+Chemical,sulfite,sulfite,1,False
+Chemical,sulfoxide,sulfoxide,1,False
+Chemical,sulfuric acid,sulfuric acid,1,False
+Chemical,sulindac,sulindac,1,False
+Chemical,sulphate,sulphate,1,False
+Chemical,sulphinpyrazone,sulphinpyrazone,1,False
+Chemical,tauro-beta-muricholic acid,tauro-beta-muricholic acid,1,False
+Chemical,tetrahydrofolate,tetrahydrofolate,1,False
+Chemical,tetrahydrolipstatin,tetrahydrolipstatin,1,False
+Chemical,tetramethylrhodamine,tetramethylrhodamine,1,False
+Chemical,theophylline,theophylline,1,False
+Chemical,thiamin,thiamin,1,False
+Chemical,thiol,thiol,1,False
+Chemical,thioridazine,thioridazine,1,False
+Chemical,threonine,threonine,1,False
+Chemical,trans-4-hydroxy-L-proline,trans-4-hydroxy-l-proline,1,False
+Chemical,trimethoprim,trimethoprim,1,False
+Chemical,trimethylamine Noxide,trimethylamine noxide,1,False
+Chemical,trimethyllysine,trimethyllysine,1,False
+Chemical,trimethylsilyl ether,trimethylsilyl ether,1,False
+Chemical,trinitrobenzenesulfonic acid,trinitrobenzenesulfonic acid,1,False
+Chemical,trinitrochlorobenzone,trinitrochlorobenzone,1,False
+Chemical,unsaturated fatty acids,unsaturated fatty acids,1,False
+Chemical,urea,urea,1,False
+Chemical,urobilin,urobilin,1,False
+Chemical,urolithin,urolithin,1,False
+Chemical,urolithin A,urolithin a,1,False
+Chemical,valproic acid,valproic acid,1,False
+Chemical,vitamin A,vitamin a,1,False
+Chemical,vitamin B6,vitamin b6,1,False
+Chemical,vitamin D,vitamin d,1,False
+Chemical,volatile fatty acids,volatile fatty acids,1,False
+Chemical,xylene,xylene,1,False
+Chemical,xylose,xylose,1,False
+Disease,inflammation,inflammation,175,True
+Disease,obesity,obesity,154,False
+Disease,dysbiosis,dysbiosis,143,True
+Disease,infection,infection,102,True
+Disease,colitis,colitis,97,False
+Disease,IBD,ibd,96,False
+Disease,Crohn's disease,crohn s disease,87,False
+Disease,diabetes,diabetes,66,False
+Disease,atherosclerosis,atherosclerosis,62,False
+Disease,heart failure,heart failure,54,False
+Disease,cancer,cancer,49,True
+Disease,colorectal cancer,colorectal cancer,47,False
+Disease,asthma,asthma,46,False
+Disease,inflammatory bowel disease,inflammatory bowel disease,35,False
+Disease,obese,obese,33,False
+Disease,CTX,ctx,28,False
+Disease,CVDs,cvds,28,False
+Disease,diarrhea,diarrhea,27,False
+Disease,anxiety,anxiety,26,False
+Disease,toxicity,toxicity,26,True
+Disease,ulcerative colitis,ulcerative colitis,26,False
+Disease,RA,ra,24,False
+Disease,colon cancer,colon cancer,24,False
+Disease,SI,si,23,False
+Disease,hypothalamus,hypothalamus,23,False
+Disease,necrotizing enterocolitis,necrotizing enterocolitis,23,False
+Disease,PD,pd,22,False
+Disease,fitness,fitness,21,True
+Disease,tumor,tumor,21,True
+Disease,tumour,tumour,21,True
+Disease,inflammatory bowel diseases,inflammatory bowel diseases,20,False
+Disease,malnutrition,malnutrition,20,False
+Disease,infected,infected,19,True
+Disease,CD,cd,18,False
+Disease,ASD,asd,17,False
+Disease,intestinal inflammation,intestinal inflammation,17,False
+Disease,metabolic syndrome,metabolic syndrome,17,False
+Disease,cardiovascular disease,cardiovascular disease,16,False
+Disease,gastrointestinal tract,gastrointestinal tract,16,False
+Disease,hypertension,hypertension,16,False
+Disease,AD,ad,15,False
+Disease,arthritis,arthritis,15,False
+Disease,AF,af,14,False
+Disease,death,death,14,True
+Disease,hypertensive,hypertensive,14,False
+Disease,endotoxemia,endotoxemia,13,False
+Disease,intestinal disease,intestinal disease,13,False
+Disease,weight gain,weight gain,13,False
+Disease,weight loss,weight loss,13,False
+Disease,ALD,ald,12,False
+Disease,Dysbiosis,dysbiosis,12,True
+Disease,SD SIC,sd sic,12,False
+Disease,acute malnutrition,acute malnutrition,12,False
+Disease,cognitive behavior,cognitive behavior,12,False
+Disease,diabetic,diabetic,12,False
+Disease,inflammatory bone disease,inflammatory bone disease,12,False
+Disease,liver disease,liver disease,12,False
+Disease,mucosal inflammation,mucosal inflammation,12,False
+Disease,IBD+CDI,ibd cdi,11,False
+Disease,metabolic disease,metabolic disease,11,False
+Disease,rheumatoid arthritis,rheumatoid arthritis,11,False
+Disease,LAD,lad,10,False
+Disease,LPS,lps,10,False
+Disease,allergic airway disease,allergic airway disease,10,False
+Disease,carcinogenesis,carcinogenesis,10,False
+Disease,chronic heart failure,chronic heart failure,10,False
+Disease,liver diseases,liver diseases,10,False
+Disease,toxicities,toxicities,10,False
+Disease,IBS,ibs,9,False
+Disease,Parkinson's disease,parkinson s disease,9,False
+Disease,alcoholic hepatitis,alcoholic hepatitis,9,False
+Disease,allergic asthma,allergic asthma,9,False
+Disease,allergic disease,allergic disease,9,False
+Disease,coronary artery disease,coronary artery disease,9,False
+Disease,enteropathy,enteropathy,9,False
+Disease,mortality,mortality,9,False
+Disease,sepsis,sepsis,9,False
+Disease,Alzheimer's disease,alzheimer s disease,8,False
+Disease,Colorectal cancer,colorectal cancer,8,False
+Disease,allergic diseases,allergic diseases,8,False
+Disease,atherosclerotic,atherosclerotic,8,False
+Disease,colonic,colonic,8,False
+Disease,colonic mucosa,colonic mucosa,8,False
+Disease,depression,depression,8,False
+Disease,edema,edema,8,False
+Disease,heart disease,heart disease,8,False
+Disease,irritable bowel syndrome,irritable bowel syndrome,8,False
+Disease,metabolic diseases,metabolic diseases,8,False
+Disease,pediatric dysbiosis,pediatric dysbiosis,8,False
+Disease,AF SI,af si,7,False
+Disease,CVD,cvd,7,False
+Disease,Clostridia,clostridia,7,False
+Disease,MGS,mgs,7,False
+Disease,Roseburia,roseburia,7,False
+Disease,allergy,allergy,7,False
+Disease,autoimmune diseases,autoimmune diseases,7,False
+Disease,bowel diseases,bowel diseases,7,False
+Disease,colon,colon,7,False
+Disease,colonic mucosal,colonic mucosal,7,False
+Disease,hypoxia,hypoxia,7,False
+Disease,infections,infections,7,False
+Disease,neurodegenerative diseases,neurodegenerative diseases,7,False
+Disease,osteomyelitis,osteomyelitis,7,False
+Disease,Anxiety,anxiety,6,False
+Disease,Blautia,blautia,6,False
+Disease,Inflammation,inflammation,6,True
+Disease,MDS,mds,6,False
+Disease,TMA,tma,6,False
+Disease,Verrucomicrobia,verrucomicrobia,6,False
+Disease,allergies,allergies,6,False
+Disease,carcinogenic,carcinogenic,6,False
+Disease,celiac disease,celiac disease,6,False
+Disease,cirrhosis,cirrhosis,6,False
+Disease,cognitive dysfunction,cognitive dysfunction,6,False
+Disease,cognitive impairment,cognitive impairment,6,False
+Disease,colonic lamina propria,colonic lamina propria,6,False
+Disease,constipation,constipation,6,False
+Disease,fibrosis,fibrosis,6,False
+Disease,glucose homeostasis,glucose homeostasis,6,False
+Disease,glucose metabolism,glucose metabolism,6,False
+Disease,immune dysfunction,immune dysfunction,6,False
+Disease,intestinal damage,intestinal damage,6,False
+Disease,osmotic diarrhea,osmotic diarrhea,6,False
+Disease,pancreatic,pancreatic,6,False
+Disease,tilapia,tilapia,6,False
+Disease,Curtis,curtis,5,False
+Disease,HD,hd,5,False
+Disease,PBS,pbs,5,True
+Disease,Sickness behavior,sickness behavior,5,False
+Disease,allergic and atopic diseases,allergic and atopic diseases,5,False
+Disease,autism,autism,5,False
+Disease,autoimmune disorder,autoimmune disorder,5,False
+Disease,behavioral disorders,behavioral disorders,5,False
+Disease,cancers,cancers,5,False
+Disease,colonic inflammation,colonic inflammation,5,False
+Disease,endotoxaemia,endotoxaemia,5,False
+Disease,enterocolitis,enterocolitis,5,False
+Disease,fitness advantage,fitness advantage,5,False
+Disease,impaired cognitive behavior,impaired cognitive behavior,5,False
+Disease,impaired glucose or insulin tolerance,impaired glucose or insulin tolerance,5,False
+Disease,leptin deficient,leptin deficient,5,False
+Disease,stress,stress,5,False
+Disease,Actinobacteria in the colonic,actinobacteria in the colonic,4,False
+Disease,Blastocystis,blastocystis,4,False
+Disease,Erika von Mutius,erika von mutius,4,False
+Disease,Erysipelotrichaceae,erysipelotrichaceae,4,False
+Disease,HD Cloning Plus kit,hd cloning plus kit,4,False
+Disease,HFrEF,hfref,4,False
+Disease,HPA,hpa,4,False
+Disease,IPSID,ipsid,4,False
+Disease,Neisseria,neisseria,4,False
+Disease,RV infection,rv infection,4,False
+Disease,Stress,stress,4,False
+Disease,SynInnova,syninnova,4,False
+Disease,TNBS-induced colitis,tnbs-induced colitis,4,False
+Disease,alcoholic fatty liver disease,alcoholic fatty liver disease,4,False
+Disease,atrial fibrillation,atrial fibrillation,4,False
+Disease,autism spectrum disorder,autism spectrum disorder,4,False
+Disease,bacteremia,bacteremia,4,False
+Disease,bacterial fitness,bacterial fitness,4,False
+Disease,behavioral abnormalities,behavioral abnormalities,4,False
+Disease,blood glucose,blood glucose,4,False
+Disease,bowel movements,bowel movements,4,False
+Disease,cardiovascular death,cardiovascular death,4,False
+Disease,cardiovascular diseases,cardiovascular diseases,4,False
+Disease,chronic kidney disease,chronic kidney disease,4,False
+Disease,colitis-associated colorectal cancer,colitis-associated colorectal cancer,4,False
+Disease,colorectal adenoma,colorectal adenoma,4,False
+Disease,colorectal carcinogenesis,colorectal carcinogenesis,4,False
+Disease,deficiency,deficiency,4,False
+Disease,detrimental effects of infection,detrimental effects of infection,4,False
+Disease,dyslipidemia,dyslipidemia,4,False
+Disease,flushing,flushing,4,False
+Disease,hyperammonemia,hyperammonemia,4,False
+Disease,immunological defects,immunological defects,4,False
+Disease,inability,inability,4,False
+Disease,increase infection,increase infection,4,False
+Disease,infectious colitis,infectious colitis,4,False
+Disease,infectious diarrhea,infectious diarrhea,4,False
+Disease,intestinal diseases,intestinal diseases,4,False
+Disease,intestinal disorders,intestinal disorders,4,False
+Disease,ionization,ionization,4,False
+Disease,liver damage,liver damage,4,False
+Disease,low colonic bacterial,low colonic bacterial,4,False
+Disease,malabsorption,malabsorption,4,False
+Disease,multiple sclerosis,multiple sclerosis,4,False
+Disease,myocardial infarction,myocardial infarction,4,False
+Disease,neoplasia,neoplasia,4,False
+Disease,pain,pain,4,False
+Disease,psychiatric,psychiatric,4,False
+Disease,reduction of Roseburia,reduction of roseburia,4,False
+Disease,stroke,stroke,4,False
+Disease,thrombotic,thrombotic,4,False
+Disease,tumors,tumors,4,False
+Disease,type 1 diabetes,type 1 diabetes,4,False
+Disease,visceral pain,visceral pain,4,False
+Disease,AnuMaaria Hamalainen,anumaaria hamalainen,3,False
+Disease,Atherosclerosis,atherosclerosis,3,False
+Disease,Bruker MAXIS ETD II QToF,bruker maxis etd ii qtof,3,False
+Disease,Crohn disease,crohn disease,3,False
+Disease,FMT failure,fmt failure,3,False
+Disease,Giardia,giardia,3,False
+Disease,Haemophilus,haemophilus,3,False
+Disease,Hyperplasia,hyperplasia,3,False
+Disease,IBD versus IBD+CDI,ibd versus ibd cdi,3,False
+Disease,MIA,mia,3,False
+Disease,Mortality,mortality,3,False
+Disease,Outi Vaarala,outi vaarala,3,False
+Disease,SC SI IgA PCs,sc si iga pcs,3,False
+Disease,SI IgAs,si igas,3,False
+Disease,SI-2 segment,si-2 segment,3,False
+Disease,SRS,srs,3,False
+Disease,TBS-T,tbs-t,3,False
+Disease,Weight gain,weight gain,3,False
+Disease,acute colitis,acute colitis,3,False
+Disease,acute disease,acute disease,3,False
+Disease,adipose inflammation,adipose inflammation,3,False
+Disease,ageing-linked disorders,ageing-linked disorders,3,False
+Disease,aggression,aggression,3,False
+Disease,anxiety behavior,anxiety behavior,3,False
+Disease,atopic diseases,atopic diseases,3,False
+Disease,autoimmune disorders,autoimmune disorders,3,False
+Disease,bone disease,bone disease,3,False
+Disease,bowel,bowel,3,False
+Disease,bowel cancer,bowel cancer,3,False
+Disease,carcinoma,carcinoma,3,False
+Disease,cardiac puncture,cardiac puncture,3,False
+Disease,cardiometabolic diseases,cardiometabolic diseases,3,False
+Disease,childhood obesity,childhood obesity,3,False
+Disease,chronic gastrointestinal disease,chronic gastrointestinal disease,3,False
+Disease,colon adenocarcinoma,colon adenocarcinoma,3,False
+Disease,colon carcinogenesis,colon carcinogenesis,3,False
+Disease,complementary food consumption,complementary food consumption,3,False
+Disease,cytotoxicity,cytotoxicity,3,False
+Disease,deadly disseminated infections,deadly disseminated infections,3,False
+Disease,defects of the inner colonic,defects of the inner colonic,3,False
+Disease,dehydration,dehydration,3,False
+Disease,depressionRegulates intestinal motility,depressionregulates intestinal motility,3,False
+Disease,depressive behavior,depressive behavior,3,False
+Disease,diabetes mellitus,diabetes mellitus,3,False
+Disease,diabetic glucose,diabetic glucose,3,False
+Disease,dysentery,dysentery,3,False
+Disease,endothelial dysfunction,endothelial dysfunction,3,False
+Disease,enterohemorrhagic Escherichia coli,enterohemorrhagic escherichia coli,3,False
+Disease,fungal dysbiosis,fungal dysbiosis,3,False
+Disease,hepaticus-infected,hepaticus-infected,3,False
+Disease,herpesvirus infection,herpesvirus infection,3,False
+Disease,hypercholesterolemia,hypercholesterolemia,3,False
+Disease,hyperinsulinaemia,hyperinsulinaemia,3,False
+Disease,hyperlipidemia,hyperlipidemia,3,False
+Disease,hyperplasia,hyperplasia,3,False
+Disease,hypothalamic-pituitary-adrenal,hypothalamic-pituitary-adrenal,3,False
+Disease,infectious disease,infectious disease,3,False
+Disease,infective endocarditis,infective endocarditis,3,False
+Disease,injury,injury,3,False
+Disease,insufficient,insufficient,3,False
+Disease,ischemic stroke,ischemic stroke,3,False
+Disease,kidney toxicity,kidney toxicity,3,False
+Disease,metabolic disturbance,metabolic disturbance,3,False
+Disease,metabolic endotoxaemia,metabolic endotoxaemia,3,False
+Disease,mock-infected,mock-infected,3,False
+Disease,molecular colon cancer,molecular colon cancer,3,False
+Disease,mouth,mouth,3,False
+Disease,myocardial ischemia,myocardial ischemia,3,False
+Disease,nosocomial diarrhoeal infection,nosocomial diarrhoeal infection,3,False
+Disease,osteolytic bone destruction,osteolytic bone destruction,3,False
+Disease,steatosis,steatosis,3,False
+Disease,upper gastrointestinal tract,upper gastrointestinal tract,3,False
+Disease,uraemia,uraemia,3,False
+Disease,vasculitis,vasculitis,3,False
+Disease,ventricular muscle contraction,ventricular muscle contraction,3,False
+Disease,Allergic asthma,allergic asthma,2,False
+Disease,Alzheimer beta-amyloid,alzheimer beta-amyloid,2,False
+Disease,Anita Kondrashova,anita kondrashova,2,False
+Disease,Attenuated Infection,attenuated infection,2,False
+Disease,Autism spectrum disorder,autism spectrum disorder,2,False
+Disease,Behavioral              Anxiety,behavioral anxiety,2,False
+Disease,"Blautia, Holdemania",blautia holdemania,2,False
+Disease,Bray Curtis,bray curtis,2,False
+Disease,CHF,chf,2,False
+Disease,CNF,cnf,2,False
+Disease,COVID-19,covid-19,2,False
+Disease,Central nervous system demyelinating disease,central nervous system demyelinating disease,2,False
+Disease,Chronic inflammation,chronic inflammation,2,False
+Disease,Colitis,colitis,2,False
+Disease,Colorectal Carcinogenesis,colorectal carcinogenesis,2,False
+Disease,DDD,ddd,2,False
+Disease,Decreased Kidney Function,decreased kidney function,2,False
+Disease,Enterocolitis,enterocolitis,2,False
+Disease,Excess glucose,excess glucose,2,False
+Disease,GI disorders,gi disorders,2,False
+Disease,Gastrointestinal flora,gastrointestinal flora,2,False
+Disease,Getachew T,getachew t,2,False
+Disease,HIV,hiv,2,False
+Disease,HUS,hus,2,False
+Disease,Heart failure,heart failure,2,False
+Disease,Hex(1) or Hex,hex 1 or hex,2,False
+Disease,IgA deficiency,iga deficiency,2,False
+Disease,Impairment of Cardiomyocyte Function,impairment of cardiomyocyte function,2,False
+Disease,Inflammatory Bowel Disease,inflammatory bowel disease,2,False
+Disease,Lippia citriodora lessens intestinal dysbiosis,lippia citriodora lessens intestinal dysbiosis,2,False
+Disease,MBraun,mbraun,2,False
+Disease,MD SIC,md sic,2,False
+Disease,MHD,mhd,2,False
+Disease,Methanogenic Ecosystems,methanogenic ecosystems,2,False
+Disease,MudPIT back column,mudpit back column,2,False
+Disease,NAD(P)H quinone oxidoreductase,nad p h quinone oxidoreductase,2,False
+Disease,Necrotizing enterocolitis,necrotizing enterocolitis,2,False
+Disease,Paneth cell dysfunction,paneth cell dysfunction,2,False
+Disease,Parkinson's Disease,parkinson s disease,2,False
+Disease,Proteobacteria or Actinobacteria,proteobacteria or actinobacteria,2,False
+Disease,QToF LC,qtof lc,2,False
+Disease,Rabbit Muc2-C3,rabbit muc2-c3,2,False
+Disease,Rheumatism,rheumatism,2,False
+Disease,Rheumatoid arthritis,rheumatoid arthritis,2,False
+Disease,SIC-colonized,sic-colonized,2,False
+Disease,Schematic of DSS colitis,schematic of dss colitis,2,False
+Disease,Sneathia,sneathia,2,False
+Disease,Streptococcus pneumonia,streptococcus pneumonia,2,False
+Disease,TN,tn,2,False
+Disease,Typhoid-like systemic disease,typhoid-like systemic disease,2,False
+Disease,abdominal pain,abdominal pain,2,False
+Disease,active disease,active disease,2,False
+Disease,active ulcerative colitis,active ulcerative colitis,2,False
+Disease,acute hepatitis,acute hepatitis,2,False
+Disease,adenoma,adenoma,2,False
+Disease,adenomatous colon polyps,adenomatous colon polyps,2,False
+Disease,adverse cardiovascular events,adverse cardiovascular events,2,False
+Disease,alcoholic liver disease,alcoholic liver disease,2,False
+Disease,allergic lung inflammation,allergic lung inflammation,2,False
+Disease,altered colonic microflora,altered colonic microflora,2,False
+Disease,anorexia,anorexia,2,False
+Disease,anterior insula,anterior insula,2,False
+Disease,atherosclerotic CVD,atherosclerotic cvd,2,False
+Disease,atopic disease,atopic disease,2,False
+Disease,bacterial colonies,bacterial colonies,2,False
+Disease,baiF-deficient,baif-deficient,2,False
+Disease,biliary cholangitis,biliary cholangitis,2,False
+Disease,bleeding,bleeding,2,False
+Disease,blood glucose strips,blood glucose strips,2,False
+Disease,cardiac dysfunction,cardiac dysfunction,2,False
+Disease,cardiac hypertrophy,cardiac hypertrophy,2,False
+Disease,cholangitis,cholangitis,2,False
+Disease,cholestasis,cholestasis,2,False
+Disease,chronic diseases,chronic diseases,2,False
+Disease,chronic gastrointestinal disorder,chronic gastrointestinal disorder,2,False
+Disease,chronic obstructive pulmonary disease,chronic obstructive pulmonary disease,2,False
+Disease,classes Clostridia,classes clostridia,2,False
+Disease,cleft,cleft,2,False
+Disease,cognitive decline,cognitive decline,2,False
+Disease,cold PBS,cold pbs,2,False
+Disease,coli infection,coli infection,2,False
+Disease,colon and oesophageal cancer,colon and oesophageal cancer,2,False
+Disease,colon of infected,colon of infected,2,False
+Disease,colonic bacteria,colonic bacteria,2,False
+Disease,colonic crypt hyperplasia,colonic crypt hyperplasia,2,False
+Disease,colorectal neoplasia,colorectal neoplasia,2,False
+Disease,commensal Clostridia,commensal clostridia,2,False
+Disease,competitive fitness,competitive fitness,2,False
+Disease,coronary artery diseases,coronary artery diseases,2,False
+Disease,coronary heart diseases,coronary heart diseases,2,False
+Disease,cystic fibrosis,cystic fibrosis,2,False
+Disease,decrease of Actinobacteria,decrease of actinobacteria,2,False
+Disease,defective colonic,defective colonic,2,False
+Disease,depression symptoms,depression symptoms,2,False
+Disease,depressive-behavior and learning deficits,depressive-behavior and learning deficits,2,False
+Disease,detrimental impact,detrimental impact,2,False
+Disease,dilated cardiomyopathy,dilated cardiomyopathy,2,False
+Disease,dwelling bacteria,dwelling bacteria,2,False
+Disease,dysbiosis status,dysbiosis status,2,False
+Disease,dysbiosis-associated mucosal inflammation,dysbiosis-associated mucosal inflammation,2,False
+Disease,dysbiosis-centric and disease-centric,dysbiosis-centric and disease-centric,2,False
+Disease,dysbiotic cluster,dysbiotic cluster,2,False
+Disease,dysbiotic far cluster,dysbiotic far cluster,2,False
+Disease,dysglycemia,dysglycemia,2,False
+Disease,energy excess or energy deficiency,energy excess or energy deficiency,2,False
+Disease,enteric infections,enteric infections,2,False
+Disease,enteritis,enteritis,2,False
+Disease,eosinophilia,eosinophilia,2,False
+Disease,epithelial injury,epithelial injury,2,False
+Disease,familial adenomatous polyposis,familial adenomatous polyposis,2,False
+Disease,fatty liver diseases,fatty liver diseases,2,False
+Disease,flagella,flagella,2,False
+Disease,food allergy,food allergy,2,False
+Disease,foodborne fungi,foodborne fungi,2,False
+Disease,gastric cancer,gastric cancer,2,False
+Disease,gastrointestinal flora,gastrointestinal flora,2,False
+Disease,gastrointestinal symptoms,gastrointestinal symptoms,2,False
+Disease,genetic determinant of disease,genetic determinant of disease,2,False
+Disease,genus Blautia,genus blautia,2,False
+Disease,hematochezia,hematochezia,2,False
+Disease,hemolytic uremic syndrome,hemolytic uremic syndrome,2,False
+Disease,hemorrhagic colitis,hemorrhagic colitis,2,False
+Disease,host xenobiotic metabolism,host xenobiotic metabolism,2,False
+Disease,hypersensitivity,hypersensitivity,2,False
+Disease,hypothalamus-pituitary-adrenal (HPA) axis,hypothalamus-pituitary-adrenal hpa axis,2,False
+Disease,hypoxia synergistically impair cognitive behavior,hypoxia synergistically impair cognitive behavior,2,False
+Disease,ileal Crohn's disease,ileal crohn s disease,2,False
+Disease,immunogenic cancer,immunogenic cancer,2,False
+Disease,immunoproliferative small intestinal disease,immunoproliferative small intestinal disease,2,False
+Disease,impaired gut-brain communication,impaired gut-brain communication,2,False
+Disease,inflammation of the joints,inflammation of the joints,2,False
+Disease,inflammatory disease,inflammatory disease,2,False
+Disease,insufficiencies,insufficiencies,2,False
+Disease,interdependencies within each disease,interdependencies within each disease,2,False
+Disease,intestinal infection,intestinal infection,2,False
+Disease,ischemic,ischemic,2,False
+Disease,isotope labelling,isotope labelling,2,False
+Disease,joint Disease,joint disease,2,False
+Disease,kidney stones,kidney stones,2,False
+Disease,left ventricular dysfunction,left ventricular dysfunction,2,False
+Disease,left ventricular hypertrophy,left ventricular hypertrophy,2,False
+Disease,liver inflammation,liver inflammation,2,False
+Disease,liver injury,liver injury,2,False
+Disease,low colon cancer,low colon cancer,2,False
+Disease,lymphoma,lymphoma,2,False
+Disease,maladaptive eating behavior,maladaptive eating behavior,2,False
+Disease,malignancy,malignancy,2,False
+Disease,metabolic disorders,metabolic disorders,2,False
+Disease,mucosal damage,mucosal damage,2,False
+Disease,mucosal homeostasis,mucosal homeostasis,2,False
+Disease,mucosal injury,mucosal injury,2,False
+Disease,necrosis,necrosis,2,False
+Disease,necrotizing jejunitis,necrotizing jejunitis,2,False
+Disease,neurodegenerative,neurodegenerative,2,False
+Disease,neurodegenerative disorder,neurodegenerative disorder,2,False
+Disease,neurodegenerative disorders,neurodegenerative disorders,2,False
+Disease,neurological diseases,neurological diseases,2,False
+Disease,neurological disorders,neurological disorders,2,False
+Disease,neurotoxicity,neurotoxicity,2,False
+Disease,neutrophilic osteomyelitis,neutrophilic osteomyelitis,2,False
+Disease,nonalcoholic fatty liver disease,nonalcoholic fatty liver disease,2,False
+Disease,numerous diseases,numerous diseases,2,False
+Disease,oral fungal inoculation,oral fungal inoculation,2,False
+Disease,pancreatic cancer,pancreatic cancer,2,False
+Disease,popliteal lymph nodes,popliteal lymph nodes,2,False
+Disease,reduction of inflammation,reduction of inflammation,2,False
+Disease,renal excretion,renal excretion,2,False
+Disease,renal toxicity,renal toxicity,2,False
+Disease,respiratory viral infection,respiratory viral infection,2,False
+Disease,retards,retards,2,False
+Disease,retro-orbital bleeding,retro-orbital bleeding,2,False
+Disease,salmonellosis,salmonellosis,2,False
+Disease,sarcomas,sarcomas,2,False
+Disease,sepsis and meningitis,sepsis and meningitis,2,False
+Disease,shock proteins,shock proteins,2,False
+Disease,sleep,sleep,2,False
+Disease,sleep apnea,sleep apnea,2,False
+Disease,small intestinal lymphoma,small intestinal lymphoma,2,False
+Disease,systemic autoimmune disease,systemic autoimmune disease,2,False
+Disease,tumor growth retardation,tumor growth retardation,2,False
+Disease,tumor necrosis,tumor necrosis,2,False
+Disease,tumour suppression,tumour suppression,2,False
+Disease,type 2 diabetes mellitus,type 2 diabetes mellitus,2,False
+Disease,ulceration,ulceration,2,False
+Disease,vagina and gastrointestinal tract,vagina and gastrointestinal tract,2,False
+Disease,vaginal inflammation,vaginal inflammation,2,False
+Disease,vaginal introitus,vaginal introitus,2,False
+Disease,vertical axis,vertical axis,2,False
+Disease,viral infection,viral infection,2,False
+Disease,well eosinophilia,well eosinophilia,2,False
+Disease,xenobioticmetabolism,xenobioticmetabolism,2,False
+Disease,49 Crohn's disease,49 crohn s disease,1,False
+Disease,AF SI IgA PCs,af si iga pcs,1,False
+Disease,AHF,ahf,1,False
+Disease,AT,at,1,False
+Disease,Abeta plaques and astrogliosis,abeta plaques and astrogliosis,1,False
+Disease,Actinobacteria,actinobacteria,1,False
+Disease,Adenomatosis polyposis coli,adenomatosis polyposis coli,1,False
+Disease,Akkermansia mucinophilia,akkermansia mucinophilia,1,False
+Disease,Alcoholic Hepatitis,alcoholic hepatitis,1,False
+Disease,Algorithms   EthoVision XT Noldus    Deblur https,algorithms ethovision xt noldus deblur https,1,False
+Disease,Alzheimer's,alzheimer s,1,False
+Disease,Alzheimer's dementia,alzheimer s dementia,1,False
+Disease,Anxiety-like behavior              Decreased anxiety,anxiety-like behavior decreased anxiety,1,False
+Disease,"Aspergillus, Wallemia",aspergillus wallemia,1,False
+Disease,Atlantis HILIC column,atlantis hilic column,1,False
+Disease,Atrophy,atrophy,1,False
+Disease,Attenuated motor deficits,attenuated motor deficits,1,False
+Disease,AutoDELFIA insulin,autodelfia insulin,1,False
+Disease,Azoreductases and NAD(P)H quinone oxidoreductases,azoreductases and nad p h quinone oxidoreductases,1,False
+Disease,BAs fecal excretion,bas fecal excretion,1,False
+Disease,Behavioral              Depression,behavioral depression,1,False
+Disease,C5-OH/C3 carnitine,c5-oh/c3 carnitine,1,False
+Disease,CR-infected,cr-infected,1,False
+Disease,CR-infected Mgll WT,cr-infected mgll wt,1,False
+Disease,CVD-associated hyperlipidaemia,cvd-associated hyperlipidaemia,1,False
+Disease,CVDs via the HPA axis,cvds via the hpa axis,1,False
+Disease,Cancer,cancer,1,True
+Disease,Cardiac Dysfunction,cardiac dysfunction,1,False
+Disease,Chronic Simian Immunodeficiency Virus-Infected Rhesus,chronic simian immunodeficiency virus-infected rhesus,1,False
+Disease,Clostridia IV,clostridia iv,1,False
+Disease,Coli f17-infected,coli f17-infected,1,False
+Disease,Colonic,colonic,1,False
+Disease,Columbia blood agar plates,columbia blood agar plates,1,False
+Disease,Coomassie,coomassie,1,False
+Disease,CytoTox,cytotox,1,False
+Disease,DIFF QUIK CHEK COMPLETE  Abbott,diff quik chek complete abbott,1,False
+Disease,DNBS-induced colitis,dnbs-induced colitis,1,False
+Disease,DREADDs,dreadds,1,False
+Disease,Deficiency,deficiency,1,False
+Disease,Diabetes,diabetes,1,False
+Disease,Dilated cardiomyopathy,dilated cardiomyopathy,1,False
+Disease,EALs,eals,1,False
+Disease,EHEC Virulence Via the Catabolite Repressor,ehec virulence via the catabolite repressor,1,False
+Disease,EHEC infection,ehec infection,1,False
+Disease,ETBF infection,etbf infection,1,False
+Disease,Erysipelotrichales,erysipelotrichales,1,False
+Disease,FEO,feo,1,False
+Disease,FMT enema,fmt enema,1,False
+Disease,FelixKrueger,felixkrueger,1,False
+Disease,Flos lonicera ameliorates obesity,flos lonicera ameliorates obesity,1,False
+Disease,GERD,gerd,1,False
+Disease,GI toxicity,gi toxicity,1,False
+Disease,Giardia infections,giardia infections,1,False
+Disease,Glucose and Lipid Metabolism,glucose and lipid metabolism,1,False
+Disease,HDM-mediated allergic airway disease,hdm-mediated allergic airway disease,1,False
+Disease,HI,hi,1,False
+Disease,HITChip,hitchip,1,False
+Disease,Hallmark of Obstructive Sleep Apnea,hallmark of obstructive sleep apnea,1,False
+Disease,Helicobacter pylori infection,helicobacter pylori infection,1,False
+Disease,Hungatella effluvia,hungatella effluvia,1,False
+Disease,Huntington's disease,huntington s disease,1,False
+Disease,Hyp-induced abnormalities in cognitive behavior,hyp-induced abnormalities in cognitive behavior,1,False
+Disease,HypB,hypb,1,False
+Disease,Hypoxia,hypoxia,1,False
+Disease,IBD-linked metabolites,ibd-linked metabolites,1,False
+Disease,II Sigma Aldrich,ii sigma aldrich,1,False
+Disease,Infectious Disease,infectious disease,1,False
+Disease,Inflammation-Associated Dysbiosis,inflammation-associated dysbiosis,1,False
+Disease,Inflammatory bowel disease,inflammatory bowel disease,1,False
+Disease,L-Fucose C01019  N-Acetylgalactosamine,l-fucose c01019 n-acetylgalactosamine,1,False
+Disease,Linked disorder,linked disorder,1,False
+Disease,Liver Fibrosis,liver fibrosis,1,False
+Disease,MCA205 sarcoma,mca205 sarcoma,1,False
+Disease,MCA205 sarcomas,mca205 sarcomas,1,False
+Disease,MD versus STD,md versus std,1,False
+Disease,MRS,mrs,1,False
+Disease,Mental Disorders,mental disorders,1,False
+Disease,Metabolic Syndrome,metabolic syndrome,1,False
+Disease,NAD(P)Hdependent,nad p hdependent,1,False
+Disease,Neurodegenerative diseases,neurodegenerative diseases,1,False
+Disease,Non-alcoholic fatty liver disease,non-alcoholic fatty liver disease,1,False
+Disease,Nonalcoholic Fatty Liver Disease,nonalcoholic fatty liver disease,1,False
+Disease,Nonalcoholic Steatohepatitis,nonalcoholic steatohepatitis,1,False
+Disease,Oral infection,oral infection,1,False
+Disease,PBS mock-infected,pbs mock-infected,1,False
+Disease,Palaeolithic era,palaeolithic era,1,False
+Disease,Parkinson's,parkinson s,1,False
+Disease,Prediabetes,prediabetes,1,False
+Disease,Proteobacteria   Firmicutes    Class   Gammaproteobacteria   Clostridia,proteobacteria firmicutes class gammaproteobacteria clostridia,1,False
+Disease,RCM,rcm,1,False
+Disease,Ralstonia,ralstonia,1,False
+Disease,Res-SD SIC,res-sd sic,1,False
+Disease,Rip3-deficient,rip3-deficient,1,False
+Disease,Roseburia genus,roseburia genus,1,False
+Disease,"Roseburia, Blautia",roseburia blautia,1,False
+Disease,SCFAs impact mucosal T,scfas impact mucosal t,1,False
+Disease,SD SIC growth behaviors,sd sic growth behaviors,1,False
+Disease,SE,se,1,False
+Disease,SPF SI IgAs,spf si igas,1,False
+Disease,SPI-1-dependent colon pathology,spi-1-dependent colon pathology,1,False
+Disease,Salmonella enterica serovar Typhimurium infection,salmonella enterica typhimurium infection,1,False
+Disease,Salmonella gastroenteritis,salmonella gastroenteritis,1,False
+Disease,Salmonella infection,salmonella infection,1,False
+Disease,Sneathia spp,sneathia,1,False
+Disease,Steno Diabetes Center,steno diabetes center,1,False
+Disease,Streptococcus oralis Streptococcus tigurinus,streptococcus oralis streptococcus tigurinus,1,False
+Disease,TCRalphabeta,tcralphabeta,1,False
+Disease,TMAO impacts heart failure,tmao impacts heart failure,1,False
+Disease,Tbet deficiency,tbet deficiency,1,False
+Disease,Thrombosis,thrombosis,1,False
+Disease,Type 2 diabetes,type 2 diabetes,1,False
+Disease,Ulcerative Colitis,ulcerative colitis,1,False
+Disease,Ulcerative colitis,ulcerative colitis,1,False
+Disease,Weight loss,weight loss,1,False
+Disease,Williams JO,williams jo,1,False
+Disease,Wilson,wilson,1,False
+Disease,abnormalities when infected,abnormalities when infected,1,False
+Disease,acne,acne,1,False
+Disease,acute circulatory failure,acute circulatory failure,1,False
+Disease,acute enteric infection,acute enteric infection,1,False
+Disease,acute heart failure,acute heart failure,1,False
+Disease,acute lymphoblastic leukemia,acute lymphoblastic leukemia,1,False
+Disease,adenoma and carcinoma,adenoma and carcinoma,1,False
+Disease,adenomas,adenomas,1,False
+Disease,adenomas and carcinomas,adenomas and carcinomas,1,False
+Disease,adenomatous polyps,adenomatous polyps,1,False
+Disease,advanced disease,advanced disease,1,False
+Disease,adverse toxicity,adverse toxicity,1,False
+Disease,aggression and hydrophobia,aggression and hydrophobia,1,False
+Disease,akkermansia,akkermansia,1,False
+Disease,allergic airway inflammation,allergic airway inflammation,1,False
+Disease,allergic conditions,allergic conditions,1,False
+Disease,allergic diarrhea,allergic diarrhea,1,False
+Disease,allergic disorders,allergic disorders,1,False
+Disease,altered bowel habits,altered bowel habits,1,False
+Disease,ameliorates glucose metabolism in glucose-intolerant,ameliorates glucose metabolism in glucose-intolerant,1,False
+Disease,amyloidosis,amyloidosis,1,False
+Disease,anorexia/cachexia,anorexia/cachexia,1,False
+Disease,anxiety and depression,anxiety and depression,1,False
+Disease,appetite sensation,appetite sensation,1,False
+Disease,aroma,aroma,1,False
+Disease,arrhythmias,arrhythmias,1,False
+Disease,arterial dysfunction,arterial dysfunction,1,False
+Disease,atherosclerosis via gut microbiota-inflammation-artery axis,atherosclerosis via gut microbiota-inflammation-artery axis,1,False
+Disease,atherosclerotic cardiovascular disease,atherosclerotic cardiovascular disease,1,False
+Disease,atherosclerotic lesion,atherosclerotic lesion,1,False
+Disease,atrophy,atrophy,1,False
+Disease,attenuated colitis,attenuated colitis,1,False
+Disease,attenuated disease,attenuated disease,1,False
+Disease,attenuated gliosis,attenuated gliosis,1,False
+Disease,attenuates colitis,attenuates colitis,1,False
+Disease,augmented edema,augmented edema,1,False
+Disease,autoimmune arthritis,autoimmune arthritis,1,False
+Disease,autoimmune demyelination,autoimmune demyelination,1,False
+Disease,autoimmune or inflammatory disease,autoimmune or inflammatory disease,1,False
+Disease,bacteraemia,bacteraemia,1,False
+Disease,bacterial infection,bacterial infection,1,False
+Disease,bacterial infections,bacterial infections,1,False
+Disease,bacterial overgrowth,bacterial overgrowth,1,False
+Disease,bacterial vaginosis,bacterial vaginosis,1,False
+Disease,behavioral deficits,behavioral deficits,1,False
+Disease,behavioral symptoms of disease,behavioral symptoms of disease,1,False
+Disease,bladder cancer,bladder cancer,1,False
+Disease,bloody diarrhea,bloody diarrhea,1,False
+Disease,bone deformity and arthritic inflammation,bone deformity and arthritic inflammation,1,False
+Disease,bowel diseases and irritable bowel syndrome,bowel diseases and irritable bowel syndrome,1,False
+Disease,bowel wall edema,bowel wall edema,1,False
+Disease,breast-milk,breast-milk,1,False
+Disease,breath of obese,breath of obese,1,False
+Disease,bronchial hyper-responsiveness,bronchial hyper-responsiveness,1,False
+Disease,bronchial hyperresponsiveness,bronchial hyperresponsiveness,1,False
+Disease,brucella blood agar,brucella blood agar,1,False
+Disease,cBot Illumina PE-401-4001   HiSeq SBS,cbot illumina pe-401-4001 hiseq sbs,1,False
+Disease,cancer death,cancer death,1,False
+Disease,cardiac fibrosis,cardiac fibrosis,1,False
+Disease,cardiac glycoside,cardiac glycoside,1,False
+Disease,cardiac inflammation,cardiac inflammation,1,False
+Disease,cardiomyopathy,cardiomyopathy,1,False
+Disease,cardiovascular benefits,cardiovascular benefits,1,False
+Disease,catarrhalis or Streptococcus pneumoniae,catarrhalis or streptococcus pneumoniae,1,False
+Disease,chronic disease,chronic disease,1,False
+Disease,chronic disorders,chronic disorders,1,False
+Disease,chronic illness,chronic illness,1,False
+Disease,chronic liver disease,chronic liver disease,1,False
+Disease,chronic liver fibrosis,chronic liver fibrosis,1,False
+Disease,cognitive behavioral impairments,cognitive behavioral impairments,1,False
+Disease,cognitive deficits,cognitive deficits,1,False
+Disease,cognitive function   Costabile,cognitive function costabile,1,False
+Disease,colitis or asthma,colitis or asthma,1,False
+Disease,colitis or infection,colitis or infection,1,False
+Disease,colitis/cancer,colitis/cancer,1,False
+Disease,colon and rectal cancers,colon and rectal cancers,1,False
+Disease,colon bacteria,colon bacteria,1,False
+Disease,colon inflammation,colon inflammation,1,False
+Disease,colon tumour,colon tumour,1,False
+Disease,colonic dysfunction,colonic dysfunction,1,False
+Disease,colonic epithelium,colonic epithelium,1,False
+Disease,colonic fermentation,colonic fermentation,1,False
+Disease,colonic food,colonic food,1,False
+Disease,colonic genotoxicity,colonic genotoxicity,1,False
+Disease,colonic homeostasis,colonic homeostasis,1,False
+Disease,colonic hyperplasia,colonic hyperplasia,1,False
+Disease,colonic intestinal,colonic intestinal,1,False
+Disease,colonic luminal,colonic luminal,1,False
+Disease,colonic microflora,colonic microflora,1,False
+Disease,colorectal adenomas,colorectal adenomas,1,False
+Disease,colorectal cancer deaths,colorectal cancer deaths,1,False
+Disease,colorectal carcinoma,colorectal carcinoma,1,False
+Disease,commensalism,commensalism,1,False
+Disease,cornstarch,cornstarch,1,False
+Disease,cross the mucosal,cross the mucosal,1,False
+Disease,decreased bowel inflammation,decreased bowel inflammation,1,False
+Disease,decreased tumour,decreased tumour,1,False
+Disease,defect in social cognition,defect in social cognition,1,False
+Disease,degenerative disorders,degenerative disorders,1,False
+Disease,dementia,dementia,1,False
+Disease,depressive disorders,depressive disorders,1,False
+Disease,depressive symptoms,depressive symptoms,1,False
+Disease,detrimental,detrimental,1,False
+Disease,diabetes   NAFLD,diabetes nafld,1,False
+Disease,diabetic atherosclerosis,diabetic atherosclerosis,1,False
+Disease,diabetic cardiomyopathy,diabetic cardiomyopathy,1,False
+Disease,diabetic dyslipidaemia,diabetic dyslipidaemia,1,False
+Disease,diastolic dysfunction,diastolic dysfunction,1,False
+Disease,disorder of elevated blood glucose,disorder of elevated blood glucose,1,False
+Disease,dysbiosis mirrored,dysbiosis mirrored,1,False
+Disease,dysbiosis-centric,dysbiosis-centric,1,False
+Disease,dysfunctional vascular,dysfunctional vascular,1,False
+Disease,dysfunctions in colonic epithelial,dysfunctions in colonic epithelial,1,False
+Disease,dysglycaemia,dysglycaemia,1,False
+Disease,elevated host inflammation,elevated host inflammation,1,False
+Disease,encephalopathy,encephalopathy,1,False
+Disease,end-stage liver disease,end-stage liver disease,1,False
+Disease,endocarditis,endocarditis,1,False
+Disease,enema,enema,1,False
+Disease,enlargement and brucella blood agar,enlargement and brucella blood agar,1,False
+Disease,epilepsy,epilepsy,1,False
+Disease,episodic,episodic,1,False
+Disease,epithelial leakiness,epithelial leakiness,1,False
+Disease,epithelial tumours,epithelial tumours,1,False
+Disease,eye movement (REM) sleep behavioral disorder,eye movement rem sleep behavioral disorder,1,False
+Disease,far dysbiotic cluster,far dysbiotic cluster,1,False
+Disease,fatty liver,fatty liver,1,False
+Disease,fatty liver disease,fatty liver disease,1,False
+Disease,filamentous growth,filamentous growth,1,False
+Disease,fits,fits,1,False
+Disease,food addiction behaviors,food addiction behaviors,1,False
+Disease,fruit pits,fruit pits,1,False
+Disease,fungal allergens,fungal allergens,1,False
+Disease,fungal community dysbiosis,fungal community dysbiosis,1,False
+Disease,gastric motility,gastric motility,1,False
+Disease,gastric ulceration,gastric ulceration,1,False
+Disease,gastric ulceration and cancer,gastric ulceration and cancer,1,False
+Disease,gastrointestinal disease,gastrointestinal disease,1,False
+Disease,gastrointestinal disorder,gastrointestinal disorder,1,False
+Disease,gastrointestinal dysfunction,gastrointestinal dysfunction,1,False
+Disease,gastrointestinal motility,gastrointestinal motility,1,False
+Disease,gastrointestinal toxicity,gastrointestinal toxicity,1,False
+Disease,genetic deficiency,genetic deficiency,1,False
+Disease,genetic obesity,genetic obesity,1,False
+Disease,giardiasis,giardiasis,1,False
+Disease,gliosis,gliosis,1,False
+Disease,glucopyranoside Sigma-Aldrich,glucopyranoside sigma-aldrich,1,False
+Disease,glucose homeostasis via colonic,glucose homeostasis via colonic,1,False
+Disease,glucose plus lysine,glucose plus lysine,1,False
+Disease,glycoside hydrolases,glycoside hydrolases,1,False
+Disease,gut dysfunction,gut dysfunction,1,False
+Disease,hair loss disease,hair loss disease,1,False
+Disease,hallmark of CR infection,hallmark of cr infection,1,False
+Disease,hepatic encephalopathy,hepatic encephalopathy,1,False
+Disease,hepatic glucose metabolism,hepatic glucose metabolism,1,False
+Disease,hepatic steatosis,hepatic steatosis,1,False
+Disease,hepatotoxic,hepatotoxic,1,False
+Disease,hygienic conditions,hygienic conditions,1,False
+Disease,hyper-responsiveness,hyper-responsiveness,1,False
+Disease,hypercapnia,hypercapnia,1,False
+Disease,hypercholesterolemic ApoE,hypercholesterolemic apoe,1,False
+Disease,hyperphagia,hyperphagia,1,False
+Disease,hypertensive stroke,hypertensive stroke,1,False
+Disease,hypertrophic growth,hypertrophic growth,1,False
+Disease,hypertrophy,hypertrophy,1,False
+Disease,hypobaric hypoxia-induced learning and memory deficit,hypobaric hypoxia-induced learning and memory deficit,1,False
+Disease,hypotension,hypotension,1,False
+Disease,hypothalamic-pituitary-adrenal axis,hypothalamic-pituitary-adrenal axis,1,False
+Disease,hypothalamus acts,hypothalamus acts,1,False
+Disease,hypothalamus-pituitary-adrenal axis,hypothalamus-pituitary-adrenal axis,1,False
+Disease,idiopathic ulcerative colitis,idiopathic ulcerative colitis,1,False
+Disease,immune deficiencies,immune deficiencies,1,False
+Disease,immunogenic tumor,immunogenic tumor,1,False
+Disease,impaired,impaired,1,False
+Disease,impaired glucose metabolism,impaired glucose metabolism,1,False
+Disease,impaired intestinal mucosal,impaired intestinal mucosal,1,False
+Disease,impaired kidney function,impaired kidney function,1,False
+Disease,impaired tolerance to glucose and insulin,impaired tolerance to glucose and insulin,1,False
+Disease,impairments in cognitive behavior,impairments in cognitive behavior,1,False
+Disease,impairs atherogenesis,impairs atherogenesis,1,False
+Disease,impairs intestinal tumor,impairs intestinal tumor,1,False
+Disease,increase bowel irritability,increase bowel irritability,1,False
+Disease,increase mitochondrial metabolism,increase mitochondrial metabolism,1,False
+Disease,increases disease,increases disease,1,False
+Disease,increases postoperative cognitive impairment,increases postoperative cognitive impairment,1,False
+Disease,infarct area reduction,infarct area reduction,1,False
+Disease,infectious complications,infectious complications,1,False
+Disease,inflammatory bowel disease    Irritable bowel syndrome Ruminococcus gnavus,inflammatory bowel disease irritable bowel syndrome ruminococcus gnavus,1,False
+Disease,inflammatory diseases,inflammatory diseases,1,False
+Disease,initiation of airway disease,initiation of airway disease,1,False
+Disease,initiation of lung or intestinal disease,initiation of lung or intestinal disease,1,False
+Disease,intestinal cancer,intestinal cancer,1,False
+Disease,intestinal dysbiosis,intestinal dysbiosis,1,False
+Disease,intestinal hyperplasia,intestinal hyperplasia,1,False
+Disease,intestinal parasitic infection,intestinal parasitic infection,1,False
+Disease,invasive adenocarcinoma,invasive adenocarcinoma,1,False
+Disease,invasive carcinoma,invasive carcinoma,1,False
+Disease,ischemia,ischemia,1,False
+Disease,lamina propria T,lamina propria t,1,False
+Disease,leakiness,leakiness,1,False
+Disease,leanness,leanness,1,False
+Disease,learning behavior,learning behavior,1,False
+Disease,linked diseases and disorders,linked diseases and disorders,1,False
+Disease,liver cancer,liver cancer,1,False
+Disease,liver glucose,liver glucose,1,False
+Disease,liver steatosis,liver steatosis,1,False
+Disease,longitude,longitude,1,False
+Disease,longitudinal dysbioses,longitudinal dysbioses,1,False
+Disease,loss of colonic bilayer,loss of colonic bilayer,1,False
+Disease,loss of epithelial hypoxia,loss of epithelial hypoxia,1,False
+Disease,lung adenocarcinoma,lung adenocarcinoma,1,False
+Disease,lung disease,lung disease,1,False
+Disease,lymphocytic colitis,lymphocytic colitis,1,False
+Disease,lymphomas,lymphomas,1,False
+Disease,macrophage infections,macrophage infections,1,False
+Disease,malabsorption and malnutrition,malabsorption and malnutrition,1,False
+Disease,malaria,malaria,1,False
+Disease,metabolic abnormalities,metabolic abnormalities,1,False
+Disease,metabolic idiosyncrasies,metabolic idiosyncrasies,1,False
+Disease,metabolic toxaemia,metabolic toxaemia,1,False
+Disease,migraine,migraine,1,False
+Disease,milk allergy,milk allergy,1,False
+Disease,motor deficits,motor deficits,1,False
+Disease,mucosal lymphoid,mucosal lymphoid,1,False
+Disease,mucositis,mucositis,1,False
+Disease,muscle hypercontractility,muscle hypercontractility,1,False
+Disease,muscle hyperplasia,muscle hyperplasia,1,False
+Disease,myocardial damage,myocardial damage,1,False
+Disease,myocardial fibrosis,myocardial fibrosis,1,False
+Disease,myocardial lipotoxicity,myocardial lipotoxicity,1,False
+Disease,nausea,nausea,1,False
+Disease,nephropathy,nephropathy,1,False
+Disease,nervous system disorders,nervous system disorders,1,False
+Disease,neural dysfunction,neural dysfunction,1,False
+Disease,neuro-inflammation,neuro-inflammation,1,False
+Disease,neuroblastoma,neuroblastoma,1,False
+Disease,neurodevelopmental abnormalities,neurodevelopmental abnormalities,1,False
+Disease,neurodevelopmental disabilities,neurodevelopmental disabilities,1,False
+Disease,neurodevelopmental disorders,neurodevelopmental disorders,1,False
+Disease,neurological disorder,neurological disorder,1,False
+Disease,neurological trauma,neurological trauma,1,False
+Disease,non-Hodgkin lymphoma,non-hodgkin lymphoma,1,False
+Disease,numerous dysbiosis,numerous dysbiosis,1,False
+Disease,obese bacteria,obese bacteria,1,False
+Disease,obesity and the metabolic syndrome,obesity and the metabolic syndrome,1,False
+Disease,obesity to type 2 diabetes,obesity to type 2 diabetes,1,False
+Disease,obesity-related diseases,obesity-related diseases,1,False
+Disease,oral plaque biofilms,oral plaque biofilms,1,False
+Disease,organomercurial neurotoxicity,organomercurial neurotoxicity,1,False
+Disease,osteolysis,osteolysis,1,False
+Disease,osteomyelitic bone disease,osteomyelitic bone disease,1,False
+Disease,osteomyelitic disease,osteomyelitic disease,1,False
+Disease,pancreas,pancreas,1,False
+Disease,pancreatic insufficiency,pancreatic insufficiency,1,False
+Disease,parasitic infections,parasitic infections,1,False
+Disease,particular Crohn's disease,particular crohn s disease,1,False
+Disease,pediatric tumors,pediatric tumors,1,False
+Disease,peroxisomal,peroxisomal,1,False
+Disease,phage infection,phage infection,1,False
+Disease,pilus-deficient,pilus-deficient,1,False
+Disease,polyps,polyps,1,False
+Disease,pouchitis,pouchitis,1,False
+Disease,primary biliary cholangitis,primary biliary cholangitis,1,False
+Disease,progressive liver disease,progressive liver disease,1,False
+Disease,proteostasis,proteostasis,1,False
+Disease,pseudomembranous colitis,pseudomembranous colitis,1,False
+Disease,psychiatric illnesses,psychiatric illnesses,1,False
+Disease,psychological illness,psychological illness,1,False
+Disease,psychosocial stress,psychosocial stress,1,False
+Disease,reduced intestinal inflammation,reduced intestinal inflammation,1,False
+Disease,refractory epilepsy,refractory epilepsy,1,False
+Disease,renal cell carcinoma,renal cell carcinoma,1,False
+Disease,renal fibrosis,renal fibrosis,1,False
+Disease,renovascular hypertension,renovascular hypertension,1,False
+Disease,respiratory infection,respiratory infection,1,False
+Disease,rhamnosus on anxiety behavior,rhamnosus on anxiety behavior,1,False
+Disease,sarcopenia,sarcopenia,1,False
+Disease,schizophrenia,schizophrenia,1,False
+Disease,short bowel syndrome,short bowel syndrome,1,False
+Disease,sipA,sipa,1,False
+Disease,sporadic colon cancer,sporadic colon cancer,1,False
+Disease,steatorrhoea,steatorrhoea,1,False
+Disease,system balances the colonic,system balances the colonic,1,False
+Disease,systemic illness,systemic illness,1,False
+Disease,thrombus,thrombus,1,False
+Disease,transiently,transiently,1,False
+Disease,trauma,trauma,1,False
+Disease,tuberculosis,tuberculosis,1,False
+Disease,type 2 diabetes,type 2 diabetes,1,False
+Disease,typhocolitis,typhocolitis,1,False
+Disease,unstable angina,unstable angina,1,False
+Disease,vagina,vagina,1,False
+Disease,valine plus phenylalanine,valine plus phenylalanine,1,False
+Disease,vascular dementia,vascular dementia,1,False
+Disease,vascular dysfunction,vascular dysfunction,1,False
+Disease,vascular endothelial damage,vascular endothelial damage,1,False
+Disease,venous congestion,venous congestion,1,False
+Disease,villous atrophy,villous atrophy,1,False
+Disease,viral blooms,viral blooms,1,False
+Disease,viral infections,viral infections,1,False
+Disease,vomiting,vomiting,1,False
+Disease,xenobiotic degradation,xenobiotic degradation,1,False
+Disease,zirconia,zirconia,1,False
+Gene,gut,gut,562,True
+Gene,IgA,iga,162,False
+Gene,insulin,insulin,100,False
+Gene,age,age,80,True
+Gene,Mgll,mgll,61,False
+Gene,clock,clock,53,False
+Gene,16S,16s,48,True
+Gene,SIC,sic,48,False
+Gene,Gut,gut,45,True
+Gene,Hyp,hyp,43,False
+Gene,NAFLD,nafld,41,False
+Gene,TNF,tnf,36,False
+Gene,FXR,fxr,35,False
+Gene,Pstpip2,pstpip2,31,False
+Gene,kit,kit,30,False
+Gene,bile acid,bile acid,29,False
+Gene,Kit,kit,28,False
+Gene,fat,fat,27,False
+Gene,muL,mul,25,False
+Gene,Rag1,rag1,24,False
+Gene,CD4,cd4,23,False
+Gene,IL-10,il-10,23,False
+Gene,Muc2,muc2,23,False
+Gene,Il10,il10,22,False
+Gene,IGF-1,igf-1,20,False
+Gene,ASV,asv,19,False
+Gene,CB,cb,19,False
+Gene,hSyn,hsyn,19,False
+Gene,muM,mum,19,False
+Gene,alpha-synuclein,alpha-synuclein,18,False
+Gene,MTX,mtx,17,False
+Gene,NLRP3,nlrp3,17,False
+Gene,CD45,cd45,16,False
+Gene,IL-1beta,il-1beta,16,False
+Gene,IgE,ige,16,False
+Gene,SPI-2,spi-2,16,False
+Gene,TGR5,tgr5,16,False
+Gene,TLR4,tlr4,16,False
+Gene,leptin,leptin,16,False
+Gene,CTRL,ctrl,15,True
+Gene,for 5,for 5,15,False
+Gene,ALS,als,14,False
+Gene,IFNg,ifng,14,False
+Gene,NF-kappaB,nf-kappab,14,False
+Gene,PPARgamma,ppargamma,14,False
+Gene,IL-22,il-22,13,False
+Gene,IgG1,igg1,13,False
+Gene,GLP-1,glp-1,12,False
+Gene,Rad,rad,12,False
+Gene,mucin,mucin,12,False
+Gene,BP,bp,11,False
+Gene,bp,bp,11,False
+Gene,c-Fos,c-fos,11,False
+Gene,LCT,lct,10,False
+Gene,NEB,neb,10,False
+Gene,NFkappaB,nfkappab,10,False
+Gene,S3A,s3a,10,False
+Gene,cytolysin,cytolysin,10,False
+Gene,ghrelin,ghrelin,10,False
+Gene,16s,16s,9,True
+Gene,PEN,pen,9,False
+Gene,apoe,apoe,9,False
+Gene,nov.,nov.,9,False
+Gene,IL-13,il-13,8,False
+Gene,IL-6,il-6,8,False
+Gene,PYY,pyy,8,False
+Gene,beta-glucuronidase,beta-glucuronidase,8,False
+Gene,glucocorticoid receptor,glucocorticoid receptor,8,False
+Gene,lactase,lactase,8,False
+Gene,nov,nov,8,False
+Gene,AHR1,ahr1,7,False
+Gene,ALS1,als1,7,False
+Gene,ALS3,als3,7,False
+Gene,CD11c,cd11c,7,False
+Gene,DCX,dcx,7,False
+Gene,DEGs,degs,7,False
+Gene,Olfr78,olfr78,7,False
+Gene,Th1,th1,7,False
+Gene,angiotensin II,angiotensin ii,7,False
+Gene,catalase,catalase,7,False
+Gene,C-reactive protein,c-reactive protein,6,False
+Gene,FMO3,fmo3,6,False
+Gene,IL-4,il-4,6,False
+Gene,LCN-2,lcn-2,6,False
+Gene,LPS,lps,6,False
+Gene,S3B,s3b,6,False
+Gene,TNF-alpha,tnf-alpha,6,False
+Gene,iNOS,inos,6,False
+Gene,interleukin 10,interleukin 10,6,False
+Gene,interleukin-10,interleukin-10,6,False
+Gene,peptide YY,peptide yy,6,False
+Gene,Abeta,abeta,5,False
+Gene,ApoE,apoe,5,False
+Gene,CBP,cbp,5,False
+Gene,CCR6,ccr6,5,False
+Gene,FGF19,fgf19,5,False
+Gene,H&E,h e,5,False
+Gene,IFN-gamma,ifn-gamma,5,False
+Gene,IL-17,il-17,5,False
+Gene,IL-23,il-23,5,False
+Gene,MUC2,muc2,5,False
+Gene,Nos2,nos2,5,False
+Gene,RABGAP1,rabgap1,5,False
+Gene,SLIT3,slit3,5,False
+Gene,SPF,spf,5,False
+Gene,Th2,th2,5,False
+Gene,alpha-Synuclein,alpha-synuclein,5,False
+Gene,brain-derived neurotrophic factor,brain-derived neurotrophic factor,5,False
+Gene,cholecystokinin,cholecystokinin,5,False
+Gene,gammaH2AX,gammah2ax,5,False
+Gene,mGAM,mgam,5,False
+Gene,oxytocin,oxytocin,5,False
+Gene,renin,renin,5,False
+Gene,spp,,5,False
+Gene,AGE,age,4,True
+Gene,AICAR,aicar,4,False
+Gene,Als1,als1,4,False
+Gene,Als3,als3,4,False
+Gene,B220,b220,4,False
+Gene,CB2,cb2,4,False
+Gene,CD19,cd19,4,False
+Gene,CD3,cd3,4,False
+Gene,CRH,crh,4,False
+Gene,Cxcl1,cxcl1,4,False
+Gene,DHFR,dhfr,4,False
+Gene,ERK,erk,4,False
+Gene,Flt3,flt3,4,False
+Gene,GPR43,gpr43,4,False
+Gene,H2S,h2s,4,False
+Gene,IL-17A,il-17a,4,False
+Gene,IL-5,il-5,4,False
+Gene,MyD88,myd88,4,False
+Gene,NFIL3,nfil3,4,False
+Gene,NRG1,nrg1,4,False
+Gene,Nr3c2,nr3c2,4,False
+Gene,Reg3g,reg3g,4,False
+Gene,"S6, A and C",s6 a and c,4,False
+Gene,T-bet,t-bet,4,False
+Gene,TAAR5,taar5,4,False
+Gene,claudin-5,claudin-5,4,False
+Gene,dihydrofolate reductase,dihydrofolate reductase,4,False
+Gene,fasting-induced adipose factor,fasting-induced adipose factor,4,False
+Gene,free fatty acid receptor 3,free fatty acid receptor 3,4,False
+Gene,miR-17-92,mir-17-92,4,False
+Gene,tumor necrosis factor,tumor necrosis factor,4,False
+Gene,v3.3,v3.3,4,False
+Gene,v3.4,v3.4,4,False
+Gene,ALDH1L1,aldh1l1,3,False
+Gene,Age,age,3,True
+Gene,BDNF,bdnf,3,False
+Gene,Bmal1,bmal1,3,False
+Gene,CB1,cb1,3,False
+Gene,CRY1,cry1,3,False
+Gene,CYP7A1,cyp7a1,3,False
+Gene,Cxcl2,cxcl2,3,False
+Gene,FFAR3,ffar3,3,False
+Gene,FoxP3,foxp3,3,False
+Gene,Foxp3,foxp3,3,False
+Gene,GNA12,gna12,3,False
+Gene,Gadd45b,gadd45b,3,False
+Gene,Gjal,gjal,3,False
+Gene,Hprt,hprt,3,False
+Gene,IFN-beta,ifn-beta,3,False
+Gene,IL-17- and IFN-gamma,il-17- and ifn-gamma,3,False
+Gene,NF-kappa B,nf-kappa b,3,False
+Gene,NOD2,nod2,3,False
+Gene,Nfil3,nfil3,3,False
+Gene,Nr3c1,nr3c1,3,False
+Gene,PD-L1,pd-l1,3,False
+Gene,PS1,ps1,3,False
+Gene,R-spondin-2,r-spondin-2,3,False
+Gene,REV-ERBalpha,rev-erbalpha,3,False
+Gene,RegIIIgamma,regiiigamma,3,False
+Gene,S5A,s5a,3,False
+Gene,S5B,s5b,3,False
+Gene,Set A,set a,3,False
+Gene,Sod1,sod1,3,False
+Gene,TNFalpha,tnfalpha,3,False
+Gene,TOR,tor,3,False
+Gene,Tbet,tbet,3,False
+Gene,Tcrb-/-d,tcrb-/-d,3,False
+Gene,Toll-like receptor 4,toll-like receptor 4,3,False
+Gene,UHRF2,uhrf2,3,False
+Gene,beta defensin 2,beta defensin 2,3,False
+Gene,beta-defensin 2,beta-defensin 2,3,False
+Gene,cystatin C,cystatin c,3,False
+Gene,farnesoid X receptor,farnesoid x receptor,3,False
+Gene,fats,fats,3,False
+Gene,flavin-containing monooxygenase 3,flavin-containing monooxygenase 3,3,False
+Gene,glucagon-like peptide-1,glucagon-like peptide-1,3,False
+Gene,interferon-gamma,interferon-gamma,3,False
+Gene,interleukin 22,interleukin 22,3,False
+Gene,miR-17,mir-17,3,False
+Gene,occludin,occludin,3,False
+Gene,p53,p53,3,False
+Gene,tau,tau,3,False
+Gene,thymidylate synthase,thymidylate synthase,3,False
+Gene,toll-like receptor 4,toll-like receptor 4,3,False
+Gene,tumor necrosis factor-alpha,tumor necrosis factor-alpha,3,False
+Gene,v3.5,v3.5,3,False
+Gene,zonulin,zonulin,3,False
+Gene,10s,10s,2,False
+Gene,5-HT2A,5-ht2a,2,False
+Gene,AMPK,ampk,2,False
+Gene,APOA1,apoa1,2,False
+Gene,Ahr1,ahr1,2,False
+Gene,Akt,akt,2,False
+Gene,Arntl,arntl,2,False
+Gene,Bile acid,bile acid,2,False
+Gene,CBR1,cbr1,2,False
+Gene,CD11b,cd11b,2,False
+Gene,CD14,cd14,2,False
+Gene,CLOCK,clock,2,False
+Gene,CXCL6,cxcl6,2,False
+Gene,Cat#M,cat m,2,False
+Gene,Clca1,clca1,2,False
+Gene,Crh,crh,2,False
+Gene,CutC,cutc,2,False
+Gene,D2 Receptor,d2 receptor,2,False
+Gene,DAGL (alpha/beta,dagl alpha/beta,2,False
+Gene,DPP4,dpp4,2,False
+Gene,DUOX2,duox2,2,False
+Gene,DUOXA2,duoxa2,2,False
+Gene,Dmbt1,dmbt1,2,False
+Gene,E-Cadherin,e-cadherin,2,False
+Gene,FACS,facs,2,False
+Gene,FFAR2,ffar2,2,False
+Gene,FIAF,fiaf,2,False
+Gene,G protein-coupled receptor,g protein-coupled receptor,2,False
+Gene,Gadd45g,gadd45g,2,False
+Gene,GluR1,glur1,2,False
+Gene,Gr-1,gr-1,2,False
+Gene,Gr1,gr1,2,False
+Gene,IL-18,il-18,2,False
+Gene,IL-1b,il-1b,2,False
+Gene,IL-8,il-8,2,False
+Gene,JunB,junb,2,False
+Gene,LPS-binding protein,lps-binding protein,2,False
+Gene,Lcn2,lcn2,2,False
+Gene,MAF,maf,2,False
+Gene,Muc2-C3,muc2-c3,2,False
+Gene,Mucin,mucin,2,False
+Gene,Nox,nox,2,False
+Gene,Nrp1,nrp1,2,False
+Gene,PC1,pc1,2,False
+Gene,PPARalpha,pparalpha,2,False
+Gene,Per1/2,per1/2,2,False
+Gene,Qin,qin,2,False
+Gene,REG3G,reg3g,2,False
+Gene,RORalpha,roralpha,2,False
+Gene,Rev-erbalpha,rev-erbalpha,2,False
+Gene,"S1, A and B",s1 a and b,2,False
+Gene,S10,s10,2,False
+Gene,S11,s11,2,False
+Gene,S14,s14,2,False
+Gene,S17,s17,2,False
+Gene,S18,s18,2,False
+Gene,"S2, B and C",s2 b and c,2,False
+Gene,"S5A,B",s5a b,2,False
+Gene,SIGLEC15,siglec15,2,False
+Gene,Sp3,sp3,2,False
+Gene,TLR5,tlr5,2,False
+Gene,TXNIP,txnip,2,False
+Gene,Tara,tara,2,False
+Gene,Tcrb,tcrb,2,False
+Gene,Tnf,tnf,2,False
+Gene,Ucn3,ucn3,2,False
+Gene,add 1,add 1,2,False
+Gene,alanine aminotransferase,alanine aminotransferase,2,False
+Gene,beta-Catenin,beta-catenin,2,False
+Gene,beta-catenin,beta-catenin,2,False
+Gene,caspase,caspase,2,False
+Gene,caspase 1,caspase 1,2,False
+Gene,caspase-8,caspase-8,2,False
+Gene,caspases 1 and 8,caspases 1 and 8,2,False
+Gene,cholera toxin B subunit,cholera toxin b subunit,2,False
+Gene,eosinophil cationic protein,eosinophil cationic protein,2,False
+Gene,glcP,glcp,2,False
+Gene,glucagon,glucagon,2,False
+Gene,glycerol-3-phosphate dehydrogenase,glycerol-3-phosphate dehydrogenase,2,False
+Gene,hBD2,hbd2,2,False
+Gene,interleukin-8,interleukin-8,2,False
+Gene,monoacylglycerol lipase,monoacylglycerol lipase,2,False
+Gene,monocarboxylate transporter 1,monocarboxylate transporter 1,2,False
+Gene,myosin light-chain kinase,myosin light-chain kinase,2,False
+Gene,phosphoenolpyruvate carboxylase,phosphoenolpyruvate carboxylase,2,False
+Gene,proteinase 3,proteinase 3,2,False
+Gene,proton pump,proton pump,2,False
+Gene,thrombin,thrombin,2,False
+Gene,trimethylamine monooxygenase,trimethylamine monooxygenase,2,False
+Gene,v1.9,v1.9,2,False
+Gene,wingless and int-1,wingless and int-1,2,False
+Gene,20s,20s,1,False
+Gene,ACE2,ace2,1,False
+Gene,AGRP,agrp,1,False
+Gene,AMY1,amy1,1,False
+Gene,AMY2,amy2,1,False
+Gene,ANXA10,anxa10,1,False
+Gene,ARNTL,arntl,1,False
+Gene,ATG16L1,atg16l1,1,False
+Gene,Ace2,ace2,1,False
+Gene,Akt2,akt2,1,False
+Gene,Angptl4,angptl4,1,False
+Gene,Apo1,apo1,1,False
+Gene,Arginine Decarboxylase,arginine decarboxylase,1,False
+Gene,Atg16L1,atg16l1,1,False
+Gene,Atg16l1,atg16l1,1,False
+Gene,Avpr1b,avpr1b,1,False
+Gene,B-type natriuretic peptide,b-type natriuretic peptide,1,False
+Gene,BNP,bnp,1,False
+Gene,Bcl-6,bcl-6,1,False
+Gene,Bile Acid,bile acid,1,False
+Gene,CB and BP) or 2,cb and bp or 2,1,False
+Gene,CCL2,ccl2,1,False
+Gene,CD138,cd138,1,False
+Gene,CD154,cd154,1,False
+Gene,CD5,cd5,1,False
+Gene,CD68,cd68,1,False
+Gene,CXCL16,cxcl16,1,False
+Gene,CXCR3,cxcr3,1,False
+Gene,CYP3A4,cyp3a4,1,False
+Gene,Cage 1,cage 1,1,False
+Gene,Cannabinoid Receptor-2,cannabinoid receptor-2,1,False
+Gene,Casp8,casp8,1,False
+Gene,Caspase 8,caspase 8,1,False
+Gene,Caspase-8,caspase-8,1,False
+Gene,Clock,clock,1,False
+Gene,ClpB,clpb,1,False
+Gene,Crhr1,crhr1,1,False
+Gene,Cyp11a1,cyp11a1,1,False
+Gene,Cytolysin,cytolysin,1,False
+Gene,DBP,dbp,1,False
+Gene,DNase I,dnase i,1,False
+Gene,DR3,dr3,1,False
+Gene,Dectin-1,dectin-1,1,False
+Gene,E4BP4,e4bp4,1,False
+Gene,Egr1,egr1,1,False
+Gene,F4/80,f4/80,1,False
+Gene,FADD,fadd,1,False
+Gene,FCS 1,fcs 1,1,False
+Gene,FGF21,fgf21,1,False
+Gene,FasL,fasl,1,False
+Gene,Fcgbp,fcgbp,1,False
+Gene,Fmo3,fmo3,1,False
+Gene,Forkhead box protein P3,forkhead box protein p3,1,False
+Gene,Fos,fos,1,False
+Gene,G protein-coupled receptor 41,g protein-coupled receptor 41,1,False
+Gene,G-CSF,g-csf,1,False
+Gene,GAD65,gad65,1,False
+Gene,GAPDH,gapdh,1,False
+Gene,GCP-2,gcp-2,1,False
+Gene,GDH,gdh,1,False
+Gene,GH,gh,1,False
+Gene,GLP-2,glp-2,1,False
+Gene,GLP1,glp1,1,False
+Gene,GMP,gmp,1,False
+Gene,GPD1,gpd1,1,False
+Gene,GPR41,gpr41,1,False
+Gene,GS1,gs1,1,False
+Gene,Gapdh,gapdh,1,False
+Gene,Glycoside hydrolase,glycoside hydrolase,1,False
+Gene,Gpr41,gpr41,1,False
+Gene,Gpr43,gpr43,1,False
+Gene,Growth differentiation factor 15,growth differentiation factor 15,1,False
+Gene,HIF-1a,hif-1a,1,False
+Gene,HPRT,hprt,1,False
+Gene,Hsp20,hsp20,1,False
+Gene,IBSP,ibsp,1,False
+Gene,IFNgamma,ifngamma,1,False
+Gene,IL-1alpha,il-1alpha,1,False
+Gene,IL-2,il-2,1,False
+Gene,IL-2 and IFNalpha,il-2 and ifnalpha,1,False
+Gene,IL-6 and VEGF,il-6 and vegf,1,False
+Gene,IL6,il6,1,False
+Gene,IRGM,irgm,1,False
+Gene,IRS1,irs1,1,False
+Gene,IRS2,irs2,1,False
+Gene,IgK,igk,1,False
+Gene,IkappaBalpha,ikappabalpha,1,False
+Gene,Il12b,il12b,1,False
+Gene,Il1beta,il1beta,1,False
+Gene,Insulin,insulin,1,False
+Gene,Insulin-like growth factor 1,insulin-like growth factor 1,1,False
+Gene,Jak 2,jak 2,1,False
+Gene,KIM-1,kim-1,1,False
+Gene,KRP,krp,1,False
+Gene,LCN2,lcn2,1,False
+Gene,LDLR,ldlr,1,False
+Gene,Leptin,leptin,1,False
+Gene,Ly6G,ly6g,1,False
+Gene,M3 muscarinic receptor,m3 muscarinic receptor,1,False
+Gene,MACS,macs,1,False
+Gene,MCT1,mct1,1,False
+Gene,MMP-13,mmp-13,1,False
+Gene,MST1,mst1,1,False
+Gene,MTX 1,mtx 1,1,False
+Gene,MYC,myc,1,False
+Gene,Mayp,mayp,1,False
+Gene,Myd88,myd88,1,False
+Gene,N-cadherin,n-cadherin,1,False
+Gene,NAc,nac,1,False
+Gene,NKX2-3,nkx2-3,1,False
+Gene,NLRP6,nlrp6,1,False
+Gene,NPY,npy,1,False
+Gene,NeuN,neun,1,False
+Gene,Nrf2,nrf2,1,False
+Gene,PEPCx,pepcx,1,False
+Gene,PER2,per2,1,False
+Gene,PGC-1alpha,pgc-1alpha,1,False
+Gene,PPARGC1A,ppargc1a,1,False
+Gene,PTGER4,ptger4,1,False
+Gene,PXR,pxr,1,False
+Gene,Pcx,pcx,1,False
+Gene,Per2,per2,1,False
+Gene,Phorbol 12-myristate 13-acetate (PMA),phorbol 12-myristate 13-acetate pma,1,False
+Gene,Pink1,pink1,1,False
+Gene,Pltp,pltp,1,False
+Gene,Ppara,ppara,1,False
+Gene,Programmed death ligand 1,programmed death ligand 1,1,False
+Gene,Proteinase 3,proteinase 3,1,False
+Gene,Pyy,pyy,1,False
+Gene,RIPK3,ripk3,1,False
+Gene,Reg3gamma,reg3gamma,1,False
+Gene,RegIII-gamma,regiii-gamma,1,False
+Gene,S12,s12,1,False
+Gene,S15,s15,1,False
+Gene,S16,s16,1,False
+Gene,SEMA3C,sema3c,1,False
+Gene,SERT,sert,1,False
+Gene,SIRT1,sirt1,1,False
+Gene,SPI-1,spi-1,1,False
+Gene,SPP1,spp1,1,False
+Gene,STAT3,stat3,1,False
+Gene,STAT6,stat6,1,False
+Gene,Sirtuin 3,sirtuin 3,1,False
+Gene,SopB,sopb,1,False
+Gene,TBX21,tbx21,1,False
+Gene,TER119,ter119,1,False
+Gene,TLR2,tlr2,1,False
+Gene,TNF-a,tnf-a,1,False
+Gene,Tff3,tff3,1,False
+Gene,Toll-like receptor (TLR) 4,toll-like receptor tlr 4,1,False
+Gene,Toll-like receptor 5,toll-like receptor 5,1,False
+Gene,Trif,trif,1,False
+Gene,UBE2N,ube2n,1,False
+Gene,UCP1,ucp1,1,False
+Gene,Ucn,ucn,1,False
+Gene,Ucn2,ucn2,1,False
+Gene,adenylosuccinate synthase,adenylosuccinate synthase,1,False
+Gene,adiponectin,adiponectin,1,False
+Gene,aid,aid,1,False
+Gene,amyloid precursor protein,amyloid precursor protein,1,False
+Gene,apelin,apelin,1,False
+Gene,apoE,apoe,1,False
+Gene,apolipoprotein E,apolipoprotein e,1,False
+Gene,bash,bash,1,False
+Gene,best 1,best 1,1,False
+Gene,"beta-1,3",beta-1 3,1,False
+Gene,betaactin,betaactin,1,False
+Gene,bone morphogenetic protein 7,bone morphogenetic protein 7,1,False
+Gene,bone sialoprotein 2,bone sialoprotein 2,1,False
+Gene,c-Myc,c-myc,1,False
+Gene,cannabinoid receptor 2,cannabinoid receptor 2,1,False
+Gene,carcinoembryonic antigen-related cell adhesion molecule 6,carcinoembryonic antigen-related cell adhesion molecule 6,1,False
+Gene,caspase-1,caspase-1,1,False
+Gene,corticotropin releasing factor,corticotropin releasing factor,1,False
+Gene,corticotropin-releasing factor,corticotropin-releasing factor,1,False
+Gene,corticotropin-releasing hormone,corticotropin-releasing hormone,1,False
+Gene,cutC,cutc,1,False
+Gene,endothelial nitric oxide synthase,endothelial nitric oxide synthase,1,False
+Gene,farnesoid X-activated receptor,farnesoid x-activated receptor,1,False
+Gene,fibroblast growth factor 15,fibroblast growth factor 15,1,False
+Gene,glutamate decarboxylase,glutamate decarboxylase,1,False
+Gene,granulocyte-macrophage colony-stimulating factor,granulocyte-macrophage colony-stimulating factor,1,False
+Gene,hBD-2,hbd-2,1,False
+Gene,hOR51E2,hor51e2,1,False
+Gene,histone deacetylase,histone deacetylase,1,False
+Gene,histone deacetylase 1,histone deacetylase 1,1,False
+Gene,immunoglobulin A,immunoglobulin a,1,False
+Gene,insulin sensitivity and type 2,insulin sensitivity and type 2,1,False
+Gene,keratinocyte growth factor 2,keratinocyte growth factor 2,1,False
+Gene,keratinocyte growth factor-2,keratinocyte growth factor-2,1,False
+Gene,lamina,lamina,1,False
+Gene,lipoprotein lipase,lipoprotein lipase,1,False
+Gene,lysozyme,lysozyme,1,False
+Gene,mL-1,ml-1,1,False
+Gene,mTOR,mtor,1,False
+Gene,meprin beta,meprin beta,1,False
+Gene,milk protein,milk protein,1,False
+Gene,monoglyceride lipase,monoglyceride lipase,1,False
+Gene,mucin-2,mucin-2,1,False
+Gene,neuraminidase,neuraminidase,1,False
+Gene,neuropeptide Y,neuropeptide y,1,False
+Gene,neutrophil elastase,neutrophil elastase,1,False
+Gene,nuclear receptor subfamily 1 group D member 1,nuclear receptor subfamily 1 group d member 1,1,False
+Gene,nucleotide-binding oligomerization domain 2,nucleotide-binding oligomerization domain 2,1,False
+Gene,oleate hydratase,oleate hydratase,1,False
+Gene,ovalbumin,ovalbumin,1,False
+Gene,p21,p21,1,False
+Gene,p38,p38,1,False
+Gene,presenilin-1,presenilin-1,1,False
+Gene,serotonin transporter,serotonin transporter,1,False
+Gene,signal transducer and activator of transcription 3,signal transducer and activator of transcription 3,1,False
+Gene,sirtuin-1,sirtuin-1,1,False
+Gene,sopB,sopb,1,False
+Gene,takeda-G-protein receptor 5,takeda-g-protein receptor 5,1,False
+Gene,uncl,uncl,1,False
+Gene,uncoupling protein 1,uncoupling protein 1,1,False
+Gene,v1.4,v1.4,1,False
+Gene,v2.1,v2.1,1,False
+Gene,v2.7,v2.7,1,False
+Mutation,U-13C,u-13c,12,False
+Mutation,A to C,a to c,11,False
+Mutation,C for 30,c for 30,6,False
+Mutation,C for 10,c for 10,5,False
+Mutation,C for 2,c for 2,5,False
+Mutation,C for 3,c for 3,5,False
+Mutation,S23C,s23c,5,False
+Mutation,rs10055309,rs10055309,5,False
+Mutation,-33G/C,-33g/c,4,False
+Mutation,S10A,s10a,4,False
+Mutation,S14A,s14a,4,False
+Mutation,S19,s19,4,False
+Mutation,rs1446585,rs1446585,4,False
+Mutation,(E) of 4,e of 4,2,False
+Mutation,G609G,g609g,2,False
+Mutation,N2081D,n2081d,2,False
+Mutation,P0756S,p0756s,2,False
+Mutation,S12A,s12a,2,False
+Mutation,S17A,s17a,2,False
+Mutation,S21F,s21f,2,False
+Mutation,rs563779,rs563779,2,False
+Mutation,6D,6d,1,False
+Mutation,A to D,a to d,1,False
+Mutation,A30P,a30p,1,False
+Mutation,C at 650,c at 650,1,False
+Mutation,C at a 25,c at a 25,1,False
+Mutation,C for 1,c for 1,1,False
+Mutation,C for 15,c for 15,1,False
+Mutation,C for 4,c for 4,1,False
+Mutation,C for 45,c for 45,1,False
+Mutation,C in 1,c in 1,1,False
+Mutation,C08E,c08e,1,False
+Mutation,L98P,l98p,1,False
+Mutation,M0348S,m0348s,1,False
+Mutation,P301L,p301l,1,False
+Mutation,R0106L,r0106l,1,False
+Mutation,S13A,s13a,1,False
+Mutation,S13C,s13c,1,False
+Mutation,S15C,s15c,1,False
+Mutation,S23A,s23a,1,False
+Mutation,S6C,s6c,1,False
+Mutation,glutamine/glutamate,glutamine/glutamate,1,False
+Mutation,rs1042712,rs1042712,1,False
+Mutation,rs4988235,rs4988235,1,False
+Mutation,serine/threonine,serine/threonine,1,False
+Species,mice,mice,998,True
+Species,human,human,391,True
+Species,patients,patients,366,True
+Species,gut microbiome,gut microbiome,263,True
+Species,mouse,mouse,197,True
+Species,children,children,109,True
+Species,humans,humans,92,True
+Species,Bacteroides,bacteroides,84,False
+Species,CR,cr,69,False
+Species,E. coli,e. coli,68,False
+Species,people,people,62,True
+Species,C. difficile,c. difficile,61,False
+Species,C. albicans,c. albicans,57,False
+Species,infant,infant,52,True
+Species,infants,infants,50,True
+Species,CDI,cdi,49,False
+Species,rats,rats,48,True
+Species,H. hepaticus,h. hepaticus,46,False
+Species,Human,human,43,True
+Species,Mice,mice,43,True
+Species,Bt,bt,42,False
+Species,Bifidobacterium,bifidobacterium,40,False
+Species,Lactobacillus,lactobacillus,39,False
+Species,CD3,cd3,32,False
+Species,murine,murine,31,True
+Species,Collinsella,collinsella,28,False
+Species,Escherichia coli,escherichia coli,28,False
+Species,patient,patient,28,True
+Species,B. fragilis,b. fragilis,27,False
+Species,C. rodentium,c. rodentium,26,False
+Species,Clostridium,clostridium,25,False
+Species,Streptococcus,streptococcus,25,False
+Species,Candida,candida,24,False
+Species,Patients,patients,24,True
+Species,Prevotella copri,prevotella copri,24,False
+Species,Escherichia,escherichia,22,False
+Species,human gut microbiota,human gut microbiota,22,True
+Species,A. muciniphila,a. muciniphila,21,False
+Species,Bacteroides spp,bacteroides,21,False
+Species,Salmonella,salmonella,21,False
+Species,participants,participants,21,True
+Species,yeast,yeast,21,True
+Species,Akkermansia,akkermansia,20,False
+Species,C. aerofaciens,c. aerofaciens,19,False
+Species,C. intestinalis,c. intestinalis,19,False
+Species,Clostridium difficile,clostridium difficile,19,False
+Species,rat,rat,19,True
+Species,Mouse,mouse,18,True
+Species,mammalian,mammalian,18,True
+Species,women,women,17,True
+Species,Akkermansia muciniphila,akkermansia muciniphila,16,False
+Species,E.f,e.f,16,False
+Species,Bv,bv,15,False
+Species,E. faecalis,e. faecalis,15,False
+Species,Faecalibacterium,faecalibacterium,15,False
+Species,Bilophila,bilophila,14,False
+Species,S. Typhimurium,s. typhimurium,13,False
+Species,donor,donor,13,True
+Species,men,men,13,True
+Species,C. sporogenes,c. sporogenes,12,False
+Species,F. prausnitzii,f. prausnitzii,12,False
+Species,metagenomes,metagenomes,12,True
+Species,B. ovatus,b. ovatus,11,False
+Species,S. cerevisiae,s. cerevisiae,11,False
+Species,ST,st,11,False
+Species,Bacteroides fragilis,bacteroides fragilis,10,False
+Species,Bifidobacterium longum,bifidobacterium longum,10,False
+Species,C. asparagiforme,c. asparagiforme,10,False
+Species,NC101,nc101,10,False
+Species,human microbiome,human microbiome,10,True
+Species,influenza,influenza,10,False
+Species,B. thetaiotaomicron,b. thetaiotaomicron,9,False
+Species,B. wadsworthia,b. wadsworthia,9,False
+Species,C. intestinalis DSM 13280,c. intestinalis dsm 13280,9,False
+Species,Prevotella,prevotella,9,False
+Species,respiratory,respiratory,9,True
+Species,CD4,cd4,8,False
+Species,Citrobacter rodentium,citrobacter rodentium,8,False
+Species,Clostridium sporogenes,clostridium sporogenes,8,False
+Species,Lactobacillus plantarum,lactobacillus plantarum,8,False
+Species,Lactococcus lactis,lactococcus lactis,8,False
+Species,Ruminococcus,ruminococcus,8,False
+Species,Turicibacter,turicibacter,8,False
+Species,stocks,stocks,8,True
+Species,Bacteroides vulgatus,bacteroides vulgatus,7,False
+Species,Bilophila wadsworthia,bilophila wadsworthia,7,False
+Species,C. symbiosum,c. symbiosum,7,False
+Species,Candida albicans,candida albicans,7,False
+Species,Enterococcus,enterococcus,7,False
+Species,Fusobacterium,fusobacterium,7,False
+Species,Helicobacter pylori,helicobacter pylori,7,False
+Species,Human Microbiome,human microbiome,7,True
+Species,Roseburia,roseburia,7,False
+Species,W. sebi,w. sebi,7,False
+Species,B. longum,b. longum,6,False
+Species,Bacteroides thetaiotaomicron,bacteroides thetaiotaomicron,6,False
+Species,C. scindens,c. scindens,6,False
+Species,Drosophila,drosophila,6,False
+Species,E. nigrum,e. nigrum,6,False
+Species,Lactobacillus reuteri,lactobacillus reuteri,6,False
+Species,S. enterica,s. enterica,6,False
+Species,S. typhimurium,s. typhimurium,6,False
+Species,child,child,6,True
+Species,unclassified Clostridiaceae,unclassified clostridiaceae,6,False
+Species,Bifidobacterium longum NCC2705,bifidobacterium longum ncc2705,5,False
+Species,Clavispora,clavispora,5,False
+Species,E. lenta,e. lenta,5,False
+Species,Enterococcus faecalis,enterococcus faecalis,5,False
+Species,Eubacterium rectale,eubacterium rectale,5,False
+Species,Faecalibacterium prausnitzii,faecalibacterium prausnitzii,5,False
+Species,Lactobacillus casei,lactobacillus casei,5,False
+Species,Lactobacillus rhamnosus,lactobacillus rhamnosus,5,False
+Species,Methanobrevibacter,methanobrevibacter,5,False
+Species,P. copri,p. copri,5,False
+Species,Saccharomyces,saccharomyces,5,False
+Species,Salmonella enterica serovar Typhimurium,salmonella enterica typhimurium,5,False
+Species,alpha,alpha,5,False
+Species,bacteriophage,bacteriophage,5,False
+Species,chicken,chicken,5,False
+Species,chickpea,chickpea,5,False
+Species,of 10,of 10,5,False
+Species,sheep,sheep,5,False
+Species,Aspergillus amstelodami,aspergillus amstelodami,4,False
+Species,C. aerofaciens ATCC 25986,c. aerofaciens atcc 25986,4,False
+Species,C. cocleatum,c. cocleatum,4,False
+Species,C. glabrata,c. glabrata,4,False
+Species,CD36,cd36,4,False
+Species,Ca,ca,4,False
+Species,Campylobacter,campylobacter,4,False
+Species,Clostridium butyricum,clostridium butyricum,4,False
+Species,Dorea longicatena,dorea longicatena,4,False
+Species,Eggerthella lenta,eggerthella lenta,4,False
+Species,Epicoccum nigrum,epicoccum nigrum,4,False
+Species,Eubacterium,eubacterium,4,False
+Species,Eubacterium sp. strain VP,eubacterium vp,4,False
+Species,Gut microbiome,gut microbiome,4,True
+Species,Helicobacter hepaticus,helicobacter hepaticus,4,False
+Species,L. johnsonii,l. johnsonii,4,False
+Species,O157:H7,o157 h7,4,False
+Species,Roseburia hominis,roseburia hominis,4,False
+Species,Saccharomyces boulardii,saccharomyces boulardii,4,False
+Species,Typhimurium,typhimurium,4,False
+Species,banana,banana,4,False
+Species,expression,expression,4,True
+Species,goat,goat,4,False
+Species,human oral microbiome,human oral microbiome,4,True
+Species,metagenome,metagenome,4,True
+Species,participant,participant,4,True
+Species,peanut,peanut,4,False
+Species,sesame,sesame,4,False
+Species,transgenic mice,transgenic mice,4,True
+Species,wheat,wheat,4,False
+Species,A. amstelodami,a. amstelodami,3,False
+Species,Acinetobacter lwoffii,acinetobacter lwoffii,3,False
+Species,B. caccae,b. caccae,3,False
+Species,B. fragilis 638R,b. fragilis 638r,3,False
+Species,B. thetaiotaomicron VPI-5482,b. thetaiotaomicron vpi-5482,3,False
+Species,BW25113,bw25113,3,False
+Species,Bifidobacterium breve,bifidobacterium breve,3,False
+Species,Bifidobacterium longum subsp. infantis,bifidobacterium longum infantis,3,False
+Species,Candida tropicalis,candida tropicalis,3,False
+Species,Cd13,cd13,3,False
+Species,Cd2,cd2,3,False
+Species,Cd4,cd4,3,False
+Species,Children,children,3,True
+Species,Clostridium asparagiforme,clostridium asparagiforme,3,False
+Species,Clostridium hathewayi,clostridium hathewayi,3,False
+Species,Clostridium symbiosum,clostridium symbiosum,3,False
+Species,Collinsella intestinalis,collinsella intestinalis,3,False
+Species,Dialister invisus,dialister invisus,3,False
+Species,Dielma fastidiosa,dielma fastidiosa,3,False
+Species,E. coli Nissle 1917,e. coli nissle 1917,3,False
+Species,Escherichia coli K1,escherichia coli k1,3,False
+Species,Fusobacterium nucleatum,fusobacterium nucleatum,3,False
+Species,Gut Microbiome,gut microbiome,3,True
+Species,H. pylori,h. pylori,3,False
+Species,Henna,henna,3,False
+Species,Humans,humans,3,True
+Species,L. helveticus,l. helveticus,3,False
+Species,L. lactis,l. lactis,3,False
+Species,Listeria monocytogenes,listeria monocytogenes,3,False
+Species,Moraxella,moraxella,3,False
+Species,Olsenella,olsenella,3,False
+Species,Parabacteroides,parabacteroides,3,False
+Species,Parabacteroides distasonis,parabacteroides distasonis,3,False
+Species,Penicillium,penicillium,3,False
+Species,Penicillium sp,penicillium,3,False
+Species,Pseudomonas aeruginosa,pseudomonas aeruginosa,3,False
+Species,R. gnavus,r. gnavus,3,False
+Species,Ruminococcus gnavus,ruminococcus gnavus,3,False
+Species,S. Typhimurium strain,s. typhimurium,3,False
+Species,S. boulardii,s. boulardii,3,False
+Species,SFB,sfb,3,False
+Species,Salmonella enterica,salmonella enterica,3,False
+Species,Sc,sc,3,False
+Species,Staphylococcus,staphylococcus,3,False
+Species,Toxoplasma,toxoplasma,3,False
+Species,Wallemia sebi,wallemia sebi,3,False
+Species,cats,cats,3,False
+Species,herpesvirus,herpesvirus,3,False
+Species,limpet,limpet,3,False
+Species,mummichog,mummichog,3,False
+Species,murine norovirus,murine norovirus,3,False
+Species,not specified,not specified,3,False
+Species,pig,pig,3,False
+Species,segmented filamentous Bacteria,segmented filamentous bacteria,3,False
+Species,segmented filamentous bacteria,segmented filamentous bacteria,3,False
+Species,ssaV,ssav,3,False
+Species,to 7,to 7,3,False
+Species,zebrafish,zebrafish,3,False
+Species,Aspergillus,aspergillus,2,False
+Species,B. intestinalis,b. intestinalis,2,False
+Species,B. salyersiae,b. salyersiae,2,False
+Species,B. subtilis,b. subtilis,2,False
+Species,B. uniformis,b. uniformis,2,False
+Species,B. vulgatus,b. vulgatus,2,False
+Species,Bacteroidales,bacteroidales,2,False
+Species,Bacteroides uniformis,bacteroides uniformis,2,False
+Species,Bifidobacterium bifidum,bifidobacterium bifidum,2,False
+Species,Butyrivibrio,butyrivibrio,2,False
+Species,C difficile,c difficile,2,False
+Species,C. albicans SC5314,c. albicans sc5314,2,False
+Species,C. hiranonis,c. hiranonis,2,False
+Species,C. innocuum,c. innocuum,2,False
+Species,CD45,cd45,2,False
+Species,CD8,cd8,2,False
+Species,CR strain,cr,2,False
+Species,Campylobacter jejuni,campylobacter jejuni,2,False
+Species,Candida sp,candida,2,False
+Species,Cd-1,cd-1,2,False
+Species,Cd-17,cd-17,2,False
+Species,Christensenella minuta,christensenella minuta,2,False
+Species,Clostridium innocuum,clostridium innocuum,2,False
+Species,DSM 15643,dsm 15643,2,False
+Species,Drosophila melanogaster,drosophila melanogaster,2,False
+Species,E coli,e coli,2,False
+Species,E. coli K12,e. coli k12,2,False
+Species,E. coli NC101,e. coli nc101,2,False
+Species,E. coli strain Niss,e. coli niss,2,False
+Species,Eggerthella sinensis,eggerthella sinensis,2,False
+Species,Ellipses,ellipses,2,False
+Species,Entamoeba,entamoeba,2,False
+Species,Enterobacter cloacae,enterobacter cloacae,2,False
+Species,Enterococcus faecium,enterococcus faecium,2,False
+Species,Enterococcus hirae,enterococcus hirae,2,False
+Species,Epicoccum,epicoccum,2,False
+Species,Escherichia fergusonii,escherichia fergusonii,2,False
+Species,Eubacterium Rectale,eubacterium rectale,2,False
+Species,Eubacterium hallii,eubacterium hallii,2,False
+Species,Eubacterium lentum,eubacterium lentum,2,False
+Species,Flavonifractor,flavonifractor,2,False
+Species,Flavonifractor plautii,flavonifractor plautii,2,False
+Species,Gryllus texensis,gryllus texensis,2,False
+Species,Gut metagenome,gut metagenome,2,True
+Species,Helicobacter,helicobacter,2,False
+Species,Infants,infants,2,True
+Species,Intestinimonas butyriciproducens,intestinimonas butyriciproducens,2,False
+Species,"L. casei,",l. casei,2,False
+Species,L. helveticus R0052,l. helveticus r0052,2,False
+Species,"L. helveticus, strai",l. helveticus strai,2,False
+Species,"L. murinus, ASF361",l. murinus asf361,2,False
+Species,L. paracasei,l. paracasei,2,False
+Species,L. plantarum,l. plantarum,2,False
+Species,"L. plantarum,",l. plantarum,2,False
+Species,L. rhamnosus GG,l. rhamnosus gg,2,False
+Species,Lactobacillus brevis,lactobacillus brevis,2,False
+Species,Lactobacillus gasseri,lactobacillus gasseri,2,False
+Species,Lactobacillus rhamnosus gg,lactobacillus rhamnosus gg,2,False
+Species,Leptotrichia,leptotrichia,2,False
+Species,Lophius americanus,lophius americanus,2,False
+Species,MS2,ms2,2,False
+Species,Mammalian,mammalian,2,True
+Species,Methanobrevibacter smithii,methanobrevibacter smithii,2,False
+Species,N. oceanica,n. oceanica,2,False
+Species,P. brevicompactum,p. brevicompactum,2,False
+Species,Poria cocos,poria cocos,2,False
+Species,Prevotella melaninogenica,prevotella melaninogenica,2,False
+Species,Proteus mirabilis,proteus mirabilis,2,False
+Species,R. torques,r. torques,2,False
+Species,Rat,rat,2,True
+Species,Romboutsia,romboutsia,2,False
+Species,S. dysenteriae,s. dysenteriae,2,False
+Species,SC5314,sc5314,2,False
+Species,Saccharomyces pastorianus,saccharomyces pastorianus,2,False
+Species,Safflower,safflower,2,False
+Species,Salmonella Typhimurium,salmonella typhimurium,2,False
+Species,Salmonella typhimurium,salmonella typhimurium,2,False
+Species,Spinochordodes tellinii,spinochordodes tellinii,2,False
+Species,Squalus acanthias,squalus acanthias,2,False
+Species,Streptococcus viridans,streptococcus viridans,2,False
+Species,Streptomyces coelicolor,streptomyces coelicolor,2,False
+Species,TO-931,to-931,2,False
+Species,VPI12708,vpi12708,2,False
+Species,Wheat,wheat,2,False
+Species,akkermansia muciniphila,akkermansia muciniphila,2,False
+Species,black raspberry,black raspberry,2,False
+Species,brewer's yeast,brewer s yeast,2,False
+Species,chickens,chickens,2,False
+Species,cilantro,cilantro,2,False
+Species,cocoa,cocoa,2,False
+Species,cow,cow,2,False
+Species,dH2,dh2,2,False
+Species,dogs,dogs,2,False
+Species,environmental,environmental,2,False
+Species,environmental samples,environmental samples,2,False
+Species,fruit fly,fruit fly,2,False
+Species,gut-microbiome,gut-microbiome,2,True
+Species,horse,horse,2,False
+Species,insertion,insertion,2,False
+Species,invertebrate,invertebrate,2,False
+Species,longum,longum,2,False
+Species,plum,plum,2,False
+Species,safflower,safflower,2,False
+Species,spiny dogfish,spiny dogfish,2,False
+Species,thetaiotaomicron,thetaiotaomicron,2,False
+Species,22  C,22 c,1,False
+Species,32 g,32 g,1,False
+Species,638R,638r,1,False
+Species,A) Michaelis,a michaelis,1,False
+Species,Acetobacter pomorum,acetobacter pomorum,1,False
+Species,Aeromonas hydrophila,aeromonas hydrophila,1,False
+Species,Aggregatibacter actinomycetemcomitans,aggregatibacter actinomycetemcomitans,1,False
+Species,Agrobacterium radiobacter DSM 30147,agrobacterium radiobacter dsm 30147,1,False
+Species,Alicyclobacillus acidiphilus,alicyclobacillus acidiphilus,1,False
+Species,Alistipes,alistipes,1,False
+Species,Alistipes putredinis,alistipes putredinis,1,False
+Species,Alistipes shahii,alistipes shahii,1,False
+Species,Anaerostipes,anaerostipes,1,False
+Species,Atopobium parvulum,atopobium parvulum,1,False
+Species,Avocado,avocado,1,False
+Species,B. breve,b. breve,1,False
+Species,B. infantis,b. infantis,1,False
+Species,"B. infantis,",b. infantis,1,False
+Species,B. longum subsp. infantis,b. longum infantis,1,False
+Species,B. sp,b.,1,False
+Species,B. vulgatus (Bv),b. vulgatus bv,1,False
+Species,Bacillus,bacillus,1,False
+Species,Bacillus coagulans,bacillus coagulans,1,False
+Species,Bacillus polyfermenticus,bacillus polyfermenticus,1,False
+Species,Bacillus subtilis,bacillus subtilis,1,False
+Species,Bacteriophage,bacteriophage,1,False
+Species,Bacteroides galacturonicus,bacteroides galacturonicus,1,False
+Species,Bacteroides helcogenes,bacteroides helcogenes,1,False
+Species,Bacteroides ovatus,bacteroides ovatus,1,False
+Species,Bacteroides pectinophilus,bacteroides pectinophilus,1,False
+Species,Bacteroides salyersiae,bacteroides salyersiae,1,False
+Species,Bacteroides sp,bacteroides,1,False
+Species,Barnesiella intestinihominis,barnesiella intestinihominis,1,False
+Species,Bi,bi,1,False
+Species,Bifidobacterium animalis subsp,bifidobacterium animalis,1,False
+Species,Bifidobacterium animalis subsp. lactis,bifidobacterium animalis lactis,1,False
+Species,"Bifidobacterium bifidum,",bifidobacterium bifidum,1,False
+Species,Bifidobacterium infantis,bifidobacterium infantis,1,False
+Species,Bifidobacterium longum NCC 2705,bifidobacterium longum ncc 2705,1,False
+Species,Bilo,bilo,1,False
+Species,Blastocystis subtypes,blastocystis subtypes,1,False
+Species,Blautia,blautia,1,False
+Species,Blautia producta,blautia producta,1,False
+Species,Bo,bo,1,False
+Species,Bos taurus,bos taurus,1,False
+Species,Brucella abortus,brucella abortus,1,False
+Species,Butyricimonas paravirosa,butyricimonas paravirosa,1,False
+Species,Butyrivibrio crossotus,butyrivibrio crossotus,1,False
+Species,C) Medium,c medium,1,False
+Species,C. bolteae,c. bolteae,1,False
+Species,C. clostridioforme,c. clostridioforme,1,False
+Species,C. elegans,c. elegans,1,False
+Species,C. hylemonae,c. hylemonae,1,False
+Species,C. jejuni,c. jejuni,1,False
+Species,C. ramosum,c. ramosum,1,False
+Species,C. saccharolyticum,c. saccharolyticum,1,False
+Species,CD1,cd1,1,False
+Species,CIP 103136,cip 103136,1,False
+Species,Ca2,ca2,1,False
+Species,Candida utilis,candida utilis,1,False
+Species,Cd36,cd36,1,False
+Species,Clos,clos,1,False
+Species,Clostridioides difficile,clostridioides difficile,1,False
+Species,Clostridium                              sporogenes,clostridium sporogenes,1,False
+Species,Clostridium beijerinckii,clostridium beijerinckii,1,False
+Species,Clostridium bolteae,clostridium bolteae,1,False
+Species,Clostridium cellulolyticum,clostridium cellulolyticum,1,False
+Species,Clostridium clostridioforme,clostridium clostridioforme,1,False
+Species,Clostridium hiranonis,clostridium hiranonis,1,False
+Species,Clostridium hylemonae,clostridium hylemonae,1,False
+Species,Clostridium leptum,clostridium leptum,1,False
+Species,Clostridium nexile,clostridium nexile,1,False
+Species,Clostridium perfringens,clostridium perfringens,1,False
+Species,Clostridium rectum,clostridium rectum,1,False
+Species,Clostridium scindens,clostridium scindens,1,False
+Species,Clostridium sp. strain,clostridium,1,False
+Species,Clostridium thermocellum,clostridium thermocellum,1,False
+Species,Collinsella aerofaciens,collinsella aerofaciens,1,False
+Species,Collinsella intestinalis DSM 13280,collinsella intestinalis dsm 13280,1,False
+Species,Collinsella stercoris,collinsella stercoris,1,False
+Species,Coprococcus,coprococcus,1,False
+Species,Coprococcus eutactus,coprococcus eutactus,1,False
+Species,DH5alpha,dh5alpha,1,False
+Species,DSM 4542,dsm 4542,1,False
+Species,Desulfovibrio longus,desulfovibrio longus,1,False
+Species,Dientamoeba,dientamoeba,1,False
+Species,Donkey,donkey,1,False
+Species,E. cloacae,e. cloacae,1,False
+Species,E. coli BL21 (DE3),e. coli bl21 de3,1,False
+Species,E. coli K-12,e. coli k-12,1,False
+Species,E. coli O157:H7,e. coli o157 h7,1,False
+Species,"E. coli, strain Niss",e. coli niss,1,False
+Species,E. faecalis V583,e. faecalis v583,1,False
+Species,E. rectale,e. rectale,1,False
+Species,Edwardsiella tarda ATCC 23685,edwardsiella tarda atcc 23685,1,False
+Species,Eggerthella lenta DSM2243,eggerthella lenta dsm2243,1,False
+Species,Eimeria tenella,eimeria tenella,1,False
+Species,Enterobacter,enterobacter,1,False
+Species,Enterobacter aerogenes,enterobacter aerogenes,1,False
+Species,Enterococcus dispar,enterococcus dispar,1,False
+Species,Escherichia coli Nissle 1917,escherichia coli nissle 1917,1,False
+Species,Eubacterium coprostanoligenes,eubacterium coprostanoligenes,1,False
+Species,Eubacterium plexicaudatum,eubacterium plexicaudatum,1,False
+Species,"Eubacterium plexicaudatum, ASF492",eubacterium plexicaudatum asf492,1,False
+Species,Eubacterium ruminantium,eubacterium ruminantium,1,False
+Species,F. nucleatum,f. nucleatum,1,False
+Species,Ganoderma lucidum,ganoderma lucidum,1,False
+Species,Ginkgo biloba,ginkgo biloba,1,False
+Species,Granulibacter bethesdensis,granulibacter bethesdensis,1,False
+Species,Granulicatella adiacens,granulicatella adiacens,1,False
+Species,Gut-Microbiome,gut-microbiome,1,True
+Species,H). Serum,h . serum,1,False
+Species,H1N1,h1n1,1,False
+Species,H3N2,h3n2,1,False
+Species,HSV1,hsv1,1,False
+Species,Helicobacter cinaedi,helicobacter cinaedi,1,False
+Species,Homo sapiens,homo sapiens,1,False
+Species,IIV-6,iiv-6,1,False
+Species,Infant,infant,1,True
+Species,K. pneumoniae,k. pneumoniae,1,False
+Species,Kangaroo,kangaroo,1,False
+Species,Kluyveromyces,kluyveromyces,1,False
+Species,"L. acidophilus, stra",l. acidophilus stra,1,False
+Species,L. rhamnosus,l. rhamnosus,1,False
+Species,"L. rhamnosus, strai",l. rhamnosus strai,1,False
+Species,"L. salivarius, strain",l. salivarius,1,False
+Species,Lachnoanaerobaculum,lachnoanaerobaculum,1,False
+Species,Lachnoanaerobaculum orale,lachnoanaerobaculum orale,1,False
+Species,"Lactobacillus acidophilus,",lactobacillus acidophilus,1,False
+Species,Lactobacillus farciminis,lactobacillus farciminis,1,False
+Species,Lactobacillus helveticus,lactobacillus helveticus,1,False
+Species,Lactobacillus helveticus R0052,lactobacillus helveticus r0052,1,False
+Species,Lactobacillus hominis,lactobacillus hominis,1,False
+Species,Lactobacillus paracasei,lactobacillus paracasei,1,False
+Species,Lactobacillus rhamnosus GG,lactobacillus rhamnosus gg,1,False
+Species,Lactobacillus salivarius,lactobacillus salivarius,1,False
+Species,"Lactobacillus sp., ASF360",lactobacillus asf360,1,False
+Species,Lambda phage,lambda phage,1,False
+Species,Leptotrichia hofstadii,leptotrichia hofstadii,1,False
+Species,M. musculus,m. musculus,1,False
+Species,M. smithii,m. smithii,1,False
+Species,Man,man,1,False
+Species,Marvinbryantia formatexigens,marvinbryantia formatexigens,1,False
+Species,Men,men,1,True
+Species,Moraxella catarrhalis,moraxella catarrhalis,1,False
+Species,"Mucispirillum schaedleri, ASF457",mucispirillum schaedleri asf457,1,False
+Species,Mycobacterium avium,mycobacterium avium,1,False
+Species,Mycobacterium tuberculosis,mycobacterium tuberculosis,1,False
+Species,Mycoplasma hominis,mycoplasma hominis,1,False
+Species,N. fischeri,n. fischeri,1,False
+Species,Nosema ceranae,nosema ceranae,1,False
+Species,Olsenella umbonata,olsenella umbonata,1,False
+Species,P. aeruginosa,p. aeruginosa,1,False
+Species,P. distasonis,p. distasonis,1,False
+Species,PEAR,pear,1,False
+Species,Penicillium brevicompactum,penicillium brevicompactum,1,False
+Species,Porphyromonas gingivalis,porphyromonas gingivalis,1,False
+Species,Prevotella copri DSM 18205,prevotella copri dsm 18205,1,False
+Species,Propionibacterium acnes,propionibacterium acnes,1,False
+Species,R. hominis,r. hominis,1,False
+Species,R. mucilaginosa,r. mucilaginosa,1,False
+Species,Ralstonia pickettii,ralstonia pickettii,1,False
+Species,Rats,rats,1,True
+Species,Roseburia intestinalis,roseburia intestinalis,1,False
+Species,Rubus chlorotic mottle virus,rubus chlorotic mottle virus,1,False
+Species,Ruminococcus albus,ruminococcus albus,1,False
+Species,Ruminococcus bromii,ruminococcus bromii,1,False
+Species,Ruminococcus obeum,ruminococcus obeum,1,False
+Species,S. Typhimurium SL1344,s. typhimurium sl1344,1,False
+Species,S. thermophilus,s. thermophilus,1,False
+Species,S1B,s1b,1,False
+Species,Saccharomyces cerevisiae,saccharomyces cerevisiae,1,False
+Species,Salmonella Enteritidis,salmonella enteritidis,1,False
+Species,Salmonella enterica serovar typhimurium,salmonella enterica typhimurium,1,False
+Species,Salmonella enterica subsp. enterica serovar Typhimurium,salmonella enterica enterica typhimurium,1,False
+Species,Sargassum fusiforme,sargassum fusiforme,1,False
+Species,Schistocephalus solidus,schistocephalus solidus,1,False
+Species,Segmented filamentous bacterium,segmented filamentous bacterium,1,False
+Species,Shigella flexneri,shigella flexneri,1,False
+Species,SopE,sope,1,False
+Species,Sphingomonas yanoikuyae,sphingomonas yanoikuyae,1,False
+Species,Staphylococcus saprophyticus,staphylococcus saprophyticus,1,False
+Species,Staphylococcus sciuri subsp. lentus,staphylococcus sciuri lentus,1,False
+Species,Streptococcus didelphis,streptococcus didelphis,1,False
+Species,Streptococcus equinus,streptococcus equinus,1,False
+Species,Streptococcus ictaluri,streptococcus ictaluri,1,False
+Species,Streptococcus infantarius,streptococcus infantarius,1,False
+Species,Streptococcus parasanguinis,streptococcus parasanguinis,1,False
+Species,Streptomyces lividans,streptomyces lividans,1,False
+Species,Syntrophomonas wolfei,syntrophomonas wolfei,1,False
+Species,Thermobifida fusca,thermobifida fusca,1,False
+Species,Thermodesulfobacterium thermophilum,thermodesulfobacterium thermophilum,1,False
+Species,Trichomonas,trichomonas,1,False
+Species,Ulex Europaeus,ulex europaeus,1,False
+Species,Vibrio campbellii,vibrio campbellii,1,False
+Species,Yeast,yeast,1,True
+Species,bacterium,bacterium,1,False
+Species,barley,barley,1,False
+Species,bifidobacterium animalis subsp Lactis,bifidobacterium animalis lactis,1,False
+Species,bifidobacterium bifidum,bifidobacterium bifidum,1,False
+Species,bifidobacterium longum,bifidobacterium longum,1,False
+Species,biota,biota,1,True
+Species,c). Bacteroides,c . bacteroides,1,False
+Species,calf,calf,1,False
+Species,canine,canine,1,False
+Species,casei,casei,1,False
+Species,cattle,cattle,1,False
+Species,chickpeas,chickpeas,1,False
+Species,chicory,chicory,1,False
+Species,clostridium butyricum,clostridium butyricum,1,False
+Species,cluster,cluster,1,False
+Species,cluster (Fig,cluster fig,1,False
+Species,"cyanobacterium, Synechococcus",cyanobacterium synechococcus,1,False
+Species,"e, f",e f,1,False
+Species,expression vectors,expression vectors,1,False
+Species,family S24-7,family s24-7,1,False
+Species,gut metagenome,gut metagenome,1,True
+Species,"gut microbiome,",gut microbiome,1,True
+Species,honey bees,honey bees,1,False
+Species,horseradish,horseradish,1,False
+Species,influenza virus,influenza virus,1,False
+Species,lactobacillus,lactobacillus,1,False
+Species,lentils,lentils,1,False
+Species,lgg,lgg,1,False
+Species,mammalians,mammalians,1,False
+Species,mice. Bv,mice. bv,1,False
+Species,mock community,mock community,1,False
+Species,of 26,of 26,1,False
+Species,outpatient,outpatient,1,False
+Species,phage P1,phage p1,1,False
+Species,pig-tailed macaques,pig-tailed macaques,1,False
+Species,potato,potato,1,False
+Species,prevotella histicola,prevotella histicola,1,False
+Species,prion,prion,1,True
+Species,reuteri,reuteri,1,False
+Species,rhamnosus,rhamnosus,1,False
+Species,rhesus macaques,rhesus macaques,1,False
+Species,rice,rice,1,False
+Species,saccharomyces boulardii,saccharomyces boulardii,1,False
+Species,shuttle vector,shuttle vector,1,False
+Species,spinach,spinach,1,False
+Species,transgenic,transgenic,1,True
+Species,unclassified Lachnospiraceae,unclassified lachnospiraceae,1,False

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: Relation extraction over a gut microbiome corpus
+message: >-
+  This dataset is unvalidated model output. If you use it, please contact the
+  author first so that its validation status is represented accurately.
+type: dataset
+authors:
+  - given-names: Oumaima
+    family-names: TODO
+    affiliation: LS2N, Nantes Universite
+    orcid: TODO
+abstract: >-
+  Model-predicted relations between six entity types (Species, Disease,
+  Chemical, Gene, CellLine, Mutation) extracted from the full text of 52
+  open-access gut microbiome articles. 8436 relations over 2786 sentences.
+  No gold standard has been produced and no precision or recall figures are
+  available.
+keywords:
+  - relation extraction
+  - biomedical natural language processing
+  - gut microbiome
+  - information extraction
+version: 0.1.0
+date-released: 2026-10-07
