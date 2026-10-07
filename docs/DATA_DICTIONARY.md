@@ -3,11 +3,20 @@
 Model-predicted relations between six entity types (Species, Disease, Chemical, Gene, CellLine,
 Mutation), extracted from the full text of 52 open-access gut-microbiome articles.
 
-**Status: unvalidated system output.** These are predictions from a relation extraction model, not
-manually curated annotations. No gold standard has been produced for this corpus and no precision or
-recall figures are available. Please read the Limitations section before using the data, and treat
-every row as a hypothesis to be checked against the source sentence, which is included for that
-purpose.
+**Status: unvalidated predictions.** These are outputs of the MicrobioRel relation extraction
+model, not manual annotations. The model itself is evaluated in the preprint (PubMedBERT, about 71%
+F1 on the held-out MicrobioRel test split), but no row in *this* prediction set has been manually
+checked, and these 52 articles are documents the model had not seen. Treat every row as a hypothesis
+to be checked against the source passage, which is included for that purpose. Please read the
+Limitations section before use.
+
+Provenance:
+
+- Preprint: *MicrobioRel: A Manually Annotated Dataset for Microbiome Relation Extraction*,
+  bioRxiv 2025.08.03.666357, <https://www.biorxiv.org/content/10.1101/2025.08.03.666357v1.full>
+- Annotated corpus, annotation guidelines, decision tree and training code:
+  <https://github.com/Stan8/MicrobioRel>
+- This repository: <https://github.com/Stan8/MicrobioRel-RE>
 
 Contact: Oumaima (LS2N, Nantes Université).
 
@@ -26,6 +35,8 @@ Contact: Oumaima (LS2N, Nantes Université).
 | `07_type_relation_counts.csv` | 268 | Counts per (entity_1_type, entity_2_type, relation). Useful for scoping before you dig in. |
 | `08_articles.csv` | 52 | Source articles. PMID, DOI, title, journal and year are empty, see Section 5. |
 | `09_validation_sample_TO_ANNOTATE.csv` | 176 | Stratified random sample with blank annotation columns, see Section 6. |
+| `10_training_support_by_type_pair.csv` | 31 | Predicted volume against gold training support per entity-type pair. See Section 4. |
+| `data/reference/gold_support_by_type_pair.csv` | 28 | Gold annotation counts, derived from the MicrobioRel corpus. Input to the build. |
 | `resolve_article_ids.py` | | Fills in the empty columns of `08_articles.csv` from Europe PMC. |
 
 All files except `02` and `08` keep `PMC` and `original_text`, so each row can be read in context
@@ -53,6 +64,9 @@ without a join.
 | `mutation_looks_valid` | For rows involving a Mutation entity only. True for rsIDs and protein variant notation, False otherwise. 48 of 106 Mutation rows are True. |
 | `pairs_from_same_sentence` | How many relations were extracted from this sentence. High values indicate dense co-mention. |
 | `n_supporting_sentences` | How many distinct sentences yield this same normalised triple. 1,687 rows have more than one. |
+| `entity_type_pair` | `entity_1_type` and `entity_2_type` joined, the key for the support table. |
+| `gold_annotated_for_type_pair` | Number of annotations for this ordered type pair in the MicrobioRel gold corpus (2,494 relations total). |
+| `support_tier` | `supported` (80 or more gold), `weak (<80 gold)`, `very weak (<20 gold)`, `NO training support`. 5,602 / 21 / 2,724 / 89 rows respectively. |
 | `original_text` | The source sentence or passage. |
 
 ## 3. Relation label set
@@ -65,9 +79,14 @@ Structural or non-interaction: `part_of`, `Location_of`, `experiences`, `possibl
 
 Other: `Associated_with`, `Marker/Mechanism`.
 
-The label inventory was not drawn from a single published schema, and some labels overlap in
-practice (`affects` is the catch-all and accounts for 1,868 rows). We suggest collapsing labels to
-three classes for most analyses: positive effect, negative effect, unspecified association.
+The MicrobioRel schema defines 22 relation types. These 18 are the ones the model predicted here.
+The four absent (`complicates`, `presence`, `reveals`, `stop`) are the four rarest in training, with
+7, 6, 5 and 4 examples, so their absence is expected. Label definitions and the disambiguation
+decision tree are in the sibling repository under `docs/`.
+
+Some labels overlap in practice, and `affects` is the catch-all, accounting for 1,868 rows. We
+suggest collapsing labels to three classes for most analyses: positive effect, negative effect,
+unspecified association.
 
 ## 4. Which subsets are usable
 
@@ -116,25 +135,36 @@ number than not, and we are glad to do the annotation jointly.
 
 ## 7. Limitations
 
-1. **Predictions, not annotations.** No gold standard, no reported precision or recall.
+1. **Predictions, not annotations.** The model scores about 71% F1 in-domain on the MicrobioRel test
+   split, but nothing in this file has been manually checked and these are unseen documents. There
+   is no per-row confidence score.
 2. **Co-mention versus assertion.** The model labels entity pairs that co-occur in a sentence. A
    label does not guarantee the sentence asserts that relation. This is the dominant failure mode and
    it is severe in the Species-Species subset.
-3. **Direction is structural, not validated.** `entity_1` to `entity_2` ordering appears in several
-   inspected cases to follow mention order in the text rather than agent and target. Do not rely on
-   direction without checking the sentence.
-4. **Entity typing errors.** The Mutation type is largely spurious: of 106 rows, most contain isotope
-   labels and incubation conditions such as `U-13C`, `A to C`, `C for 30`. The `mutation_looks_valid`
-   column marks the 48 plausible ones. Similarly, `gut`, `age`, `16s`, `nafld` and `mtx` are typed as
-   Gene, and `inflammation`, `dysbiosis`, `hypothalamus` and `fitness` as Disease.
+3. **Direction is defined but not reproduced faithfully.** The gold schema is directional
+   (`from_entity` to `to_entity`, with character offsets) and annotates both orders substantially:
+   `Species-Disease` 339 versus `Disease-Species` 260. The predictions collapse toward one order,
+   1,492 versus 65 for that same pair and 1,476 versus 5 for `Species-Chemical` versus
+   `Chemical-Species`. Direction carries the schema's intended meaning but should not be relied on
+   without checking the passage. This output also has no character offsets, unlike the gold data.
+4. **Entity typing errors, concentrated where training support is thin.** The Mutation type has
+   **zero** gold annotations for every Mutation pair predicted here, and is correspondingly
+   spurious: of 106 rows, most contain isotope labels and incubation conditions such as `U-13C`,
+   `A to C`, `C for 30`. The `mutation_looks_valid` column marks the 48 plausible ones. The Gene
+   tier has about 2,600 predictions against fewer than 50 gold examples, and shows the same
+   symptom, with `gut`, `age`, `16s`, `nafld` and `mtx` typed as Gene. `inflammation`, `dysbiosis`,
+   `hypothalamus` and `fitness` are typed as Disease. Use `support_tier` to scope around this.
 5. **No ontology grounding.** There are no NCBI Taxonomy, MeSH, ChEBI or Entrez identifiers.
    `03_entity_inventory.csv` is provided so that mapping can be done once, on 3,060 surface forms,
    rather than on 8,436 rows.
 6. **Abbreviations unresolved.** `AD` and `Alzheimer's disease`, `TMAO` and `trimethylamine N-oxide`
    are distinct entities and their counts do not aggregate.
-7. **Domain-restricted corpus.** All 52 articles concern the gut microbiome, with a bias toward IBD,
-   colorectal cancer, cardiometabolic disease and the microbiota-gut-brain axis. Absence of a
-   relation in this data is not evidence of absence in the literature.
+7. **Domain-restricted corpus, and under-prediction in places.** All 52 articles concern the gut
+   microbiome, with a bias toward IBD, colorectal cancer, cardiometabolic disease and the
+   microbiota-gut-brain axis. Separately, some well-supported type pairs are barely predicted at
+   all: `CellLine-Species` has 79 gold annotations and 0 predictions, `Chemical-Species` has 181 and
+   5. Absence of a relation here is not evidence of absence in the articles, let alone the
+   literature.
 8. **Mixed text zones.** A small number of rows (41) come from table or figure dumps in the full text
    rather than running prose.
 

@@ -1,24 +1,41 @@
 cff-version: 1.2.0
-title: Relation extraction over a gut microbiome corpus
+title: "MicrobioRel-RE: model predictions over a gut microbiome corpus"
 message: >-
-  This dataset is unvalidated model output. If you use it, please contact the
-  author first so that its validation status is represented accurately.
+  These are unvalidated model predictions. Please cite the MicrobioRel preprint
+  (see preferred-citation) and contact the authors before use, so that the
+  validation status of this prediction set is represented accurately.
 type: dataset
 authors:
   - given-names: Oumaima
     family-names: TODO
-    affiliation: LS2N, Nantes Universite
+    affiliation: "LS2N, Nantes Universite"
     orcid: TODO
 abstract: >-
-  Model-predicted relations between six entity types (Species, Disease,
-  Chemical, Gene, CellLine, Mutation) extracted from the full text of 52
-  open-access gut microbiome articles. 8436 relations over 2786 sentences.
-  No gold standard has been produced and no precision or recall figures are
-  available.
+  Relations between six entity types (Species, Disease, Chemical, Gene,
+  CellLine, Mutation) predicted by the MicrobioRel relation extraction model
+  over the full text of 52 open-access gut microbiome articles. 8436 predicted
+  relations across 2786 passages. No row has been manually validated. The
+  annotated corpus, annotation guidelines and training code are in a separate
+  repository, github.com/Stan8/MicrobioRel.
 keywords:
   - relation extraction
   - biomedical natural language processing
   - gut microbiome
   - information extraction
-version: 0.1.0
+version: 0.2.0
 date-released: 2026-10-07
+repository-code: "https://github.com/Stan8/MicrobioRel-RE"
+related-identifiers:
+  - relation: isSupplementTo
+    identifier: "10.1101/2025.08.03.666357"
+    identifier-type: doi
+preferred-citation:
+  type: article
+  title: "MicrobioRel: A Manually Annotated Dataset for Microbiome Relation Extraction"
+  doi: "10.1101/2025.08.03.666357"
+  url: "https://www.biorxiv.org/content/10.1101/2025.08.03.666357v1"
+  year: 2025
+  journal: bioRxiv
+  authors:
+    - given-names: Oumaima
+      family-names: TODO

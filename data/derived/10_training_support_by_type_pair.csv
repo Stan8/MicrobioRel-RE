@@ -1,0 +1,32 @@
+entity_type_pair,predicted,gold_annotated,support_tier,ratio_pred_per_gold
+Species-Disease,1492,339,supported,4.4
+Species-Chemical,1476,167,supported,8.8
+Gene-Species,894,9,very weak (<20 gold),99.3
+Gene-Chemical,725,6,very weak (<20 gold),120.8
+Chemical-Chemical,670,204,supported,3.3
+Chemical-Disease,619,272,supported,2.3
+Species-Species,580,229,supported,2.5
+Gene-Disease,577,16,very weak (<20 gold),36.1
+Disease-Disease,411,291,supported,1.4
+Gene-Gene,405,8,very weak (<20 gold),50.6
+Disease-Chemical,242,87,supported,2.8
+Species-Gene,76,3,very weak (<20 gold),25.3
+Disease-Species,65,260,supported,0.2
+Chemical-Mutation,37,0,NO training support,
+Species-Mutation,30,0,NO training support,
+Species-CellLine,26,82,supported,0.3
+Gene-Mutation,22,0,NO training support,
+Disease-Gene,17,7,very weak (<20 gold),2.4
+Chemical-CellLine,16,82,supported,0.2
+Gene-CellLine,11,3,very weak (<20 gold),3.7
+Disease-CellLine,10,26,weak (<80 gold),0.4
+Disease-Mutation,9,1,very weak (<20 gold),9.0
+Mutation-Mutation,8,1,very weak (<20 gold),8.0
+Chemical-Gene,6,41,weak (<80 gold),0.1
+Chemical-Species,5,181,supported,0.0
+CellLine-Chemical,4,57,weak (<80 gold),0.1
+CellLine-CellLine,2,13,very weak (<20 gold),0.2
+CellLine-Disease,1,27,weak (<80 gold),0.0
+CellLine-Species,0,79,weak (<80 gold),0.0
+CellLine-Gene,0,2,very weak (<20 gold),0.0
+Mutation-Disease,0,1,very weak (<20 gold),0.0

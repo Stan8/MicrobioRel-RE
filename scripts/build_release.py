@@ -82,6 +82,20 @@ d['pairs_from_same_sentence'] = d.annotation_id.map(dens)
 sup = d.groupby(['entity_1_norm','relation','entity_2_norm']).annotation_id.nunique()
 d['n_supporting_sentences'] = [sup.get((a,r,b), 1) for a,r,b in zip(d.entity_1_norm, d.relation, d.entity_2_norm)]
 
+# ---------- 4b. training support per entity-type pair (from the MicrobioRel gold corpus) ----------
+# Source: github.com/Stan8/MicrobioRel, data/unmasked_data/{train,dev,test}_df.csv
+SUPPORT_FILE = 'data/reference/gold_support_by_type_pair.csv'
+d['entity_type_pair'] = d.entity_1_type + '-' + d.entity_2_type
+if os.path.exists(SUPPORT_FILE):
+    sup_tbl = pd.read_csv(SUPPORT_FILE).set_index('entity_type_pair')
+    d['gold_annotated_for_type_pair'] = (
+        d.entity_type_pair.map(sup_tbl.gold_annotated).fillna(0).astype(int))
+    d['support_tier'] = d.entity_type_pair.map(sup_tbl.support_tier).fillna('NO training support')
+else:
+    print(f'WARNING: {SUPPORT_FILE} missing, support columns left empty')
+    d['gold_annotated_for_type_pair'] = pd.NA
+    d['support_tier'] = pd.NA
+
 COLS = ['relation_id','PMC','annotation_id',
         'entity_1','entity_1_type','relation','entity_2','entity_2_type',
         'entity_1_norm','entity_2_norm',
@@ -89,6 +103,7 @@ COLS = ['relation_id','PMC','annotation_id',
         'relation_is_directional','relation_is_structural',
         'entity_1_generic','entity_2_generic','abbrev_or_hypernym_pair',
         'mutation_looks_valid','pairs_from_same_sentence','n_supporting_sentences',
+        'entity_type_pair','gold_annotated_for_type_pair','support_tier',
         'original_text']
 main = d[COLS]
 main.to_csv(f'{OUT}/01_all_relations_enriched.csv', index=False)
@@ -132,6 +147,23 @@ tc = (main.groupby(['entity_1_type','entity_2_type','relation']).size()
           .reset_index(name='n').sort_values('n', ascending=False))
 tc.to_csv(f'{OUT}/07_type_relation_counts.csv', index=False)
 print('07_type_relation_counts.csv', tc.shape)
+
+# ---------- 10b. predicted volume vs gold training support ----------
+ts = (main.groupby('entity_type_pair')
+          .agg(predicted=('relation_id', 'count'),
+               gold_annotated=('gold_annotated_for_type_pair', 'first'),
+               support_tier=('support_tier', 'first'))
+          .reset_index())
+if os.path.exists(SUPPORT_FILE):
+    gold_only = pd.read_csv(SUPPORT_FILE)
+    missing = gold_only[~gold_only.entity_type_pair.isin(ts.entity_type_pair)].copy()
+    missing['predicted'] = 0
+    ts = pd.concat([ts, missing[['entity_type_pair','predicted','gold_annotated','support_tier']]])
+ts['ratio_pred_per_gold'] = [
+    round(p / g, 1) if g > 0 else None for p, g in zip(ts.predicted, ts.gold_annotated)]
+ts = ts.sort_values('predicted', ascending=False)
+ts.to_csv(f'{OUT}/10_training_support_by_type_pair.csv', index=False)
+print('10_training_support_by_type_pair.csv', ts.shape)
 
 # ---------- 11. article table (identifier columns filled by resolve_article_ids.py) ----------
 art = (main.groupby('PMC')

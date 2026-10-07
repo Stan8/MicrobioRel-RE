@@ -1,0 +1,29 @@
+entity_type_pair,gold_annotated,support_tier
+Species-Disease,339,supported
+Disease-Disease,291,supported
+Chemical-Disease,272,supported
+Disease-Species,260,supported
+Species-Species,229,supported
+Chemical-Chemical,204,supported
+Chemical-Species,181,supported
+Species-Chemical,167,supported
+Disease-Chemical,87,supported
+Chemical-CellLine,82,supported
+Species-CellLine,82,supported
+CellLine-Species,79,weak (<80 gold)
+CellLine-Chemical,57,weak (<80 gold)
+Chemical-Gene,41,weak (<80 gold)
+CellLine-Disease,27,weak (<80 gold)
+Disease-CellLine,26,weak (<80 gold)
+Gene-Disease,16,very weak (<20 gold)
+CellLine-CellLine,13,very weak (<20 gold)
+Gene-Species,9,very weak (<20 gold)
+Gene-Gene,8,very weak (<20 gold)
+Disease-Gene,7,very weak (<20 gold)
+Gene-Chemical,6,very weak (<20 gold)
+Species-Gene,3,very weak (<20 gold)
+Gene-CellLine,3,very weak (<20 gold)
+CellLine-Gene,2,very weak (<20 gold)
+Mutation-Mutation,1,very weak (<20 gold)
+Mutation-Disease,1,very weak (<20 gold)
+Disease-Mutation,1,very weak (<20 gold)

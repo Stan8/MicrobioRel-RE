@@ -1,6 +1,14 @@
-# Annotation guide for the validation sample
+# Validation protocol for the prediction sample
 
 File: `data/derived/09_validation_sample_TO_ANNOTATE.csv`, 176 rows.
+
+This is **not** the MicrobioRel annotation scheme. For relation label definitions and the
+disambiguation decision tree, use the project's own guidelines in the sibling repository:
+[`Annotation_guidelines.pdf`](https://github.com/Stan8/MicrobioRel/blob/main/docs/Annotation_guidelines.pdf)
+and [`Decision_tree.png`](https://github.com/Stan8/MicrobioRel/blob/main/docs/Decision_tree.png).
+The task here is narrower: judging whether existing model predictions are correct, not annotating
+passages from scratch. Where this document and the official guidelines differ on what a label
+means, the official guidelines win.
 
 The purpose is a precision estimate per entity-type pair, not a complete gold standard. Judge only
 what is in front of you: the two entity spans, the predicted relation, and the sentence in
@@ -30,10 +38,15 @@ mentioned, which is the most common error. Typical cases to mark `0`:
 If this is `0`, set the remaining three columns to `0` and move on.
 
 **`annot_relation_label_correct`**
-Given that a relation is asserted, is the predicted label right? Judge at the level of the coarse
+Given that a relation is asserted, is the predicted label right under the MicrobioRel scheme? Use
+the decision tree from the guidelines for ambiguous cases. Judge at the level of the coarse
 distinction: positive effect, negative effect, or unspecified association. Do not penalise
-`affects` for being vague when the sentence is itself vague, but mark `0` if the sentence states a
+`affects` for being vague when the passage is itself vague, but mark `0` if the passage states a
 direction of effect and the label contradicts it.
+
+Expect this column to show the lowest agreement. Inter-annotator agreement on the gold corpus was
+about 51% F1 on exact triplets against about 78% on participating entities, so disagreement on
+labels is a known property of the task rather than a failure of the annotators.
 
 **`annot_direction_correct`**
 Does `entity_1` play the role the relation implies, with `entity_2` as the target? For
@@ -59,6 +72,7 @@ Expect roughly two to four hours per annotator.
 What the collaboration needs out of this:
 
 - precision per entity-type pair for `annot_relation_asserted`, which is the headline number
+- precision grouped by `support_tier`, which is the actionable number
 - precision per relation label
 - inter-annotator agreement per column
 - a short list of recurring error patterns
